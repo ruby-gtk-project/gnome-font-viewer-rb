@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "gnome_font_viewer"
+
+GnomeFontViewer::Application.new.build.run
