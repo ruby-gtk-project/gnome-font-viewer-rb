@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "gnome_font_viewer"
+require_relative "../lib/font_view_application"
 
-GnomeFontViewer::Application.new.build.run
+exit(FontViewApplication.new.build.run(ARGV))
