@@ -57,11 +57,11 @@ CSS classes applied from source, not the stylesheet: `view` (overview
 Repeaters: none. Conditional: the window is created once, lazily
 (`ensure_window`).
 
-→ **`lib/font_view_application.rb`** (kind: application). **Missing** — the
-port has `lib/gnome_font_viewer/application.rb`, but it is scaffold only: a
-single `Adwaita::StatusPage` reading "The Ruby port has not been written yet",
-no actions, no accels, no file opening. Treat as a placeholder to replace, not
-as this component.
+→ **`lib/font_view_application.rb`** (kind: application). **Present** —
+`FontViewApplication`, 153 lines, with `app.about`, `app.quit`, both accels
+and the `open` path. The earlier `lib/gnome_font_viewer/application.rb`
+scaffold (an `Adwaita::StatusPage` saying the port was unwritten) has been
+removed.
 
 ## src/font-view-application.c (`action_about`) — About dialog
 
@@ -69,7 +69,7 @@ as this component.
 _The GNOME Project_, four developers, website, issue URL,
 `translator-credits`, licence GPL-2.0.
 
-→ **`lib/about_dialog.rb`** (kind: dialog). **Missing.**
+→ **`lib/about_dialog.rb`** (kind: dialog). **Present** (`AboutDialog`, 54 lines).
 
 ## src/font-view-window.c + src/font-view-window.ui — the main window
 
@@ -98,7 +98,7 @@ hookup, an `items-changed` handler that refreshes the install button, a
 `GFile` for the current font, a `GCancellable` for the install job, and the
 `font_name_closure` used by both the filter and the sorter.
 
-→ **`lib/font_view_window.rb`** (kind: window). **Missing.**
+→ **`lib/font_view_window.rb`** (kind: window). **Present** (`FontViewWindow`, 295 lines).
 
 ## src/font-view-window.ui — overview page (`tag=overview`)
 
@@ -125,7 +125,7 @@ Non-widget model chain (compare on the behaviour axis, not the widget count):
 
 Empty state: none upstream — no `AdwStatusPage`, no "no results" view.
 
-→ **`lib/overview_page.rb`** (kind: page). **Missing.**
+→ **`lib/overview_page.rb`** (kind: page). **Present** (`OverviewPage`, 148 lines).
 
 ## src/font-view-window.ui — the grid list-item (inline `GtkListItem` template)
 
@@ -138,7 +138,7 @@ per visible font (a repeater driven by the filtered/sorted font model).
 | `FontInscription` | 1 | `font-preview` | `text` ← item `preview-text`; `attributes` ← item `attr-list` | `halign: center`, `vexpand`, 6px side margins |
 | `Gtk.Inscription` | 1 | — | `text` ← item `font-name` | `xalign 0.5`, `text-overflow: ellipsize-end` |
 
-→ **`lib/font_item.rb`** (kind: list-item factory). **Missing.**
+→ **`lib/font_item.rb`** (kind: list-item factory). **Present** (`FontItem`, 78 lines, a `Gtk::SignalListItemFactory`).
 
 ## src/font-view-window.ui — preview page (`tag=preview`)
 
@@ -160,7 +160,7 @@ Title bound to `font_title.title`.
 state machine and is also called from `items-changed` on the model, so an
 externally installed font updates the button live.
 
-→ **`lib/preview_page.rb`** (kind: page). **Missing.**
+→ **`lib/preview_page.rb`** (kind: page). **Present** (`PreviewPage`, 143 lines).
 
 ## src/font-view-window.ui + `populate_grid`/`populate_details` — info page (`tag=info`)
 
@@ -186,7 +186,7 @@ feature names joined with the context-qualified `", "`), `Variation Axes`
 _"%s %g — %g, default %g"_), `Named Styles` (instances joined, falling back to
 _"Instance %d"_).
 
-→ **`lib/info_page.rb`** (kind: page). **Missing.**
+→ **`lib/info_page.rb`** (kind: page). **Present** (`InfoPage`, 323 lines).
 
 ## src/font-view-window.ui — error dialog
 
@@ -196,7 +196,7 @@ sites: file query failure, font-widget `error`, and install failure.
 (Upstream bug worth noting: `show_error` sets the body to `heading`, dropping
 the real message. The port should set the body to `body`.)
 
-→ **`lib/error_dialog.rb`** (kind: dialog / error state). **Missing.**
+→ **`lib/error_dialog.rb`** (kind: dialog / error state). **Present** (`ErrorDialog`, 35 lines).
 
 ## src/font-view-window.c (`action_install_font_cb` and friends) — font installer
 
@@ -206,7 +206,7 @@ creates it if absent; copies the font in a `GTask` thread, retrying with a
 `<n>` filename prefix on `G_IO_ERROR_EXISTS`; cancellable; on finish refreshes
 the install button and raises `Could Not Install Font` on error.
 
-→ **`lib/font_installer.rb`** (kind: action/service). **Missing.**
+→ **`lib/font_installer.rb`** (kind: action/service). **Present** (`FontInstaller`, 139 lines).
 
 ## src/font-model.c + src/font-model.h — the font list model
 
@@ -219,8 +219,9 @@ weight/style and to the English style names used in the displayed font name,
 emits `items-changed`, has `font_view_model_has_face` for the install button,
 and watches fontconfig for config changes with an idle-scheduled reload.
 
-→ **`lib/font_model.rb`** (kind: model) and **`lib/font_model_item.rb`**
-(kind: model item). **Both missing.**
+→ **`lib/font_model.rb`** (kind: model, 249 lines) and
+**`lib/font_model_item.rb`** (kind: model item, 40 lines, a `GLib::Object`
+subclass). **Both present.**
 
 ## src/font-inscription.c + src/font-inscription.h — fixed-size preview cell
 
@@ -228,7 +229,7 @@ and watches fontconfig for config changes with an idle-scheduled reload.
 Custom `measure` (fixed 220×180) and `snapshot` (a clipped `PangoLayout`
 drawn at a 0.7 baseline fraction). Used only by the grid list-item.
 
-→ **`lib/font_inscription.rb`** (kind: custom widget). **Missing.**
+→ **`lib/font_inscription.rb`** (kind: custom widget). **Present** — 127 lines, rebuilt as a `Gtk::DrawingArea` (see blocker 2).
 
 ## src/sushi-font-widget.c + src/sushi-font-widget.h — the font preview canvas
 
@@ -241,14 +242,14 @@ glyphs), then a sample string at each of 8, 10, 12, 18, 24, 36, 48, 72, 96,
 120, 144, 168, 192, 216 pt (or the face's own fixed sizes), stopping when the
 allocation is full. Handles RTL base direction. `load` is async and re-entrant.
 
-→ **`lib/font_preview_widget.rb`** (kind: custom widget). **Missing.**
+→ **`lib/font_preview_widget.rb`** (kind: custom widget). **Present** — 355 lines, rebuilt as a `Gtk::DrawingArea` (see blocker 2).
 
 ## src/sushi-font-loader.c + src/sushi-font-loader.h — FreeType face loader
 
 Sync and async `FT_Face` from a URI with a face index, plus
 `sushi_get_font_name (face, short_form)`. No UI.
 
-→ **`lib/font_loader.rb`** (kind: support/service). **Missing.**
+→ **`lib/font_loader.rb`** (kind: support/service). **Present** (`FontLoader` module, 989 lines — the FFI/parsing bulk of the port).
 
 ## src/open-type-layout.h — OpenType feature name table
 
@@ -256,7 +257,7 @@ Sync and async `FT_Face` from a URI with a face index, plus
 context, consumed by `get_features` for the `Layout Features` row. Pure data,
 but it is user-facing text and part of the translation surface.
 
-→ **`lib/open_type_layout.rb`** (kind: data table). **Missing.**
+→ **`lib/open_type_layout.rb`** (kind: data table). **Present** (`OpenTypeLayout` module, 208 lines).
 
 ## src/font-thumbnailer.c + src/totem-resources.c/.h + data/gnome-font-viewer.thumbnailer — the thumbnailer
 
@@ -266,15 +267,15 @@ thumbnailer for the font MIME types. Options `--text` (_Text to thumbnail
 and `FONT-FILE OUTPUT-FILE`. `totem-resources.c` is the rlimit/wall-clock
 watchdog around it. No widgets; translatable strings only.
 
-→ **`lib/font_thumbnailer.rb`** (kind: CLI tool) and
-**`lib/resource_monitor.rb`** (kind: support). **Both missing.**
+→ **`lib/font_thumbnailer.rb`** (kind: CLI tool, 247 lines) and
+**`lib/resource_monitor.rb`** (kind: support, 124 lines). **Both present.**
 
 ## src/style.css + src/gnome-font-viewer.gresource.xml — the stylesheet
 
 Three rules (table above), loaded as a GResource. The port has no GResource,
 so this becomes a `Gtk::CssProvider` fed from a string or a data file.
 
-→ **`lib/style.rb`** (kind: stylesheet). **Missing.**
+→ **`lib/style.rb`** (kind: stylesheet). **Present** (`Style` module, 43 lines, a `Gtk::CssProvider` fed from a string).
 
 ## data/org.gnome.font-viewer.desktop.in.in, .metainfo.xml.in, .service.in, icons
 
@@ -282,8 +283,9 @@ Desktop entry (_Fonts_ / _View fonts on your system_, keywords
 `fonts;fontface;`, 8 font MIME types, `DBusActivatable`), AppStream metainfo,
 D-Bus service file, and three SVG icons (regular, Devel, symbolic).
 
-→ **`data/` passthrough**, no `lib/*.rb`. (kind: packaging). **Missing** — the
-port ships none of them.
+→ **`data/` passthrough**, no `lib/*.rb`. (kind: packaging). **Present** —
+`data/` now carries the thumbnailer entry, the desktop/metainfo/service
+templates and `data/icons/`.
 
 ## po/ — translations
 
@@ -294,58 +296,91 @@ metainfo, `font-thumbnailer.c`, `font-view-application.c`,
 names.
 
 → **`po/` + a gettext bootstrap in `lib/`**, out of scope for the widget port
-but in scope for the `translation-parity` step. **Missing.**
+but in scope for the `translation-parity` step. **Missing** — the port has no
+`po/` directory and no gettext wiring; every string is an inline literal.
 
 ---
 
 ## What `lib/` on `ruby` has today
 
-| Path | What it is |
-|---|---|
-| `lib/gnome_font_viewer.rb` | one `require_relative` |
-| `lib/gnome_font_viewer/application.rb` | scaffold: `Gtk::Application` + `Adwaita::ApplicationWindow` + `Adwaita::ToolbarView` + bare `Adwaita::HeaderBar` + an `Adwaita::StatusPage` saying the port is unwritten |
-| `lib/gnome/font/viewer/rb/version.rb` | gem version |
+One file per upstream component, house style (`# frozen_string_literal: true`,
+`require 'adwaita'`, `require_relative` siblings, a ported-from comment,
+memoized widget accessors with `.tap`):
 
-Nothing upstream is ported. The scaffold's `StatusPage` has no upstream
-counterpart and should go when the overview page lands. Parity count: 0 of 19
-components present.
+| Path | Lines | What it is |
+|---|---:|---|
+| `lib/gnome_font_viewer.rb` | 4 | entry requires: the application and the thumbnailer |
+| `lib/font_view_application.rb` | 153 | application |
+| `lib/font_view_window.rb` | 295 | window |
+| `lib/overview_page.rb` | 148 | page |
+| `lib/font_item.rb` | 78 | grid list-item factory |
+| `lib/preview_page.rb` | 143 | page |
+| `lib/info_page.rb` | 323 | page |
+| `lib/about_dialog.rb` | 54 | dialog |
+| `lib/error_dialog.rb` | 35 | dialog / error state |
+| `lib/font_installer.rb` | 139 | action/service |
+| `lib/font_model.rb` | 249 | model |
+| `lib/font_model_item.rb` | 40 | model item |
+| `lib/font_inscription.rb` | 127 | custom widget (DrawingArea) |
+| `lib/font_preview_widget.rb` | 355 | custom widget (DrawingArea) |
+| `lib/font_loader.rb` | 989 | FreeType/fontconfig access |
+| `lib/open_type_layout.rb` | 208 | data table |
+| `lib/font_thumbnailer.rb` | 247 | CLI tool |
+| `lib/resource_monitor.rb` | 124 | support |
+| `lib/style.rb` | 43 | stylesheet |
+| `lib/gnome/font/viewer/rb/version.rb` | 17 | gem version (no upstream counterpart) |
+
+Parity count: **18 of 19** `lib/*.rb` components present, plus the `data/`
+passthrough. The one gap is the translation surface (`po/`), which the
+`translation-parity` step owns. Presence is file-level only — this survey does
+not claim per-widget, per-CSS-class or per-signal parity; that is the
+`component-parity` step's job, and the blockers below are the places where the
+port's shape necessarily diverges from upstream's.
 
 ## Blockers and risks for the port
+
+Recorded at survey time, annotated with how the port on `ruby` resolved each
+one. The resolutions are a different shape from upstream, so they are what
+`component-parity` has to judge against the C.
 
 1. **FreeType / HarfBuzz / fontconfig have no Ruby bindings here.** Almost
    every datum on the info page (`FT_Get_Sfnt_Name`, `FT_Get_PS_Font_Info`,
    `FT_Get_MM_Var`, `FT_HAS_COLOR`, `num_glyphs`,
    `hb_ot_layout_language_get_feature_tags`) and the whole font list
-   (`FcFontList`, `FcConfigGetFontDirs`) come from C APIs with no gem. This is
-   the single biggest unknown; it needs a spike before any info-page or model
-   work. Candidate routes: `fc-list`/`fc-match` subprocess output,
-   `Pango::FontMap` from the GTK bindings for the family/face list, FFI to
-   `libfreetype`/`libfontconfig`.
+   (`FcFontList`, `FcConfigGetFontDirs`) come from C APIs with no gem.
+   *Resolved without FFI:* `lib/font_loader.rb` parses the sfnt tables itself
+   (table directory, `name`, `head`, `maxp`, `cmap`, `fvar`, GSUB/GPOS feature
+   lists, colour and bitmap tables, TTC and WOFF containers, Type 1 cleartext
+   `FontInfo`), and `lib/font_model.rb` shells out to `fc-list` with the same
+   field set as upstream's `FcObjectSet`. Both carry runtime cost and parsing
+   risk upstream does not have, and `fc-list` is now a hard runtime dependency.
 2. **`SushiFontWidget` and `FontInscription` are `GtkWidget` subclasses with
-   custom `measure` and `snapshot`.** Ruby GTK cannot override widget vfuncs;
-   both must be rebuilt as `Gtk::DrawingArea` with `set_draw_func` (Cairo) and
-   explicit size requests, which changes the measure/baseline behaviour and
-   needs its own spike.
+   custom `measure` and `snapshot`**, which Ruby GTK cannot override.
+   *Resolved* by rebuilding both as `Gtk::DrawingArea` with a draw func and
+   explicit size requests (`lib/font_preview_widget.rb`,
+   `lib/font_inscription.rb`). Measure and baseline behaviour therefore differ
+   from upstream by construction.
 3. **`GtkBuilderListItemFactory` with inline `bytes` and `<closure>`/`<binding>`
-   is not reachable from Ruby.** The grid item must be a
-   `Gtk::SignalListItemFactory` with bind/unbind handlers, and
-   `font_name_closure` must become a Ruby `Gtk::Expression` or be replaced by
-   sorting/filtering in Ruby.
-4. **`Adwaita::Application` and `Adwaita::ApplicationWindow` are flagged broken
-   in the `ruby-gtk` skill**, yet the upstream root is
-   `AdwApplicationWindow` and the current scaffold already uses
-   `Adwaita::ApplicationWindow`. Resolve which one actually works in this dev
-   shell before the window lands.
+   is not reachable from Ruby.** *Resolved:* `lib/font_item.rb` is a
+   `Gtk::SignalListItemFactory`, and the `font_name_closure` the filter and
+   sorter share is done in Ruby instead of as a `Gtk::Expression`.
+4. **`Adwaita::Application` / `Adwaita::ApplicationWindow` are flagged broken
+   in the `ruby-gtk` skill**, yet upstream's root is `AdwApplicationWindow`.
+   *Resolved the way the skill prescribes for the application* —
+   `lib/font_view_application.rb` uses `Gtk::Application` — while
+   `lib/font_view_window.rb` does use `Adwaita::ApplicationWindow`. Worth
+   re-checking in the dev shell on every bindings bump.
 5. **Widget-class actions and `navigation.push` with a target.**
-   `gtk_widget_class_install_action` has no Ruby equivalent;
-   `win.focus-search` and `win.install-font` become
-   `Gio::SimpleAction`s on an action group added to the window, and the info
-   toggle's `navigation.push`/`'info'` target needs checking against
-   `Adwaita::NavigationView` in the bindings.
-6. **Async + threads.** The install job is a `GTask` in a thread with a
-   `GCancellable`, and the face loader is async. The port needs a Ruby story
-   for both that does not block the main loop.
-7. **No GSettings schema upstream**, so nothing to port there — but also no
+   `gtk_widget_class_install_action` has no Ruby equivalent, so
+   `win.focus-search` and `win.install-font` are `Gio::SimpleAction`s on an
+   action group on the window, and the info toggle's `navigation.push`/`'info'`
+   target has to be driven from Ruby against `Adwaita::NavigationView`.
+6. **Async + threads.** Upstream's install job is a `GTask` in a thread with a
+   `GCancellable` and the face loader is async; the port has to keep both off
+   the main loop without GLib's task machinery.
+7. **No GSettings schema upstream**, so nothing to port there — and no
    persisted state, which the port must not invent.
-8. **107 locales.** The port has no gettext wiring at all; the translation
-   surface is dominated by `open-type-layout.h`.
+8. **107 locales, and no gettext wiring in the port at all.** This is the one
+   open parity gap in the inventory above: the translation surface, dominated
+   by the 159 OpenType feature names in `open-type-layout.h`, exists as inline
+   Ruby literals with no `po/`. Owned by the `translation-parity` step.
