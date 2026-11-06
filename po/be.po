@@ -1,0 +1,1166 @@
+# Vital Khilko <dojlid@mova.org>, 2003.
+# Ales Nyakhaychyk <nab@mail.by>, 2003, 2004.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013.
+# Yuras Shumovich <shumovichy@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2026-08-01 22:43+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
+"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "Шрыфты"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr ""
+"Ігар Грачышка <ihar.hrachyshka@gmail.com>\n"
+"Юрась Шумовіч <shumovichy@gmail.com>"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "_Закрыць"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "Экзэмпляр %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Тэкст для мініяцюры (прадвызначана: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "Памер мініяцюры (прадвызначана: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "Не ўдалося паказаць шрыфт"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "Не ўдалося ўсталяваць шрыфт"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "Назва"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "Размяшчэнне"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "Стыль"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "Тып"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "Версія"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "Аўтарскія правы"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "Апісанне"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "Вытворца"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "Дызайнер"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "Ліцэнзія"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "Колькасць гліфаў"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "Каляровыя гліфы"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "Магчымасці вёрсткі"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "Восі варыяцый"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "Названыя стылі"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "так"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "не"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+msgid "TrueType font"
+msgstr ""
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "Пошук шрыфту"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "Пошук шрыфту"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "Доступ да ўсіх альтэрнатыў"
+
+# індыйскае пісьмо, падобна на лігатуры (матры), спалучае два сімвалы ў адзін, дзе над (пад, перад, пасля) зычным стаіць значок галоснай літары
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "Надбазавыя формы"
+
+# Lookup type 4
+# https://learn.microsoft.com/en-us/typography/opentype/spec/gpos
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "Надбазавае пазіцыянаванне знакаў"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "Надбазавыя замены"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "Вертыкальныя дробы"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "Акханд"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "Падбазавыя формы"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "Падбазавае пазіцыянаванне знакаў"
+
+# індыйскае пісьмо, падобна на лігатуры (матры), спалучае два сімвалы ў адзін, дзе пад зычным стаіць значок галоснай літары
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "Падбазавыя замены"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "Кантэкстныя варыянты"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "Адчувальныя да рэгістра формы"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "Кампанаванне/раскампанаванне гліфаў"
+
+# кхмерскае пісьмо
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "Спалучаныя формы пасля Ро"
+
+# Індыйскае пісьмо, 'cjct' зычны+вірама+зычны замяняеца на лігатуру, (а ў Below-base Forms дадаецца падрадковы знак вірама замест зычны+вірама)
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "Спалучаныя формы"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "Кантэкстныя лігатуры"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "Цэнтраваная пунктуацыя CJK"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "Інтэрвал паміж вялікімі літарамі"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "Кантэкстны росчырк"
+
+# звычайна для арабскага пісьма, рукапіснага тэксту, для праільнага злучэння асобных сімвалаў
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "Пазіцыянаванне курсіву"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "Дробная капітэль з загалоўных літар"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "Капітэль з загалоўных літар"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "Варыянт сімвала 1"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "Варыянт сімвала 2"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "Варыянт сімвала 3"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "Варыянт сімвала 4"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "Варыянт сімвала 5"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "Варыянт сімвала 6"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "Варыянт сімвала 7"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "Варыянт сімвала 8"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "Варыянт сімвала 9"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "Варыянт сімвала 10"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "Варыянт сімвала 11"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "Варыянт сімвала 12"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "Варыянт сімвала 13"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "Варыянт сімвала 14"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "Варыянт сімвала 15"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "Варыянт сімвала 16"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "Варыянт сімвала 17"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "Варыянт сімвала 18"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "Варыянт сімвала 19"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "Адлегласці"
+
+# 'liga'Standard Ligatures, прадвызначана ўключаны, але можна адключыць;
+# 'rlig' Required Ligatures уключаны і нельга адкл;
+# 'dlig' Discretionary Ligatures адкл, але можна укл; магчымы варыянт дыскрэцыйныя і дадатковыя лігатуры, зробена з улікам усіх трох варыянтаў абавязковы-неабавязковы-стандартны
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "Неабавязковыя лігатуры"
+
+# dnom, ніжняя частка дробу, fraction
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "Назоўнікі"
+
+# розныя матэматычныя абазначэнні, каб замест кропкі паставіць над 𝑖 нейкі іншы гачык
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "Формы без кропак"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "Экспертныя формы"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "Варыянты завяршальнага гліфа радка"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "Канцавыя формы №2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "Канцавыя формы №3"
+
+# сімвалы ў канцы слова
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "Канцавыя формы"
+
+# у матэматычных формулах
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "Дыяганальныя дробы"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "Поўная шырыня"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "Паўформы"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "Формы халант"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "Альтэрнатыўная палова шырыні"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "Гістарычныя формы"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "Гарызантальныя варыянты кана"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "Гістарычныя лігатуры"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "Хангыль"
+
+# Кандзі ходзё, 補助, кана ほじょ
+# Японскі стандарт JIS X 0212:1990, насамрэч ходзё кандзі на японскай азначае дадатковыя сімвалы, але ў арыгінале не перакладзена і я таксама пакіну як ёсць
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Формы кандзі Hojo"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "Палова шырыні"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "Пачатковыя формы"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "Адасобленыя формы"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "Курсіў"
+
+# Арабская, іўрыт. Спалучэнне сімвалаў, падстаўляе адмыслова створаныя сімвалы з іншай шырынёй.
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "Варыянты выраўноўвання"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "Формы JIS78"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "Формы JIS83"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "Формы JIS90"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "Формы JIS2004"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "Кернінг"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "Левыя межы"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "Стандартныя лігатуры"
+
+# Карэйскае пісьмо хангыль, кожны сімвал складаецца з трох элементаў (чамо): пачатковага, цэнтральнага і канцавога. Часам чамо перакладаюць апісальна «элемент хангыль»
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "Пачатковыя формы чамо"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "Маюскульныя лічбы"
+
+# напрыклад абрысы балгарскай кірыліцы адрозніваюцца ад нашых
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "Лакалізаваныя формы"
+
+# Для арабскага пісьма, неведама нашто, бо неведама калі трэба пісаць арабіцай злева направа
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "Варыянты для напрамку злева направа"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "Люстраныя формы для напрамку злева направа"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "Пазіцыянаванне знакаў"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "Сярэдзінныя формы №2"
+
+# Для арабскай вязі, розныя рысункі сімвалаў размешчаных ў сярэдзіне, пачатку, канцы слова, размешчаных асобна
+# Medial Forms (medi), Initial Forms (init), Final Forms (fina), Isolated Forms (isol)
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "Сярэдзінныя формы"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "Грэчаскія матэматычныя"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "Пазіцыянаванне знак да знака"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "Пазіцыянаванне знакаў праз замену"
+
+# анатацыя мае іншы сэнс, функцыя заключае сімвал у геаметрычныя фігуры, дужкі
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "Альтэрнатыўныя формы пазначэнняў"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "Формы кандзі NLC"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "Формы нукта"
+
+# numr, верхняя частка дробу, fraction
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "Лічнікі"
+
+# https://helpx.adobe.com/fonts/using/open-type-syntax.html#onum
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "Мінускульныя лічбы"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "Аптычныя межы"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "Парадкавыя лічэбнікі"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "Арнаменты"
+
+# https://helpx.adobe.com/fonts/using/open-type-syntax.html#palt
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "Альтэрнатыўная прапарцыянальная шырыня"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "Дробная капітэль"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "Прапарцыянальная кана"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "Прапарцыянальныя лічбы"
+
+# кхмерскае пісьмо, падобна на лігатуры, спалучае два сімвалы ў адзін, дзе перад, (пад, над, пасля) зычным стаіць значок галоснай літары
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "Перадбазавыя формы"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "Перадбазавыя замены"
+
+# кхмерскае пісьмо, падобна на лігатуры, спалучае два сімвалы ў адзін, дзе пасля (пад, над, перад) зычнага стаіць значок галоснай літары
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "Паслябазавыя формы"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "Паслябазавыя замены"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "Прапарцыянальная шырыня"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "Чвэрць шырыні"
+
+# чаргаванне рысункаў аднаго сімвала, напрыклад пры імітацыіі каліграфіі
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "Выпадковасць"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "Абавязковыя кантэкстныя варыянты"
+
+# дэванагары, спалучэнні з сімвалам Ra, замена спалучэнняў на адмысловыя сімвалы, reph надрадковы Ra, rakar падрадковы Ra
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "Формы ракар"
+
+# Арабскае пісьмо, rlig, пасляддоўнасці сімвалаў, якія заўсёды павінны пераўтварацца ў лігатуры
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "Абавязковыя лігатуры"
+
+# дэванагары, спалучэнні з сімвалам Ra, замена спалучэнняў на адмысловыя сімвалы, reph надрадковы Ra, rakar падрадковы Ra
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "Формы рэпх"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "Правыя межы"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "Варыянты для напрамку справа налева"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "Люстраныя формы для напрамку справа налева"
+
+# японскае пісьмо, яно ж фурыгана, дробным шрыфтам побач з (або над) іерогліфамі пішацца вымаўленне хіраганай/катаканай, а таксама рамадзі -транслітарацыя лацінкай
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Формы дапаможных запісаў рубі"
+
+# У варыятыўных шрыфтах, для пэўных значэнняў насычанасці або шырыні (ці іншай уласцівасці), рысунак сімвала заменяецца на іншы адмыслова створаны варыянт
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "Абавязковыя альтэрнатывы варыяцый"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "Стылістычныя варыянты"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "Навуковыя ніжнія індэксы"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "Аптычны памер"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "Капітэль"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "Спрошчаныя формы"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "Стылістычны набор 1"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "Стылістычны набор 2"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "Стылістычны набор 3"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "Стылістычны набор 4"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "Стылістычны набор 5"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "Стылістычны набор 6"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "Стылістычны набор 7"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "Стылістычны набор 8"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "Стылістычны набор 9"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "Стылістычны набор 10"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "Стылістычны набор 11"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "Стылістычны набор 12"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "Стылістычны набор 13"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "Стылістычны набор 14"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "Стылістычны набор 15"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "Стылістычны набор 16"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "Стылістычны набор 17"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "Стылістычны набор 18"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "Стылістычны набор 19"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "Стылістычны набор 20"
+
+# для ніжняга і верхняга індэкса, можа быць 2 узроўні. Напрыклад Х у ступені У, дзе У у ступені (Х-1)
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "Варыянты стылю матэматычных запісаў"
+
+# stch, нешта пра арабскае пісьмо і расцягванне сімвала на ўсю шырыню тэкста праз замену паслядоўнайцей сімвалаў, падстаноўка канцавога сімвала. Спеціфічны шахер-махер.
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "Ніжні індэкс"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "Верхні індэкс"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "Росчырк"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "Загаловачныя літары"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "Канцавыя формы чамо"
+
+# Японскае пісьмо. Замяняе сімвалы са спрошчаных на традыцыйныя ва ўласных імёнах
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "Традыцыйныя формы назваў"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "Таблічныя лічбы"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "Традыцыйныя формы"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "Траціна шырыні"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "Адзіны рэгістр"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "Альтэрнатыўныя вертыкальныя метрыкі"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "Варыянты вату"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "Вертыкальнае пісьмо"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "Альтэрнатыўныя вертыкальныя палавінныя метрыкі"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "Цэнтральныя формы чамо"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "Вертыкальныя варыянты кана"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "Вертыкальны кернінг"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "Прапарцыянальныя альтэрнатыўныя вертыкальныя метрыкі"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "Вертыкальныя варыянты і паварочванне"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "Вертыкальныя варыянты для паварочвання"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "Перакрэслены нуль"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "Усе шрыфты"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "Пошук шрыфту"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "Пра Шрыфты"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "_Усталяваць"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "Усталяваць шрыфт"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "Звес_ткі"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "Звестки пра шрыфт"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "Збой"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "Усталяваны"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "Усталяванне"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "Прагляд шрыфтоў вашай сістэмы"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "fonts;fontface;шрыфты;"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "Праграма «Шрыфты» паказвае ў выглядзе мініяцюр, усталяваныя на камп'ютары "
+#~ "шрыфты. Пры выбары мініяцюры можна ўбачыць, як шрыфт будзе выглядаць у "
+#~ "розных памерах."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "Таксама праграма падтрымлівае ўсталяванне новых шрыфтоў з файлаў .ttf і "
+#~ "іншых фарматаў. Шрыфты можна ўсталяваць толькі для сябе або для ўсіх "
+#~ "карыстальнікаў камп'ютара."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Праект GNOME"
+
+#~ msgid "Main Window"
+#~ msgstr "Галоўнае акно"
+
+#~ msgid "Font Preview"
+#~ msgstr "Папярэдні прагляд шрыфту"
+
+#~ msgid "Font Search"
+#~ msgstr "Пошук шрыфту"
+
+#~ msgid "TEXT"
+#~ msgstr "ТЭКСТ"
+
+#~ msgid "SIZE"
+#~ msgstr "ПАМЕР"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ФАЙЛ_ШРЫФТУ ВЫХАДНЫ_ФАЙЛ"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g, прадвызначана %g"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "Шрыфты GNOME"
+
+#~ msgid "Show the application's version"
+#~ msgstr "Паказаць версію праграмы"
+
+#~ msgid "Install"
+#~ msgstr "Усталяваць"
+
+#~ msgid "This font could not be installed."
+#~ msgstr "Немагчыма ўсталяваць гэты шрыфт."
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "Немагчыма паказаць гэты шрыфт."
+
+#~ msgid "Info"
+#~ msgstr "Звесткі"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid ""
+#~ "GNOME Fonts shows you the fonts installed on your computer for your use "
+#~ "as thumbnails. Selecting any thumbnails shows the full view of how the "
+#~ "font would look under various sizes."
+#~ msgstr ""
+#~ "Шрыфты GNOME паказвае шрыфты, усталяваныя на вашым камп'ютары ў выглядзе "
+#~ "мініяцюр. Калі выбраць любую мініяцюру, можна ўбачыць, як адпаведны шрыфт "
+#~ "будзе выглядаць у розных памерах."
+
+#~ msgid ""
+#~ "GNOME Fonts also supports installing new font files downloaded in "
+#~ "the .ttf and other formats. Fonts may be installed only for your use or "
+#~ "made available to all users on the computer."
+#~ msgstr ""
+#~ "«Шрыфты GNOME» таксама падтрымлівае ўсталяванне новых шрыфтоў з "
+#~ "файлаў .ttf і іншых фарматаў. Шрыфты можна ўсталяваць толькі для сябе або "
+#~ "для ўсіх карыстальнікаў камп'ютара."
+
+#~ msgid "Installing…"
+#~ msgstr "Усталяванне…"
+
+#~ msgid "About"
+#~ msgstr "Аб праграме"
+
+#~ msgid "Quit"
+#~ msgstr "Выйсці"
+
+#~ msgid "preferences-desktop-font"
+#~ msgstr "preferences-desktop-font"

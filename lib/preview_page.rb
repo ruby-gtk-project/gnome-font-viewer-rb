@@ -2,6 +2,8 @@
 
 require 'adwaita'
 
+require_relative 'translation'
+
 # PreviewPage is the page one font fills: its name and style in the header bar,
 # an Install button and an Info button beside them, and the font's own preview
 # scrolling underneath.
@@ -14,19 +16,21 @@ require 'adwaita'
 # binding and the port does by setting both.
 #
 class PreviewPage
+  include Translation
+
   TAG = 'preview'
-  INSTALL_LABEL = '_Install'
-  INSTALL_TOOLTIP = 'Install Font'
-  INFO_LABEL = 'I_nfo'
-  INFO_TOOLTIP = 'Font Details'
+  INSTALL_LABEL = _('_Install')
+  INSTALL_TOOLTIP = _('Install Font')
+  INFO_LABEL = _('I_nfo')
+  INFO_TOOLTIP = _('Font Details')
   PREVIEW_STACK_PAGE = 'preview'
   MARGIN = 12
 
   # The install button's labels and states, from
   # install_button_refresh_appearance.
-  FAILED_LABEL = 'Failed'
-  INSTALLED_LABEL = 'Installed'
-  INSTALLING_LABEL = 'Installing'
+  FAILED_LABEL = _('Failed')
+  INSTALLED_LABEL = _('Installed')
+  INSTALLING_LABEL = _('Installing')
   SUGGESTED_ACTION = 'suggested-action'
 
   def build

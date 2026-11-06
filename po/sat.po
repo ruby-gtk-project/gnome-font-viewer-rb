@@ -1,0 +1,1075 @@
+# Santali translation for gnome-font-viewer.
+# Copyright (C) 2025 gnome-font-viewer's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-font-viewer package.
+# Prasanta Hembram <prasantahembram720@gmail.com>,  2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-font-viewer main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2025-12-30 21:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: Santali <sat@li.org>\n"
+"Language: sat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr "ᱛᱚᱨᱡᱚᱢᱟᱭ-ᱠᱨᱮᱰᱤᱴᱥ"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "_ᱵᱚᱸᱫ ᱢᱮ"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "ᱫᱟᱹᱭᱠᱟᱹ %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "ᱛᱷᱟᱢᱵᱱᱮᱞ ᱨᱮ ᱚᱞ (ᱰᱤᱯᱷᱚᱞᱴ: ᱟᱟ)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "ᱛᱷᱟᱢᱵᱱᱮᱞ ᱥᱟᱭᱤᱡᱽ (ᱰᱤᱯᱷᱚᱞᱴ: ᱑᱒᱘)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "ᱯᱷᱚᱱᱴ ᱵᱟᱝ ᱩᱫᱩᱜ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "ᱯᱷᱚᱱᱴ ᱵᱟᱝ ᱵᱚᱦᱟᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "ᱧᱩᱛᱩᱢ"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "ᱴᱷᱟᱶ"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "ᱥᱴᱟᱭᱤᱞ"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "ᱯᱨᱚᱠᱟᱨ"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "ᱵᱷᱟᱨᱥᱚᱱ"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "ᱠᱚᱯᱤᱨᱟᱭᱤᱴ"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "ᱵᱤᱵᱨᱚᱬ"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "ᱵᱮᱱᱟᱣᱤᱡ"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "ᱰᱤᱡᱟᱭᱤᱱᱟᱹᱨ"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "ᱞᱟᱭᱥᱮᱱᱥ"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "ᱜᱞᱟᱭᱯᱷ ᱞᱮᱠᱷᱟ"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "ᱨᱚᱝ ᱜᱞᱟᱭᱯᱷᱥ"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "ᱞᱮᱭᱟᱣᱩᱴ ᱯᱷᱤᱪᱟᱨᱥ"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "ᱵᱷᱮᱜᱟᱨ ᱟᱠᱥᱮᱥ"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "ᱧᱩᱛᱩᱢ ᱟᱠᱟᱱ ᱥᱴᱟᱭᱤᱞ"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "ᱦᱮᱸ"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "ᱵᱟᱝᱟ"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+msgid "TrueType font"
+msgstr ""
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "ᱥᱟᱱᱟᱢ ᱵᱤᱠᱚᱞᱯᱚ ᱮᱠᱥᱮᱥ"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "ᱪᱮᱛᱟᱱ-ᱵᱮᱥ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "ᱪᱮᱛᱟᱱ-ᱵᱮᱥ ᱪᱤᱱᱦᱟᱹ ᱯᱚᱡᱤᱥᱚᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "ᱪᱮᱛᱟᱱ-ᱵᱮᱥ ᱵᱚᱫᱚᱞ"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "ᱵᱤᱠᱚᱞᱯᱚ ᱯᱷᱨᱟᱠᱥᱚᱱ"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "ᱟᱠᱷᱟᱱᱰᱥ"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "ᱞᱟᱛᱟᱨ ᱨᱮ - ᱵᱮᱥ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "ᱞᱟᱛᱟᱨ ᱨᱮ - ᱵᱮᱥ ᱪᱤᱱᱦᱟᱹ ᱯᱚᱡᱤᱥᱚᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "ᱞᱟᱛᱟᱨ ᱨᱮ - ᱵᱮᱥ ᱵᱚᱫᱚᱞ"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "ᱥᱟᱛᱟᱢ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "ᱠᱮᱥ-ᱥᱮᱱᱥᱮᱴᱤᱵᱷ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "ᱜᱞᱟᱭᱯᱷ ᱠᱚᱢᱯᱚᱡᱤᱥᱚᱱ/ ᱰᱤᱠᱚᱢᱯᱚᱡᱤᱥᱚᱱ"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "ᱨᱚ ᱛᱟᱭᱚᱢ ᱠᱚᱱᱡᱟᱱᱠᱴ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "ᱠᱚᱱᱡᱟᱱᱠᱴ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "ᱥᱟᱛᱟᱢ ᱞᱤᱜᱟᱪᱟᱨᱥ"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "ᱛᱟᱞᱟ ᱨᱮ ᱢᱮᱱᱟᱜ CJK ᱵᱤᱨᱚᱫ ᱪᱤᱱᱦᱟᱹ"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "ᱨᱟᱡᱷᱚᱛᱤ ᱥᱯᱮᱥᱤᱝ"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "ᱥᱟᱛᱟᱢ ᱥᱣᱟᱥ"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "ᱠᱟᱨᱥᱤᱵᱷ ᱯᱚᱡᱤᱥᱚᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "ᱨᱟᱡᱷᱚᱛᱤ ᱠᱷᱚᱱ ᱠᱟᱹᱴᱤᱡ ᱨᱟᱡᱷᱚᱛᱤ"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "ᱨᱟᱡᱷᱚᱛᱤ ᱠᱷᱚᱱ ᱠᱟᱹᱴᱤᱡ ᱨᱟᱡᱷᱚᱛᱤ"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "ᱪᱤᱠᱤ ᱵᱷᱮᱜᱟᱨ ᱑"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱒"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱓"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱔"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱕"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱖"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱗"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱘"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱙"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱐"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱑"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱒"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱓"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱔"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱕"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱖"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱗"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱘"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "ᱪᱟᱹᱨᱤᱛ ᱵᱷᱮᱜᱟᱨ ᱑᱙"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "ᱡᱷᱟᱹᱞ ᱠᱚ"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "ᱵᱤᱪᱟᱹᱨ ᱞᱤᱜᱟᱪᱚᱨᱥ"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "ᱰᱮᱱᱚᱢᱤᱱᱮᱴᱟᱨᱥ"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "ᱰᱚᱴᱞᱮᱥ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "ᱜᱟᱹᱠᱷᱩᱲᱤᱭᱟᱹ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "ᱞᱟᱭᱤᱱ ᱵᱤᱠᱚᱞᱯᱚ ᱨᱮ ᱢᱩᱪᱟᱹᱫ ᱜᱞᱟᱭᱯᱷ"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "ᱴᱟᱨᱢᱤᱱᱟᱞ ᱯᱷᱚᱨᱢ #2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "ᱴᱟᱨᱢᱤᱱᱟᱞ ᱯᱷᱚᱨᱢ #᱓"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "ᱴᱟᱨᱢᱤᱱᱟᱞ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "ᱯᱷᱞᱮᱴᱮᱱᱰ ᱮᱠᱥᱮᱱᱴ ᱨᱩᱯ"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "ᱯᱷᱨᱟᱠᱥᱚᱱ"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "ᱯᱩᱨᱟᱹ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "ᱟᱫᱷᱟ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "ᱦᱟᱞᱟᱱᱴ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "ᱵᱤᱠᱚᱞᱯᱚ ᱟᱫᱷᱟ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "ᱱᱟᱜᱟᱢᱤᱭᱟᱹ ᱨᱩᱯ"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "ᱜᱟᱱᱟᱴ ᱠᱟᱱᱟ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "ᱱᱟᱜᱟᱢᱤᱭᱟᱹ ᱞᱤᱜᱟᱪᱚᱨᱥ"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "ᱦᱟᱝᱜᱩᱞ"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "ᱦᱚᱡᱚ ᱠᱟᱱᱡᱤ ᱨᱩᱯ"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "ᱟᱫᱷᱟ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "ᱮᱛᱚᱦᱚᱵ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "ᱵᱷᱮᱜᱟᱨ ᱟᱠᱟᱱ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "ᱤᱴᱟᱞᱤᱠ"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "ᱡᱟᱥᱴᱤᱥᱯᱷᱤᱠᱮᱥᱚᱱ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "ᱡᱮᱭᱮᱥ᱗᱘ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "ᱡᱮᱭᱮᱥ᱘᱓ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "ᱡᱮᱭᱮᱥ᱙᱐ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "ᱡᱮᱭᱮᱥ᱒᱐᱐᱔ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "ᱠᱟᱨᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "ᱞᱮᱸᱜᱟ ᱥᱤᱢᱟᱹ"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "ᱥᱚᱨᱠᱟᱨᱤ ᱞᱤᱜᱟᱪᱚᱨᱥ"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "ᱞᱤᱰᱤᱝ ᱡᱟᱢᱳ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "ᱞᱟᱭᱱᱤᱝ ᱯᱷᱤᱜᱟᱨᱥ"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "ᱴᱚᱴᱷᱟᱹᱠᱤᱭᱟᱹ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "ᱞᱮᱸᱜᱟ ᱠᱷᱚᱱ ᱡᱚᱡᱚᱢ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "ᱞᱮᱸᱜᱟ ᱠᱷᱚᱱ ᱡᱚᱡᱚᱢ ᱟᱹᱨᱥᱤ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "ᱪᱤᱱᱦᱟᱹ ᱯᱚᱡᱤᱥᱚᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "ᱢᱮᱰᱤᱭᱟᱞ ᱯᱷᱚᱨᱢ #2"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "ᱢᱮᱰᱤᱭᱟᱞ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "ᱮᱞᱠᱷᱟ ᱜᱽᱨᱤᱠ"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "ᱪᱤᱱᱦᱟᱹ ᱠᱷᱚᱱ ᱪᱤᱱᱦᱟᱹ ᱯᱚᱡᱤᱥᱚᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "ᱵᱚᱫᱚᱞ ᱦᱚᱛᱮᱛᱮ ᱪᱤᱱᱦᱟᱹ ᱯᱚᱡᱤᱥᱚᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "ᱵᱤᱠᱚᱞᱯᱚ ᱮᱱᱚᱴᱮᱥᱚᱱ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "ᱮᱱᱮᱞᱥᱤ ᱠᱟᱱᱡᱤ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "ᱱᱩᱠᱛᱟ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "ᱞᱮᱠᱷᱟᱭᱤᱡ"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "ᱢᱟᱨᱮ ᱥᱴᱟᱭᱤᱞ ᱯᱷᱤᱜᱟᱨᱥ"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "ᱚᱯᱴᱤᱠᱟᱞ ᱥᱤᱢᱟᱹ"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "ᱥᱟᱫᱷᱟᱨᱚᱱ"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "ᱥᱟᱡᱟᱣ ᱡᱤᱱᱤᱥ"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "ᱥᱚᱢᱟᱱ ᱵᱤᱠᱚᱞᱯᱚ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "ᱯᱮᱴᱤᱴ ᱠᱮᱯᱤᱴᱟᱞᱥ"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "ᱯᱨᱚᱯᱚᱨᱥᱚᱱᱟᱞ ᱠᱟᱱᱟ"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "ᱯᱨᱚᱯᱚᱨᱥᱚᱱᱟᱞ ᱯᱷᱤᱜᱟᱨᱥ"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "ᱯᱨᱤ-ᱵᱮᱥ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "ᱯᱨᱤ-ᱵᱮᱥ ᱵᱚᱫᱚᱞ"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "ᱯᱚᱥᱴ-ᱵᱮᱥ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "ᱯᱚᱥᱴ-ᱵᱮᱥ ᱵᱚᱫᱚᱞ"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "ᱥᱚᱢᱟᱱ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "ᱯᱩᱱ ᱪᱟᱸᱫᱚ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "ᱨᱮᱱᱰᱚᱢᱟᱭᱤᱡᱽ"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱥᱟᱛᱟᱢ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "ᱨᱟᱠᱟᱨ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱞᱤᱜᱟᱪᱚᱨ"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "ᱨᱮᱯᱷ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "ᱡᱚᱡᱚᱢ ᱥᱤᱢᱟᱹ"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "ᱡᱚᱡᱚᱢ ᱠᱷᱚᱱ ᱞᱮᱸᱜᱟ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "ᱡᱚᱡᱚᱢ ᱠᱷᱚᱱ ᱞᱮᱸᱜᱟ ᱟᱹᱨᱥᱤ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "ᱨᱩᱵᱤ ᱱᱚᱴᱮᱥᱚᱱ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱵᱷᱮᱜᱟᱨ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "ᱥᱟᱬᱮᱥᱤ ᱠᱷᱟᱴᱚ"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "ᱚᱯᱴᱤᱠᱟᱞ ᱥᱟᱭᱤᱡᱽ"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "ᱠᱟᱹᱴᱤᱡ ᱨᱟᱡᱷᱚᱛᱤ"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "ᱟᱞᱜᱟ ᱟᱠᱟᱱ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱒"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱓"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱔"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱕"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱖"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱗"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱘"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱙"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱐"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱑"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱒"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱓"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱔"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱕"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱖"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱗"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱘"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱑᱙"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "ᱥᱴᱟᱭᱞᱤᱥᱴᱤᱠ ᱥᱮᱴ ᱒᱐"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "ᱮᱞᱠᱷᱟ ᱥᱠᱨᱤᱯᱴ ᱥᱴᱟᱭᱤᱞ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "ᱥᱴᱨᱮᱪᱤᱝ ᱜᱞᱟᱭᱯᱷ ᱰᱤᱠᱚᱢᱯᱚᱡᱤᱥᱚᱱ"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "ᱥᱟᱵᱽᱥᱠᱨᱤᱯᱴ"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "ᱥᱩᱯᱟᱨᱥᱠᱨᱤᱯᱴ"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "ᱥᱣᱟᱥ"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "ᱴᱟᱭᱴᱟᱞᱤᱝ"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "ᱛᱟᱭᱚᱢ ᱥᱮᱫ ᱡᱟᱢᱚ ᱯᱷᱚᱨᱢ"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "ᱯᱚᱨᱚᱢᱟᱱᱟᱜ ᱧᱩᱛᱩᱢ ᱨᱩᱯ"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "ᱴᱮᱵᱩᱞᱟᱨ ᱯᱷᱤᱜᱟᱨᱥ"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "ᱯᱚᱨᱚᱢᱟᱱᱟᱜ ᱨᱩᱯ"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "ᱯᱮᱭᱟ ᱚᱥᱟᱨ"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "ᱭᱩᱱᱤᱠᱮᱥ"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "ᱵᱤᱠᱚᱞᱯᱚ ᱩᱞᱴᱟᱹ ᱢᱮᱴᱨᱤᱠ"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "ᱣᱟᱴᱴᱩ ᱵᱷᱮᱨᱤᱭᱮᱱᱴᱥ"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "ᱩᱞᱴᱟᱹ ᱚᱞ"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "ᱵᱤᱠᱚᱞᱯᱚ ᱪᱮᱛᱟᱱ ᱟᱫᱷᱟ ᱢᱮᱴᱨᱤᱠ"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "ᱥᱟᱨᱟ ᱡᱟᱢᱳ ᱨᱩᱯ"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "ᱣᱮᱨᱴᱤᱠᱟᱞ ᱠᱟᱱᱟ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "ᱣᱮᱨᱴᱤᱠᱟᱞ ᱠᱟᱨᱱᱤᱝ"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "ᱥᱚᱢᱟᱱ ᱵᱤᱠᱚᱞᱯᱚ ᱪᱮᱛᱟᱱ ᱢᱮᱴᱨᱤᱠ"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "ᱩᱞᱴᱟᱹ ᱵᱤᱠᱚᱞᱯᱚ ᱟᱨ ᱟᱹᱪᱩᱨᱚᱜ"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "ᱟᱹᱪᱩᱨᱚᱜ ᱞᱟᱹᱜᱤᱫ ᱩᱞᱴᱟᱹ ᱵᱤᱠᱚᱞᱯᱚ"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "ᱥᱞᱮᱥᱰ ᱥᱩᱱ"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "ᱥᱟᱱᱟᱢ ᱯᱷᱚᱱᱴ"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ ᱵᱟᱨᱮᱛᱮ"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "_ᱵᱚᱦᱟᱞ"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "ᱯᱷᱚᱱᱴ ᱵᱚᱦᱟᱞ ᱢᱮ"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "ᱵᱤᱵᱨᱚᱬ"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "ᱯᱷᱚᱱᱴ ᱵᱤᱵᱨᱚᱬ"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "ᱵᱟᱝ ᱥᱟᱹᱛ ᱟᱠᱟᱱᱟ"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "ᱵᱚᱦᱟᱞ ᱦᱩᱭ ᱟᱠᱟᱱᱟ"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "ᱵᱚᱦᱟᱞ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "ᱟᱢᱟᱜ ᱥᱤᱥᱴᱚᱢ ᱨᱮ ᱯᱷᱚᱱᱴ ᱠᱚ ᱧᱮᱞ ᱢᱮ"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "ᱯᱷᱚᱱᱴᱥ;ᱯᱷᱚᱱᱴᱯᱷᱮᱥ;"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "ᱯᱷᱚᱱᱴ ᱫᱚ ᱟᱢ ᱟᱢᱟᱜ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱛᱷᱟᱢᱵᱱᱮᱞ ᱞᱮᱠᱟᱛᱮ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱦᱟᱞ ᱟᱠᱟᱱ "
+#~ "ᱯᱷᱚᱱᱴ ᱠᱚ ᱩᱫᱩᱜ ᱟᱢᱟ᱾ ᱡᱟᱦᱟᱱ ᱛᱷᱟᱢᱵᱱᱮᱞ ᱵᱟᱪᱷᱟᱣ ᱠᱟᱛᱮ ᱯᱷᱚᱱᱴ ᱪᱮᱫ ᱞᱮᱠᱟ ᱧᱮᱞᱚᱜᱼᱟ ᱚᱱᱟ "
+#~ "ᱨᱮᱭᱟᱜ ᱯᱩᱨᱟᱹ ᱧᱮᱞ ᱩᱫᱩᱜᱚᱜᱼᱟ᱾"
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ .ttf ᱟᱨ ᱮᱴᱟᱜ ᱯᱨᱚᱨᱩᱢ ᱨᱮ ᱰᱟᱩᱱᱞᱳᱰ ᱟᱠᱟᱱ ᱱᱟᱶᱟ ᱯᱷᱚᱱᱴ ᱨᱮᱫ ᱠᱚ ᱵᱚᱦᱟᱞ "
+#~ "ᱞᱟᱹᱜᱤᱫ ᱥᱟᱯᱚᱨᱴ ᱮᱢᱟᱭᱟ ᱾ ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ ᱠᱷᱟᱹᱞᱤ ᱟᱢᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱮ ᱵᱚᱦᱟᱞ ᱦᱩᱭ "
+#~ "ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱟᱨᱵᱟᱝ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱥᱟᱱᱟᱢ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱾"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "GNOME ᱯᱟᱱᱛᱷᱟ"
+
+#~ msgid "TEXT"
+#~ msgstr "ᱚᱞ"
+
+#~ msgid "SIZE"
+#~ msgstr "ᱥᱟᱭᱤᱡᱽ"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ᱯᱷᱚᱱᱴ-ᱨᱮᱫ ᱟᱩᱴᱯᱩᱴ-ᱨᱮᱫ"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g, ᱰᱤᱯᱷᱚᱞᱴ %g"
+
+#~ msgid "Search"
+#~ msgstr "ᱥᱮᱸᱫᱽᱨᱟ"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "GNOME ᱯᱷᱚᱱᱴ ᱠᱚ"
+
+#~ msgid "Show the application's version"
+#~ msgstr "ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱩᱫᱩᱜ ᱢᱮ"

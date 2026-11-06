@@ -3,6 +3,7 @@
 require 'adwaita'
 
 require_relative 'font_loader'
+require_relative 'translation'
 
 # InfoPage lists what a font says about itself: its name and location, the
 # strings from its `name` table, and the glyph count, colour support, layout
@@ -16,60 +17,66 @@ require_relative 'font_loader'
 # replaces group 0.
 #
 class InfoPage
+  include Translation
+
   TAG = 'info'
 
   # add_row()'s style class.
   PROPERTY_CSS_CLASS = 'property'
 
   # strip_whitespace()'s WHITESPACE_CHARS and strip_version()'s
-  # MATCH_VERSION_STR.
+  # MATCH_VERSION_STR. MATCH_VERSION_STR matches the English "Version" prefix
+  # the sfnt/PS data itself carries, so, unlike VERSION_LABEL below, it is not
+  # translated.
   WHITESPACE_CHARS = "\f \t"
   MATCH_VERSION_STR = 'Version'
 
   # The row labels, in the order upstream adds them.
-  NAME_LABEL = 'Name'
-  LOCATION_LABEL = 'Location'
-  STYLE_LABEL = 'Style'
-  TYPE_LABEL = 'Type'
-  VERSION_LABEL = 'Version'
-  COPYRIGHT_LABEL = 'Copyright'
-  DESCRIPTION_LABEL = 'Description'
-  MANUFACTURER_LABEL = 'Manufacturer'
-  DESIGNER_LABEL = 'Designer'
-  LICENSE_LABEL = 'License'
-  GLYPH_COUNT_LABEL = 'Glyph Count'
-  COLOR_GLYPHS_LABEL = 'Color Glyphs'
-  LAYOUT_FEATURES_LABEL = 'Layout Features'
-  VARIATION_AXES_LABEL = 'Variation Axes'
-  NAMED_STYLES_LABEL = 'Named Styles'
+  NAME_LABEL = _('Name')
+  LOCATION_LABEL = _('Location')
+  STYLE_LABEL = _('Style')
+  TYPE_LABEL = _('Type')
+  VERSION_LABEL = _('Version')
+  COPYRIGHT_LABEL = _('Copyright')
+  DESCRIPTION_LABEL = _('Description')
+  MANUFACTURER_LABEL = _('Manufacturer')
+  DESIGNER_LABEL = _('Designer')
+  LICENSE_LABEL = _('License')
+  GLYPH_COUNT_LABEL = _('Glyph Count')
+  COLOR_GLYPHS_LABEL = _('Color Glyphs')
+  LAYOUT_FEATURES_LABEL = _('Layout Features')
+  VARIATION_AXES_LABEL = _('Variation Axes')
+  NAMED_STYLES_LABEL = _('Named Styles')
 
   # The two values the Color Glyphs row can take, which upstream translates.
-  YES = 'yes'
-  NO = 'no'
+  YES = _('yes')
+  NO = _('no')
 
   # g_content_type_get_description() for the font types the thumbnailer claims.
   # GIO reports the content type through GFileInfo, but the Ruby bindings expose
   # no call for its human-readable description, so the descriptions
   # shared-mime-info gives these types are listed here; anything else shows the
-  # content type itself.
+  # content type itself. shared-mime-info's own descriptions are translated
+  # through its own catalogue upstream, not gnome-font-viewer's; the port has no
+  # access to that catalogue, so these go through this app's domain instead.
   CONTENT_TYPE_DESCRIPTIONS = {
-    'font/ttf'                      => 'TrueType font',
-    'font/otf'                      => 'OpenType font',
-    'font/sfnt'                     => 'SFNT font',
-    'font/collection'               => 'Font collection',
-    'font/woff'                     => 'WOFF font',
-    'font/woff2'                    => 'WOFF2 font',
-    'application/x-font-ttf'        => 'TrueType font',
-    'application/x-font-otf'        => 'OpenType font',
-    'application/x-font-ttx'        => 'TrueType XML font',
-    'application/x-font-type1'      => 'PostScript Type 1 font',
-    'application/x-font-pcf'        => 'PCF font',
-    'application/x-font-bdf'        => 'BDF font',
-    'application/x-font-snf'        => 'SNF font',
-    'application/x-font-speedo'     => 'Speedo font',
-    'application/x-font-linux-psf'  => 'Linux PSF console font',
-    'application/vnd.ms-opentype'   => 'OpenType font',
-    'application/vnd.ms-fontobject' => 'Embedded OpenType font',
+    'font/ttf'                      => _('TrueType font'),
+    'font/otf'                      => _('OpenType font'),
+    'font/sfnt'                     => _('SFNT font'),
+    'font/collection'               => _('Font collection'),
+    'font/woff'                     => _('WOFF font'),
+    'font/woff2'                    => _('WOFF2 font'),
+    'application/x-font-ttf'        => _('TrueType font'),
+    'application/x-font-otf'        => _('OpenType font'),
+    'application/x-font-ttx'        => _('TrueType XML font'),
+    'application/x-font-type1'      => _('PostScript Type 1 font'),
+    'application/x-font-pcf'        => _('PCF font'),
+    'application/x-font-bdf'        => _('BDF font'),
+    'application/x-font-snf'        => _('SNF font'),
+    'application/x-font-speedo'     => _('Speedo font'),
+    'application/x-font-linux-psf'  => _('Linux PSF console font'),
+    'application/vnd.ms-opentype'   => _('OpenType font'),
+    'application/vnd.ms-fontobject' => _('Embedded OpenType font'),
   }.freeze
 
   # The attributes populate_grid asks GIO for.

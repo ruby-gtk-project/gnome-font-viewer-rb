@@ -1,0 +1,1098 @@
+# translation of gnome-utils.gnome-2-10.he.po to
+# translation of gnome-utils.gnome-2-10.he.po to Hebrew
+# translation of gnome-utils.HEAD.he.po to Hebrew
+# translation of gnome-utils.gnome-2-2.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Yuval Tanny, 2005.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003, 2005.
+# Yuval Tanny, 2005.
+# Yosef Or Boczko <yoseforb@gmail.com>, 2013-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.HEAD.he\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2026-08-09 10:34+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Launchpad-Export-Date: 2023-11-28 08:24+0000\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "גופנים"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr ""
+"ירון שהרבני <sh.yaron@gmail.com>\n"
+"יוסף אור בוצ׳קו <yoseforb@gmail.com>\n"
+"מיזם תרגום GNOME לעברית https://l10n.gnome.org/teams/he/\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Yaron https://launchpad.net/~sh-yaron\n"
+"  Yosef Or Boczko https://launchpad.net/~yoseforb"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "_סגירה"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "מופע %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "טקסט להצגה בתמונה הממוזערת (בררת מחדל: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "גודל התמונה הממוזערת (בררת מחדל: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "לא ניתן להציג את הגופן"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "לא ניתן להתקין את הגופן"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "שם"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "מיקום"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "סגנון"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "סוג"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "גרסה"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "תיאור"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "יצרן"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "מעצב"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "רישיון"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "מספר גליף"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "גליף צבע"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "תכונות פריסה"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "הגווני צירים"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "שם סגנון"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "כן"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "לא"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+msgid "TrueType font"
+msgstr ""
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "חיפוש גופנים"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "חיפוש גופנים"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "גישה לכל החלופות"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "צורות מעל הבסיס"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "מיקום סמן מעל הבסיס"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "החלפות מעל הבסיס"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "שברים חלופיים"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "של אכהנד"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "צורות מתחת לבסיס"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "מיקום סמן מתחת לבסיס"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "החלפות מתחת לבסיס"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "חלופות לפי הקשר"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "צורות תלויות רישיות"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "הרכבת / פירוק גליפים"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "תצורת חיבור אחרי רו"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "צורות מחוברות"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "ליגטורות תלויות הקשר"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "ניקוד בסינית, יפנית וקוריאנית ממורכז"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "ריווח אותיות גדולות"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "גל מגשר לפי הקשר"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "מקום בכתב מחובר"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "אותיות גדולות זעיות מאותיות גדולות"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "אותיות גדולות קטנות מאותיות גדולות"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "הגווני תווים 1"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "‫הגווני תווים 2"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "‫‫הגווני תווים 3"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "‫‫הגווני תווים 4"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "‫‫הגווני תווים 5"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "‫‫הגווני תווים 6"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "‫‫הגווני תווים 7"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "‫‫הגווני תווים 8"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "‫‫הגווני תווים 9"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "‫‫הגווני תווים 10"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "‫‫הגווני תווים 11"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "‫‫הגווני תווים 12"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "‫‫הגווני תווים 13"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "‫‫הגווני תווים 14"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "‫‫הגווני תווים 15"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "‫‫הגווני תווים 16"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "‫‫הגווני תווים 17"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "‫‫הגווני תווים 18"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "‫‫הגווני תווים 19"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "מרחקים"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "ליגטורה תבונית"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "מכנים"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "צורות ללא נקודות"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "צורות למומחים"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "חלופות לגליף אחרון בשורה"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "צורות סופיות מס׳ 2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "צורות סופיות מס׳ 3"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "צורות סופיות"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "צורות עם סימון דיאקריטי משוטחות"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "שברים"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "מלאי רוחב"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "צורות חצויות"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "צורות הלנט"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "צורות חצויות חלופיות"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "צורות היסטוריות"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "חלופות קאנה נטויות"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "ליגטורות היסטוריות"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "הנגול"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "צורות קאנג׳י של הוג׳ו"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "חצאי רוחב"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "צורות תחיליות"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "צורות מבודדות"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "נטויים"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "חלופות יישור"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "צורות JIS78"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "צורות  JIS83"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "צורות JIS90"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "צורות JIS2004"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "ריווח"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "גבולות שמאליים"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "ליגטורות רגילות"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "צורות ג׳אמו מובילות"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "ספרות בקו אחיד עם האותיות הגדולות"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "צורות טבעיות"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "חלופות שמאל לימין"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "צורות הפוכות משמאל לימין"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "סימון מקום"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "צורות אמצעיות מס׳ 2"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "צורות אמצעיות"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "יוונית מתמטית"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "סימון לסימון מקום"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "סימון מקום דרך החלפה"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "צורות הדגשה חלופיות"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "צורות קאנג׳י של מועצת השפה הלאומית של יפן"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "צורות נוקטה"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "מונים"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "צורות בסגנון ישן"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "גבולות אופטיים"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "סודרים"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "קישוטים"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "רוחבים חלופיים יחסיים"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "אותיות גדולות זעירות"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "קאנה יחסית"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "ספרות יחסיות"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "צורות בסיס טרומי"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "החלפות בסיס טרומי"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "צורות לאחר בסיס"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "החלפות לאחר בסיס"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "רוחבים יחסיים"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "רבעי רוחב"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "בחירה באקראי"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "חלופות נדרשות לפי הקשר"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "צורות רקאר"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "ליגטורות נחוצות"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "צורות רף"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "גבולות ימניים"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "חלופות ימין לשמאל"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "צורות הפוכות מימין לשמאל"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "צורות סימון רובי"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "חלופות שינוי נחוצות"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "חלופות מסוגננות"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "תחתי מדעי"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "גודל אופטי"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "אותיות גדולות בקטן"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "צורות מופשטות"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "סדרה מסוגננת 1"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "‫סדרה מסוגננת 2"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "‫סדרה מסוגננת 3"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "‫סדרה מסוגננת 4"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "‫סדרה מסוגננת 5"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "‫סדרה מסוגננת 6"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "סדרה מסוגננת 7"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "סדרה מסוגננת 8"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "‫סדרה מסוגננת 9"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "‫סדרה מסוגננת 10"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "‫‫סדרה מסוגננת 11"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "‫‫סדרה מסוגננת 12"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "‫‫סדרה מסוגננת 13"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "‫‫סדרה מסוגננת 14"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "‫‫סדרה מסוגננת 15"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "‫‫סדרה מסוגננת 16"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "‫‫סדרה מסוגננת 17"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "‫‫סדרה מסוגננת 18"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "‫‫סדרה מסוגננת 19"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "‫‫סדרה מסוגננת 20"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "חלופות סגנון כתב מתמטי"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "פירוק גליף נמתח"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "כתב תחתי"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "כתב עלי"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "גל מגשר"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "כותרת חלולה"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "צורות גא׳מו סופיות"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "צורות שמות מסורתיים"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "צורות טבלאיות"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "צורות מסורתיות"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "שלישי גובה"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "מצב רישיות אחיד"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "מדדים אנכיים חלופיים"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "הגוונים של ואטו"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "כתיבה אנכית"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "חצאי מדדים אנכיים חלופיים"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "צורות תנועות בג׳אמו"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "חלופות קאנה אנכיות"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "קרנינג אנכי"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "חצאי מדדים אנכיים חלופיים יחסיים"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "חלופות אנכיות וסיבוב"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "חלופות אנכיות לסיבוב"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "אפס עם לוכסן"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "כל הגופנים"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "חיפוש גופנים"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "על אודות מציג הגופנים"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "_התקנה"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "התקנת גופן"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "_מידע"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "פרטי גופן"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "נכשל"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "מותקן"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "מתקין"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "צפייה בגופנים במערכת שלך"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "גופנים;גופן;פונטים;גליפים;"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "‏מציג הגופנים מציג לך את הגופנים המותקנים על המחשב שלך לשימושך כתמונות "
+#~ "ממוזערות. בחירת תמונה ממוזערת כלשהי תראה תצוגה מלאה של איך הגופן נראה "
+#~ "בגדלים שונים."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "מציג הגופנים גם תומך בהתקנת קבצי גופן שהורדו בתבנית ‎.ttf‎ ותבניות נוספות. "
+#~ "גופנים ניתנים להתקנה לשימושך בלבד או להיות זמינים לכל המשתמשים על המחשב."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "מיזם GNOME"
+
+#~ msgid "Main Window"
+#~ msgstr "החלון הראשי"
+
+#~ msgid "Font Preview"
+#~ msgstr "תצוגת גופן מקדימה"
+
+#~ msgid "Font Search"
+#~ msgstr "חיפוש גופנים"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONT-FILE OUTPUT-FILE"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s ‏%g‏ — %g, ברירת מחדל %g"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "מציג הגופנים של GNOME"
+
+#~ msgid "Show the application's version"
+#~ msgstr "Show the application's version"
+
+#~ msgid "Install"
+#~ msgstr "התקנה"

@@ -9,6 +9,7 @@ require_relative 'font_preview_widget'
 require_relative 'info_page'
 require_relative 'overview_page'
 require_relative 'preview_page'
+require_relative 'translation'
 
 # FontViewWindow is the application's one window: an AdwNavigationView holding
 # the overview, the preview of one font, and that font's details.
@@ -24,6 +25,8 @@ require_relative 'preview_page'
 # win.focus-search action, which is what a managed shortcut amounts to.
 #
 class FontViewWindow
+  include Translation
+
   DEFAULT_WIDTH = 800
   DEFAULT_HEIGHT = 600
   WIDTH_REQUEST = 360
@@ -34,8 +37,8 @@ class FontViewWindow
   FOCUS_SEARCH_ACCEL = '<Control>f'
 
   # The error headings upstream shows.
-  DISPLAY_ERROR_HEADING = 'Could Not Display Font'
-  INSTALL_ERROR_HEADING = 'Could Not Install Font'
+  DISPLAY_ERROR_HEADING = _('Could Not Display Font')
+  INSTALL_ERROR_HEADING = _('Could Not Install Font')
 
   # The class upstream adds when the application id marks a development build.
   DEVEL_CSS_CLASS = 'devel'

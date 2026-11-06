@@ -1,0 +1,1129 @@
+# Ukrainian translation of the gnome-utils module.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Yuri Syrota <rasta@renome.rovno.ua>, 1999.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2002-2010.
+# wanderlust <wanderlust@ukr.net>, 2009.
+# int_ua <xintx.ua@gmail.com>, 2010.
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011.
+# Re. <ted.korostiled@gmail.com>, 2012.
+# Daniel Korostil <ted.korostiled@gmail.com>, 2013, 2014, 2015.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2022, 2023, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2026-04-01 14:04+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.04.3\n"
+"X-Project-Style: gnome\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "Шрифти"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr "Daniel Korostil <ted.korostiled@gmail.com>"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "_Закрити"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "Екземпляр %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Текст до мініатюри (типово: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "Розмір мініатюри (типово: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "Не вдалося показати шрифт"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "Не вдалося встановити шрифт"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "Назва"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "Розташування"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "Стиль"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "Тип"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "Версія"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "Авторські права"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "Опис"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "Виробник"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "Ліцензування"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "Кількість гліфів"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "Кольорові гліфи"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "Можливості компонування"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "Вісі варіації"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "Іменовані стилі"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "так"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "ні"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+#, fuzzy
+msgid "TrueType font"
+msgstr "Попередній перегляд шрифтів"
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "Шукати шрифти"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "Шукати шрифти"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "Доступ до усі альтернатив"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "Надбазові форми"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "Надбазове позиціювання позначок"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "Надбазові замінники"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "Альтернативні дроби"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "Аханди"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "Підбазові форми"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "Підбазове позиціювання позначок"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "Підбазові замінники"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "Контекстуальні альтернативи"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "Чутливі до регістру форми"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "Композиція/декомпозиція гліфів"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "Форми з'єднань після ро"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "Форми з'єднань"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "Контекстуальні лігатури"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "Центрована ієрогліфічна пунктуація"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "Інтервали капітелі"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "Контекстуальний свош"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "Позиціювання курсиву"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "Мініатюрна капітель з прописних"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "Мала капітель з прописних"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "Варіація символу 1"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "Варіація символу 2"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "Варіація символу 3"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "Варіація символу 4"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "Варіація символу 5"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "Варіація символу 6"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "Варіація символу 7"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "Варіація символу 8"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "Варіація символу 9"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "Варіація символу 10"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "Варіація символу 11"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "Варіація символу 12"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "Варіація символу 13"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "Варіація символу 14"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "Варіація символу 15"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "Варіація символу 16"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "Варіація символу 17"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "Варіація символу 18"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "Варіація символу 19"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "Відстані"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "Дискреційні лігатури"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "Знаменники"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "Форми без крапок"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "Експертні форми"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "Кінцеві гліфи альтернатив ліній"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "Термінальні форми 2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "Термінальні форми 3"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "Термінальні форми"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "Спрощені акцентовані форми"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "Дроби"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "Повноширинні"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "Половинні форми"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "Галантні форми"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "Альтернативні напівширинні"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "Історичні форми"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "Горизонтальні альтернативи кани"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "Історичні лігатури"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "Хангиль"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Форми кандзі Ходзьо"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "Напівширинні"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "Початкові форми"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "Ізольовані форми"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "Курсив"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "Альтернативи вирівнювання"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "Форми JIS78"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "Форми JIS83"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "Форми JIS90"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "Форми JIS2004"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "Кернінґ"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "Ліві межі"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "Стандартні лігатури"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "Початкові форми чамо"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "Фігури ліній"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "Локалізовані форми"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "Альтернативи зліва праворуч"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "Віддзеркалені форми зліва праворуч"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "Позиціювання позначок"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "Серединні форми 2"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "Серединні форми"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "Математичні грецькі"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "Позиціювання позначка-позначка"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "Розташування позначок за допомогою замінника"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "Альтернативі форми анотацій"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "Форми кандзі NLC"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "Форми нукти"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "Чисельники"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "Фігури у старовинному стилі"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "Оптичні межі"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "Порядкові"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "Орнаменти"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "Пропорційні альтернативні ширини"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "Мініатюрна капітель"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "Пропорційна кана"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "Пропорційні фігури"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "Пребазові форми"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "Пребазові замінники"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "Постбазові форми"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "Постбазові замінники"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "Пропорційні ширини"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "Чвертинні ширини"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "Випадково"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "Обов'язкові контекстуальні альтернативи"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "Форми ракару"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "Обов'язкові лігатури"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "Форми рефу"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "Праві межі"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "Альтернативи справа ліворуч"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "Віддзеркалені форми справа ліворуч"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Форми позначення агату"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "Обов'язкові альтернативні варіації"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "Стилістичні альтернативи"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "Наукові підрядкові знаки"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "Оптичний розмір"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "Мала капітель"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "Спрощені форми"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "Стилістичний набір 1"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "Стилістичний набір 2"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "Стилістичний набір 3"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "Стилістичний набір 4"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "Стилістичний набір 5"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "Стилістичний набір 6"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "Стилістичний набір 7"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "Стилістичний набір 8"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "Стилістичний набір 9"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "Стилістичний набір 10"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "Стилістичний набір 11"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "Стилістичний набір 12"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "Стилістичний набір 13"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "Стилістичний набір 14"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "Стилістичний набір 15"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "Стилістичний набір 16"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "Стилістичний набір 17"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "Стилістичний набір 18"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "Стилістичний набір 19"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "Стилістичний набір 20"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "Стилістичні альтернативи математичних символів"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "Розкладання витягнутих гліфів"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "Нижній індекс"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "Верхній індекс"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "Свош"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "Форми заголовків"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "Кінцеві форми чамо"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "Форми традиційних назв"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "Табличні фігури"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "Традиційні форми"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "Третинні ширини"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "Єдиний регістр"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "Альтернативні вертикальні метрики"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "Варіанти ватту"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "Вертикальна писемність"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "Альтернативні вертикальні напівметрики"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "Форми голосник чамо"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "Вертикальні альтернативи кани"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "Вертикальний кернінґ"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "Пропорційні альтернативні вертикальні метрики"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "Вертикальні альтернативи і обертання"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "Вертикальні альтернативи для обертання"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "Перекреслений нуль"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "Усі шрифти"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "Шукати шрифти"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "Про Шрифти"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "_Встановити"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "Встановити шрифт"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "_Інформація"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "Подробиці щодо шрифту"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "Помилка"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "Встановлено"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "Встановлення"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "Переглянути шрифти на вашій системі"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "fonts;fontface;шрифт;текст;гарнітура;"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "Програма «Шрифти» показує встановлені шрифти у мініатюрі. Вибирання "
+#~ "мініатюр показує, як шрифт виглядає в різних розмірах."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "У «Шрифтах» також передбачено підтримку встановлення файлів нових "
+#~ "шрифтів, які звантажено в «.ttf» або інших форматах. Шрифти можна "
+#~ "встановити тільки для себе або для всіх користувачів системи."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Проєкт GNOME"
+
+#~ msgid "Main Window"
+#~ msgstr "Головне вікно"
+
+#~| msgid "Font Viewer"
+#~ msgid "Font Preview"
+#~ msgstr "Попередній перегляд шрифту"
+
+#~| msgid "Search"
+#~ msgid "Font Search"
+#~ msgstr "Пошук шрифтів"
+
+#~ msgid "TEXT"
+#~ msgstr "ТЕКСТ"
+
+#~ msgid "SIZE"
+#~ msgstr "РОЗМІР"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ФАЙЛ-ШРИФТУ ФАЙЛ-ВИВОДУ"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g, типово — %g"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "Шрифти GNOME"
+
+#~ msgid "Show the application's version"
+#~ msgstr "Показати версію програми"
+
+#~ msgid "Install"
+#~ msgstr "Встановити"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Info"
+#~ msgstr "Інформація"
+
+#~ msgid "This font could not be installed."
+#~ msgstr "Цей шрифт не вдалося встановити."
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "Цей шрифт неможливо показати."
+
+#~ msgid "About"
+#~ msgstr "Про програму"
+
+#~ msgid "Quit"
+#~ msgstr "Вийти"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[ФАЙЛ…]"
+
+#~ msgid ""
+#~ "Run '%s --help' to see a full list of available command line options."
+#~ msgstr ""
+#~ "Виконайте «%s --help», щоб побачити повний перелік параметрів командного "
+#~ "рядка."
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Розмір шрифту (типово: 64)"
+
+#~ msgid "Size:"
+#~ msgstr "Розмір:"
+
+#~ msgid "Usage: %s fontfile\n"
+#~ msgstr "Використання: %s файлшрифту\n"

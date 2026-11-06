@@ -1,0 +1,1103 @@
+# Translation of gnome-utils to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Danijel Studen <dstuden@vuka.hr>,Denis Lackovic <delacko@fly.srk.fer.hr>,Robert Sedak <robert.sedak@sk.tel.hr>,
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2022-03-02 14:39+0100\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-09-22 19:56+0000\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "Slova"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  gogo https://launchpad.net/~trebelnik-stefina"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr ""
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "Primjerak %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Tekst kraj minijature (uobičajeno: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "Veličina minijature (uobičajeno: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr ""
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr ""
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "Naziv"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "Lokacija"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "Stil"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "Vrsta"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "Inačica"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "Autorsko pravo"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "Opis"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "Proizvođač"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "Dizajner"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "Licenca"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "Broj simbola"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "Boja simbola"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "Značajke rasporeda"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "Osi varijacije"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "Imenovani stilovi"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "da"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "ne"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+msgid "TrueType font"
+msgstr ""
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+msgid "SNF font"
+msgstr ""
+
+#: ../lib/info_page.rb:76
+msgid "Speedo font"
+msgstr ""
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "Pristup svim zamjenama"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "Oblici iznad podnožja"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "Određivanja naglaska iznad podnožja"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "Zamjene iznad podnožja"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "Zamjeniski razlomci"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "Akhandi"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "Oblici ispod podnožja"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "Određivanje naglasaka ispod podnožja"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "Zamjene ispod podnožja"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "Sadržajne zamjene"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "Oblici s malim i velikim slovima"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "Sastavljanje / Rastavljanje simbola"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "Konjuktivni oblik nakon Ro"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "Konjuktivni oblici"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "Ligature sadržaja"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "Središnja KJK interpunkcija"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "Razmak početnih slova"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "Kaligrafski znaci sadržaja"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "Ukošeno određivanje"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "Umanjena početna slova iz početnih slova"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "Mala početna slova iz početnih slova"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "1. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "2. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "3. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "4. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "5. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "6. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "7. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "8. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "9. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "10. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "11. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "12. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "13. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "14. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "15. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "16. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "17. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "18. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "19. varijacija znaka"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "Daljine"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "Diskrecione ligature"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "Imenitelj"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "Oblici bez točke"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "Oblici za stručnjake"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "Završni simbol na zamjenama u redku"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "Terminalni oblik #2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "Terminalni oblik #3"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "Terminalni oblici"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "Poravnati oblici naglasaka"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "Razlomci"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "Pune širine"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "Poluoblici"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "Oblici s kukicom"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "Zamjenski poluoblici"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "Povijesni oblici"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "Vodoravne Kana zamjene"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "Povijesne ligature"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "Hangul"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Hojo Kanji oblici"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "Poluširine"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "Početni oblici"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "Izolirani oblici"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "Ukošeni"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "Zamjenski poravnatelji"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "JIS78 oblici"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "JIS83 oblici"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "JIS90 oblici"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "JIS2004 oblici"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "Prilagođavanje razmaka"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "Lijeve granice"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "Standardne ligature"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "Vodeći Jamo oblici"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "Figure u redku"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "Lokalizirani oblici"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "S lijeva na desno zamjene"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "Preslikani oblici s lijeva na desno"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "Određivanje naglasaka"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "Medijalni oblici #2"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "Medijalni oblici"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "Grčki matematički"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "Određivanje naglaska na naglasak"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "Određivanje naglasaka zamjenom"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "Zamjenski oblici zabilješki"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "NLC Kanji oblici"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "Nukta oblici"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "Brojači"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "Starinske figure"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "Optičke granice"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "Redni"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "Ukrasni"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "Srazmjerne zamjenske širine"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "Umanjeni početni znakovi"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "Srazmjerna Kana"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "Srazmjerne figure"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "Oblici prije podnožja"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "Zamjene prije podnožja"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "Oblici poslije podnožja"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "Zamjene poslije podnožja"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "Srazmjerne širine"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "Četvrtširine"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "Izmješaj"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "Zahtjevane sadržajne zamjene"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "Rakar oblici"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "Zahtjevane ligature"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "Ref oblici"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "Desne granice"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "S desna na lijevo zamjene"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "Preslikani oblici s desna na lijevo"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Ruby oblici zabilješki"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "Zahtjevane zamjenske varijacije"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "Stilističke zamjene"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "Znanstveni inferiori"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "Optička veličina"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "Mala početna slova"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "Pojednostavljeni oblici"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "Stilistički komplet 1"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "Stilistički komplet 2"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "Stilistički komplet 3"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "Stilistički komplet 4"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "Stilistički komplet 5"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "Stilistički komplet 6"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "Stilistički komplet 7"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "Stilistički komplet 8"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "Stilistički komplet 9"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "Stilistički komplet 10"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "Stilistički komplet 11"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "Stilistički komplet 12"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "Stilistički komplet 13"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "Stilistički komplet 14"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "Stilistički komplet 15"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "Stilistički komplet 16"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "Stilistički komplet 17"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "Stilistički komplet 18"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "Stilistički komplet 19"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "Stilistički komplet 20"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "Zamjene u stilu matematičkog pisma"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "Rastavljanje razvlačenjem simbola"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "Potpis"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "Natpis"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "Kaligrafski"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "Naslovljavanje"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "Prateći Jamo oblici"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "Tradicionalni oblici imena"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "Tabularne figure"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "Tradicionalni oblici"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "Trećinske širine"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "Bilo koja veličina"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "Zamjenski okomiti metrički"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "Vatu varijante"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "Okomiti pisani"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "Zamjenski okomiti polumetrički"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "Samoglasnički Jamo oblici"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "Okomite Kana zamjene"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "Okomito prilagođavanje razmaka"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "Srazmjerne okomite metričke zamjene"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "Okomite zamjene i zakretanje"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "Okomite zamjene za zakretanje"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "Precrtana nula"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "Sva slova"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr ""
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "O Slovima"
+
+#: ../lib/preview_page.rb:22
+#, fuzzy
+msgid "_Install"
+msgstr "Instaliraj"
+
+#: ../lib/preview_page.rb:23
+#, fuzzy
+msgid "Install Font"
+msgstr "Instaliraj"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr ""
+
+#: ../lib/preview_page.rb:25
+#, fuzzy
+msgid "Font Details"
+msgstr "Pojedinosti"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "Neuspjela"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "Instalirano"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "Instalacija"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "Pregledajte slova na vašem sustavu"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "Slova vam prikazuju slova instalirana na vaše računalo, prikazana kao "
+#~ "minijature. Odabir bilo koje minijature prikazuje cjelovit prikaz kako "
+#~ "slova izgledaju u različitim veličinama."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "Slova isto tako podržava instalaciju datoteka novih slova preuzetih "
+#~ "u .ttf i ostalim formatima. Slova možete instalirati samo za vlastitu "
+#~ "upotrebu ili ih možete učiniti dostupnim ostalim korisnicima na računalu."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "GNOME projekt"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKST"
+
+#~ msgid "SIZE"
+#~ msgstr "VELIČINA"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "DATOTEKA-SLOVA IZLAZNA-DATOTEKA"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "GNOME Slova"
+
+#~ msgid "Show the application's version"
+#~ msgstr "Prikaži inačicu aplikacije"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g, zadano %g"
+
+#~ msgid "This font could not be installed."
+#~ msgstr "Slova ne mogu biti instalirana."
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "Slova ne mogu biti prikazana."
+
+#~ msgid "Info"
+#~ msgstr "Informacije"
+
+#~ msgid "Back"
+#~ msgstr "Natrag"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "slova;izgledslova;"
+
+#~ msgid "org.gnome.font-viewer"
+#~ msgstr "org.gnome.font-viewer"
+
+#~ msgid "About"
+#~ msgstr "O programu"
+
+#~ msgid "Quit"
+#~ msgstr "Zatvori"
+
+#~ msgid "preferences-desktop-font"
+#~ msgstr "preferences-desktop-font"
+
+#~ msgid "General"
+#~ msgstr "Općenito"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Preglednik slova"

@@ -2,6 +2,8 @@
 
 require 'adwaita'
 
+require_relative 'translation'
+
 # ErrorDialog is the alert the window raises when a font will not display or
 # will not install.
 #
@@ -11,8 +13,10 @@ require 'adwaita'
 # dialog over the window. The dialog carries one response, "_Close".
 #
 class ErrorDialog
+  include Translation
+
   CLOSE_RESPONSE = 'close'
-  CLOSE_LABEL = '_Close'
+  CLOSE_LABEL = _('_Close')
 
   def build
     dialog.tap do |alert|

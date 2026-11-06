@@ -3,6 +3,7 @@
 require 'adwaita'
 
 require_relative 'gnome/font/viewer/rb/version'
+require_relative 'translation'
 
 # AboutDialog is what the About button in the overview header bar opens.
 #
@@ -12,7 +13,9 @@ require_relative 'gnome/font/viewer/rb/version'
 # licence.
 #
 class AboutDialog
-  APPLICATION_NAME = 'Fonts'
+  include Translation
+
+  APPLICATION_NAME = _('Fonts')
   DEVELOPER_NAME = 'The GNOME Project'
   WEBSITE = 'https://gitlab.gnome.org/GNOME/gnome-font-viewer/'
   ISSUE_URL = 'https://gitlab.gnome.org/GNOME/gnome-font-viewer/-/issues/'
@@ -27,7 +30,7 @@ class AboutDialog
 
   # The msgid upstream passes through gettext so each translation team can sign
   # its own work.
-  TRANSLATOR_CREDITS = 'translator-credits'
+  TRANSLATOR_CREDITS = _('translator-credits')
 
   def initialize(icon_name)
     @icon_name = icon_name

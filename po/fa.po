@@ -1,0 +1,1134 @@
+# Persian translation of gnome-utils.
+# Copyright (C) 2011 Iranian Free Software Users Group (IFSUG.org)translation team.
+# Copyright (C) 2003, 2005, 2006 Sharif FarsiWeb, Inc.
+# This file is distributed under the same license as the gnome-utils package.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003, 2005.
+# Behnam Esfahbod <behnam@farsiweb.info>, 2005.
+# Sara Khalatbari <sara@bamdad.org>, 2005.
+# Meelad Zakaria <meelad@farsiweb.info>, 2005, 2006.
+# Sanaz shahrokni <sanaz.shahrokni@gmail.com>, 2006.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011-2015.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2016-2026.
+# Ebrahim Byagowi <ebrahim@gnu.org>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2026-08-06 01:02+0330\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Persian\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "قلم‌ها"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr ""
+"دانیال بهزادی <dani.behzi@ubuntu.com>\n"
+"ابراهیم بیاگویی <ebrahim@gnu.org>\n"
+"آرش موسوی <mousavi.arash@gmail.com>"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "خروج"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "نمونهٔ %Id"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "متن برای بندانگشتی (پیش‌گزیده: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "اندازهٔ بندانگشتی (پیش‌گزیده: ۱۲۸)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "نتوانست قلم را نمایش دهد"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "نتوانست قلم را نصب کند"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "نام"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "مکان"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "سبک"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "گونه"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "نگارش"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "حق رونوشت"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "توضیح"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "سازنده"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "طراح"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "پروانه"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "شمارش نشان‌ها"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "نشان‌های رنگی"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "ویژگی‌های چینش"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "اهرم‌های تغییر"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "سبک‌های نام‌دار"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "بله"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "نه"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+#, fuzzy
+msgid "TrueType font"
+msgstr "پیش‌نمایش قلم‌ها"
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "جست‌وجوی قلم‌ها"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "جست‌وجوی قلم‌ها"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr "، "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "دسترسی به تمامی جایگزین‌ها"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "حالت‌های بالای زمینه"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "تثبیت موقعیت علامت بالای زمینه"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "جانشینی‌های بالای زمینه"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "کسرهای جایگزین"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "اخندها"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "حالت‌های زیر زمینه"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "تثبیت موقعیت علامت زیر زمینه"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "جانشینی‌های زیر زمینه"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "جایگزین‌های بافتاری"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "حالت‌های حسّاس به بزرگی و کوچکی"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "ترکیب/تجزیهٔ نشان"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "حالت متّصل بعد از Ro"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "حالت‌های متّصل"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "جایگزین‌های بافتاری"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "نقطه‌گذاری‌های وسط چینی‌ژاپنی‌کره‌ای"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "فاصله‌گذاری حروف بزرگ"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "پس‌روی بافتاری"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "موقعیت‌گذاری چسپیده"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "حروف بزرگ با حالت اندازهٔ ریز"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "حروف بزرگ با حالت اندازهٔ کوچک"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "دگرگونهٔ ۱ نویسه"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "دگرگونهٔ ۲ نویسه"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "دگرگونهٔ ۳ نویسه"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "دگرگونهٔ ۴ نویسه"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "دگرگونهٔ ۵ نویسه"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "دگرگونهٔ ۶ نویسه"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "دگرگونهٔ ۷ نویسه"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "دگرگونهٔ ۸ نویسه"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "دگرگونهٔ ۹ نویسه"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "دگرگونهٔ ۱۰ نویسه"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "دگرگونهٔ ۱۱ نویسه"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "دگرگونهٔ ۱۲ نویسه"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "دگرگونهٔ ۱۳ نویسه"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "دگرگونهٔ ۱۴ نویسه"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "دگرگونهٔ ۱۵ نویسه"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "دگرگونهٔ ۱۶ نویسه"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "دگرگونهٔ ۱۷ نویسه"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "دگرگونهٔ ۱۸ نویسه"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "دگرگونهٔ ۱۹ نویسه"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "فاصله‌ها"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "جایگزین‌های اختیاری"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "جداکننده‌ها"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "حالت‌های بی‌نقطه"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "حالت‌های تخصّصی"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "جایگزین‌های نشان پایانی روی خط"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "حالت‌های پایانی ‎#۲"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "حالت‌های پایانی ‎#۳"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "حالت‌های پایانی"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "حالت‌های اکسنت‌های صاف"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "کسرها"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "تمام‌پهناها"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "حالت‌های نیمه"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "حالت‌های هالانت"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "تمام‌پهناهای جایگزین"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "حالت‌های تاریخی"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "جایگزین‌های کانای افقس"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "جایگزین‌های تاریخی"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "هانگول"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "حالت‌های کانجی هوجو"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "نیم‌پهناها"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "حالت‌های نخستین"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "حالت‌های جدا"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "مورّب‌ها"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "جایگزین‌های هم‌ترازی"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "حالت‌های JIS78"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "حالت‌های JIS83"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "حالت‌های JIS90"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "حالت‌های JIS2004"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "کاهش فاصله"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "مزرهای چپی"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "جایگزین‌های استاندارد"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "حالت‌های جاموی ابتدای خط"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "اعداد خطوط"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "حالت‌های محلّی‌شده"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "جایگزین‌های چپ به راست"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "حالت‌های آینه‌ای چپ به راست"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "موقعیت‌گذاری نشان"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "حالت‌های میانه #۲"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "حالت‌های میانه"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "یونانی ریاضی"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "موقعیت‌دهی علائم نسبت به هم"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "موقعیت‌دهی علائم با جایگذاری"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "حالت‌های حاشیه‌نویسی جایگزین"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "حالت‌های کانجی NLC"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "حالت‌های نقطهٔ هندی"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "صورت‌های کسر"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "اعداد سبک قدیم"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "مرزهای نوری"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "ترتیبی‌ها"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "زینتی‌ها"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "پهناهای جایگزین متناسب"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "حروف بزرگ با اندازهٔ ریز"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "کانای متناسب"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "شکل‌های متناسب"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "حالت‌های پیش‌زمینه"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "جانشینی‌های پیش‌زمینه"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "حالت‌های پس‌زمینه"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "جانشینی‌های پس‌زمینه"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "پهناهای تناسبی"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "ربع پهناها"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "تصادفی‌سازی"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "جایگزین‌های بافتاری ضروری"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "حالت‌های راکار"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "جایگزین‌های ضروری"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "حالت‌های رف"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "مرزهای راست"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "جایگزین‌های راست به چپ"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "حالت‌های آینه‌ای راست به چپ"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "حالت‌های نشانه‌گذاری رابی"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "جایگزین‌های تغییرهای ضروری"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "جایگزین‌های سبک"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "زیرنوشته‌های علمی"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "اندازهٔ نوری"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "حروف کوچک بزرگ‌شده"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "حالت‌های ساده‌شده"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "مجموعهٔ سبکی ۱"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "مجموعهٔ سبکی ۲"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "مجموعهٔ سبکی ۳"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "مجموعهٔ سبکی ۴"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "مجموعهٔ سبکی ۵"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "مجموعهٔ سبکی ۶"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "مجموعهٔ سبکی ۷"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "مجموعهٔ سبکی ۸"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "مجموعهٔ سبکی ۹"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "مجموعهٔ سبکی ۱"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "مجموعهٔ سبکی ۱۱"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "مجموعهٔ سبکی ۱۲"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "مجموعهٔ سبکی ۱۳"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "مجموعهٔ سبکی ۱۴"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "مجموعهٔ سبکی ۱۵"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "مجموعهٔ سبکی ۱۶"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "مجموعهٔ سبکی ۱۷"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "مجموعهٔ سبکی ۱۸"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "مجموعهٔ سبکی ۱۹"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "مجموعهٔ سبکی ۲۰"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "جایگزین‌های سبک نوشتهٔ ریاضی"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "تجزیهٔ گلیف کششی"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "زیرنویسه"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "بالانویسه"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "پس‌روی"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "عنوان‌گذاری"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "حالت‌های جاموی انتهایی"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "حالت‌های نام سنتی"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "ارقام جدولی"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "حالت‌های سنتی"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "عرض سوم"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "بدون حالت"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "اندازه‌های عمودی جایگزین"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "دگرگونه‌های واتو"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "نوشتن عمودی"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "نیمه‌متریک‌های عمودی جایگزین"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "حالت‌های واکه‌دار جمو"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "جایگزین‌های کانای عمودی"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "کاهش فاصلهٔ عمودی"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "متریک‌های عمودی جایگزین متناسب"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "جایگزین‌های عمودی و چرخش"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "جایگزین‌های عمودی برای چرخش"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "صفر دارای اسلش"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "تمامی قلم‌ها"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "جست‌وجوی قلم‌ها"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "دربارهٔ قلم‌ها"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "_نصب"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "نصب قلم"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "_اطّلاعات"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "جزییات قلم"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "شکست خورد"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "نصب شده"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "در حال نصب"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "دیدن قلم‌های روی سامانه‌تان"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "fonts;fontface;فونت; قلم;"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "قلم‌ها، قلم‌هایی که روی رایانه‌تان نصب شده را به صورت بندانگشتی نشان‌تان "
+#~ "می‌دهد. گزینش هر بندانگشتی، نمای کامل چگونگی دیده شدن قلم در اندازه‌های "
+#~ "مختلف را نشان می‌دهد."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "قلم‌ها همچنین از نصب پرونده‌های قلم جدید بارگیری شده در قالب ttf و دیگر "
+#~ "قالب‌ها پشتیبانی می‌کند. قلم‌ها می‌توانند فقط برای استفادهٔ شما نصب شده یا "
+#~ "برای تمامی کاربران روی رایانه در دسترس باشند."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "پروژهٔ گنوم"
+
+#~ msgid "Main Window"
+#~ msgstr "پنجرهٔ اصلی"
+
+#~ msgid "Font Preview"
+#~ msgstr "پیش‌نمایش قلم"
+
+#~ msgid "Font Search"
+#~ msgstr "جست‌وجوی قلم"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONT-FILE OUTPUT-FILE"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g، به صورت پیش‌گزیده %g"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "قلم‌های گنوم"
+
+#~ msgid "Show the application's version"
+#~ msgstr "نمایش نگارش برنامه"
+
+#~ msgid "Install"
+#~ msgstr "نصب"
+
+#~ msgid "Back"
+#~ msgstr "بازگشت"
+
+#~ msgid "This font could not be installed."
+#~ msgstr "این قلم قابل نصب نیست."
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "این قلم قابل نمایش نیست."
+
+#~ msgid "Info"
+#~ msgstr "اطّلاعات"
+
+#~ msgid "About"
+#~ msgstr "درباره"
+
+#~ msgid "Quit"
+#~ msgstr "خروج"
+
+#~ msgid "preferences-desktop-font"
+#~ msgstr "preferences-desktop-font"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[FILE...]"
+
+#~ msgid ""
+#~ "Run '%s --help' to see a full list of available command line options."
+#~ msgstr "برای نمایش تمام گزینه‌های خط فرمان «%s --help» را اجرا کنید."
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "اندازه قلم (پیش‌فرض: ۶۴)"
+
+#~ msgid "Size:"
+#~ msgstr "اندازه:"
+
+#~ msgid "Usage: %s fontfile\n"
+#~ msgstr "نحوه استفاده: %s پرونده قلم\n"

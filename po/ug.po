@@ -1,0 +1,1104 @@
+# Uyghur translation for gnome-utils.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran@live.com>, 2010-08-29.
+# Temkin <temkin119@gmail.com>,2011
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2026-08-12 15:16-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "خەت نۇسخا"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr ""
+"تەرجىمان تۆھپىسى\n"
+" Gheyret Kenji <gheyret@gmail.com>\n"
+"ئابدۇقادىر ئابلىز <sahranbay@gmail.com>"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "ياپ(_C)"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "مىسال %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "كىچىك سۈرەتكە تېكىست ئىشلەت (كۆڭۈلدىكى: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "كىچىك سۈرەت چوڭلۇقى(كۆڭۈلدىكىسى: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "خەت نۇسخىسىنى كۆرسىتەلمەيدۇ"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "خەت نۇسخىسىنى ئورنىتالمايدۇ"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "ئاتى"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "ئورنى"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "ئۇسلۇب"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "تۈرى"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "نەشرى"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "نەشر ھوقۇقى"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "چۈشەندۈرۈش"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "ياسىغۇچى سودىگەر"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "لايىھەلىگۈچى"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "ئىجازەتنامە"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "شەكىل سانى"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "رەڭ شەكلى"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "ئورۇنلاشتۇرۇش ئالاھىدىلىكى"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "ئۆزگىرىش ئوقى"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "ئاتاش ئۇسلۇبى"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "ھەئە"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "ياق"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+#, fuzzy
+msgid "TrueType font"
+msgstr "خەت نۇسخىنى ئالدىن كۆزەت"
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "خەت نۇسخا ئىزدە"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "خەت نۇسخا ئىزدە"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr "، "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "بارلىق ئورۇن باسارلارنى زىيارەت"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "ئۈستى ئىندېكس شەكلى"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "ئۈستى ئىندېكس شەكلىنىڭ ئورنى"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "ئۈستى ئىندېكس ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "زاپاس كەسىر"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "Akhands"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "ئاستى ئىندېكس شەكلى"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "ئاستى ئىندېكس شەكلىنىڭ ئورنى"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "ئاستى ئىندېكس ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "مەزمۇن ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "چوڭ كىچىك ھەرپنى پەرقلەندۈرىدىغان شەكىل"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "خەت شەكلى بىرىكتۈرۈش/پارچىلاش"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "Ro دىن كېيىنكى بىرلەشكەن شەكلى"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "بىرلەشكەن شەكلى"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "مەزمۇن قوشما ھەرپ"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "CJK ئوتتۇرىغا توغرىلانغان تىنىش بەلگىسى"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "چوڭ ھەرپ بوشلۇق"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "مەزمۇن ئۆزگىرىشچان ھەرپ"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "ئۇلاپ يېزىش ئورنى"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "چوڭ ھەرپكە ئاساسەن ئىنتايىن كىچىكىنى ھاسىللايدۇ"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "چوڭ ھەرپكە ئاساسەن كىچىكىنى ھاسىللايدۇ"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "1-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "2-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "3-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "4-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "5-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "6-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "7-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "8-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "9-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "10-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "11-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "12-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "13-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "14-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "15-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "16-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "17-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "18-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "19-ھەرپ ئۆزگىرىشى"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "ئارىلىق"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "ئىختىيارىي قوشما ھەرپ"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "مەخرەج"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "چېكىتسىز شەكلى"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "مۇتەخەسسىس شەكلى"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "قۇر ئاخىرى شەكلىنى ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "ئاخىرلىشىش شەكلى #2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "ئاخىرلىشىش شەكلى #3"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "ئاخىرلىشىش شەكلى"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "ئۇرغۇلۇق شەكلى"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "كەسىر"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "تولۇق كەڭلىك"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "بىر بايتلىق"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "Halant شەكلى"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "ئالماشتۇرىدىغان بىر بايتلىق"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "تارىخىي شەكلى"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "توغرىسىغا كاتاكانا ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "تارىخىي قوشما ھەرپ"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "كورېيەچە"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Hojo Kanji شەكلى"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "بىر بايتلىق"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "باش شەكلى"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "يالغۇز شەكلى"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "يانتۇ"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "توغرىلاش ئالماشتۇرغۇچ"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "JIS78 شەكلى"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "JIS83 شەكلى"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "JIS90 شەكلى"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "JIS2004 شەكلى"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "ھەرپ ئارىلىق تەڭشىكى"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "سول چېگراسى"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "ئۆلچەملىك قوشما ھەرپ"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "باشلىنىش Jamo شەكلى"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "تەڭ ئېگىزلىكتىكى شەكىل"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "يەرلىكلەشتۈرۈلگەن شەكلى"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "سولدىن ئوڭغا ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "سولدىن ئوڭغا ئەكسى شەكلى"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "بەلگە ئورنى"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "ئوتتۇرا شەكلى #2"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "ئوتتۇرا شەكلى"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "ماتېماتىكا گىرېكچە ھەرپ"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "بەلگە ئارىسىدىكى ئورۇن"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "ئالماشتۇرۇش ئارقىلىق بەلگە قويۇش ئورنى"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "زاپاس ئىزاھات شەكلى"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "NLC Kanji شەكلى"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "Nukta شەكلى"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "سۈرەت"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "كونا ئۇسلۇبتىكى سان"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "كۆرەلەيدىغان چېگرا"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "تەرتىپ"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "بېزەك ھەرپ"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "نىسپىي كەڭلىك ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "ئىنتايىن كىچىك يېزىلغان چوڭ ھەرپ"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "تەڭ كەڭلىكسىز كاتاكانا"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "تەڭ كەڭلىكسىز سان"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "Pre-Base شەكلى"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "ئالدىن ئاساسىي ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "ئاساسىدىن كېيىنكى شەكلى"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "ئاساسىدىن كېيىنكى ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "نىسبەت كەڭلىكى"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "تۆتتىن بىر كەڭلىك"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "ئىختىيارىي"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "مەزمۇنغا ئاساسەن مەجبۇرىي ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "Rakar شەكلى"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "مەجبۇرىي قوشما ھەرپ"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "Reph شەكلى"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "ئوڭ چېكى"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "ئوڭدىن سولغا ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "ئوڭدىن سولغا ئەكسى شەكلى"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Ruby ئىزاھات شەكلى"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "مەجبۇرىي شەكىل ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "ئالماشتۇرۇش ئۇسلۇبى"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "ئىلمىي ئاستى ئىندېكس"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "كۆرەلەيدىغان چوڭلۇقى"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "كىچىك چوڭ يېزىلغان ھەرپ"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "ئاددىي شەكىل"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "1-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "2-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "3-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "4-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "5-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "6-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "7-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "8-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "9-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "10-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "11-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "12-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "13-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "14-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "15-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "16-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "17-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "18-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "19-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "20-ئۇسلۇب توپلىمى"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "ماتېماتىكىلىق يازما ئۇسلۇبىنى ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "گىرافىكنى سوزۇشنى پارچىلاش"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "تۆۋەنكى ئىندېكس"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "يۇقىرى ئىندېكس"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "ئۆزگىرىشچان ھەرپ"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "ماۋزۇ"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "ئاخىرلىشىش Jamo شەكلى"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "ئەنئەنىۋى ئىسىم شەكلى"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "تەڭ كەڭلىكتىكى سان"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "مۇرەككەپ شەكىل"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "ئۈچتىن بىر كەڭلىك"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "چوڭ كىچىك ھەرپ ئوخشاشلاشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "بويىغا ئۆلچەمنى ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "Vattu شالغۇتى"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "تىك يېزىش"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "تىك يېرىم ئۆلچەمگە ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "سوزۇق تاۋۇش Jamo شەكلى"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "بويىغا كاتاكانا ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "بويىغا ھەرپ ئارىلىقى"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "بويىغا نىسبەت ئۆلچەمنى ئالماشتۇرۇش"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "بويىغا ئالماشتۇرۇش ۋە ئايلاندۇرۇش"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "ئايلاندۇرۇشنىڭ بويىغا ئالماشتۇرۇشى"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "يانتۇلۇقى نۆل"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "بارلىق خەت نۇسخىلىرى"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "خەت نۇسخا ئىزدە"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "خەت نۇسخا ھەققىدە"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "ئورنات(_I)"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "خەت نۇسخا ئورنات"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "ئۇچۇر(_N)"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "خەت نۇسخا تەپسىلاتى"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "مەغلۇپ بولدى"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "ئورنىتىلغان"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "ئورنىتىۋاتىدۇ"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "سىستېمىدىكى خەت نۇسخىلىرىنى كۆرۈش پىروگراممىسى"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "خەت نۇسخا;فونت;fonts;fontface;"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "خەت نۇسخا كومپيۇتېرىڭىزغا ئورنىتىلغان خەت نۇسخىسىنى كىچىك سۈرەت شەكلىدە  "
+#~ "كۆرسىتىدۇ. خالىغان بىر كىچىك سۈرەت تاللانسا شۇ خەت نۇسخىسىنىڭ ئوخشاش "
+#~ "بولمىغان چوڭلۇقتىكى ھالىتىنىڭ تولۇق كۆرۈنۈش ئۈنۈمىنى كۆرسىتىدۇ."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "خەت نۇسخا يەنە .ttf  ۋە باشقا پىچىمدىكى يېڭى خەت نۇسخىسىنى ئورنىتىشنى "
+#~ "قوللايدۇ. خەت نۇسخىسىنى پەقەت نۆۋەتتىكى ئىشلەتكۈچىگە ياكى كومپيۇتېردىكى "
+#~ "بارلىق ئىشلەتكۈچىگە ئورنىتىشنى قوللايدۇ."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "GNOME قۇرۇلۇشى"
+
+#~ msgid "Main Window"
+#~ msgstr "ئاساسىي كۆزنەك"
+
+#~ msgid "Font Preview"
+#~ msgstr "خەت نۇسخا ئالدىن كۆزەت"
+
+#~ msgid "Font Search"
+#~ msgstr "خەت نۇسخا ئىزدە"
+
+#~ msgid "TEXT"
+#~ msgstr "تېكىست"
+
+#~ msgid "SIZE"
+#~ msgstr "چوڭلۇقى"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "خەت نۇسخا-ھۆججەت چىقار-ھۆججەت"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g، كۆڭۈلدىكى %g"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "GNOME خەت نۇسخا"
+
+#~ msgid "Show the application's version"
+#~ msgstr "پىروگراممىنىڭ نەشرىنى كۆرسەت"
+
+#~ msgid "Quit"
+#~ msgstr "ئاخىرلاشتۇر"
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "مەزكۇر خەت نۇسخىسىنى كۆرسەتكىلى بولمىدى."
+
+#~ msgid "Back"
+#~ msgstr "كەينى"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "خەت چوڭلۇقى (كۆڭۈلدىكى: 64)"
+
+#~ msgid "Size:"
+#~ msgstr "چوڭلۇقى:"
+
+#~ msgid "Usage: %s fontfile\n"
+#~ msgstr "ئىشلىتىش ئۇسۇلى: %s خەت نۇسخا ھۆججىتى\n"

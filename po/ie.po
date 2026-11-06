@@ -1,0 +1,1144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2022-12-16 18:07+0700\n"
+"Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ie\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "Fondes"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr "OIS <mistresssilvara@hotmail.com>, 2022"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr ""
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "Instantie %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Textu a miniaturisar (predefinit: Aa)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "Dimension de miniatura (predefinit: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr ""
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr ""
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "Nómine"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "Loc"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "Stil"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "Tip"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "Version"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "Jure editorial"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "Descrition"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "Fabricator"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "Dessinator"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "Licentie"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "Númere de glifes"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "Colorat glifes"
+
+#: ../lib/info_page.rb:47
+#, fuzzy
+msgid "Layout Features"
+msgstr "_Arangeament:"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "Axes de variation"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "Nominat stiles"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "yes"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "no"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+msgid "TrueType font"
+msgstr ""
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+msgid "SNF font"
+msgstr ""
+
+#: ../lib/info_page.rb:76
+msgid "Speedo font"
+msgstr ""
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "Accesse"
+
+#: ../lib/open_type_layout.rb:24
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "&Superiori"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:26
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "Substitutiones"
+
+#: ../lib/open_type_layout.rb:27
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "Fractiones"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:29
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "_Basat sur:"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:31
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "Substitutiones"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:33
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "_Atenter a MAJ/min"
+
+#: ../lib/open_type_layout.rb:34
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "Númere de glifes"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:36
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "Isolat formes"
+
+#: ../lib/open_type_layout.rb:37
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "Ligaturas"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "Centrat punctuation de CJK"
+
+#: ../lib/open_type_layout.rb:39
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "Inicial majuscule"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:42
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "Micri majuscules"
+
+#: ../lib/open_type_layout.rb:43
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "Micri majuscules"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "Variation de caracter 1"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "Variation de caracter 2"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "Variation de caracter 3"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "Variation de caracter 4"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "Variation de caracter 5"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "Variation de caracter 6"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "Variation de caracter 7"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "Variation de caracter 8"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "Variation de caracter 9"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "Variation de caracter 10"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "Variation de caracter 11"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "Variation de caracter 12"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "Variation de caracter 13"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "Variation de caracter 14"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "Variation de caracter 15"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "Variation de caracter 16"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "Variation de caracter 17"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "Variation de caracter 18"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "Variation de caracter 19"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "Distanties"
+
+#: ../lib/open_type_layout.rb:64
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "Ligaturas"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "Denominatores"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "Formes sin punctu"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "Expert formes"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:69
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "Formes de terminal"
+
+#: ../lib/open_type_layout.rb:70
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "Formes de terminal"
+
+#: ../lib/open_type_layout.rb:71
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "Formes de terminal"
+
+#: ../lib/open_type_layout.rb:72
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "Color de accentu:"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "Fractiones"
+
+#: ../lib/open_type_layout.rb:74
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "Plen-largore"
+
+#: ../lib/open_type_layout.rb:75
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "Midí-formes"
+
+#: ../lib/open_type_layout.rb:76
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "Expert formes"
+
+#: ../lib/open_type_layout.rb:77
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "Plen-largore"
+
+#: ../lib/open_type_layout.rb:78
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "Historic formes"
+
+#: ../lib/open_type_layout.rb:79
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "Horizontalmen"
+
+#: ../lib/open_type_layout.rb:80
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "Historic ligaturas"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "Hangul"
+
+#: ../lib/open_type_layout.rb:82
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Formes hojo kanji"
+
+#: ../lib/open_type_layout.rb:83
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "Plen-largore"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "Inicial formes"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "Isolat formes"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "Italic"
+
+#: ../lib/open_type_layout.rb:87
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "Alineament de subtitules"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "Formas JIS78"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "Formas JIS83"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "Formas JIS90"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "Formas JIS2004"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:93
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "Límites"
+
+#: ../lib/open_type_layout.rb:94
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "Standard ligaturas"
+
+#: ../lib/open_type_layout.rb:95
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "Remover inicial spacies"
+
+#: ../lib/open_type_layout.rb:96
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "Ciffres por tabelles"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "Localisat formas"
+
+#: ../lib/open_type_layout.rb:98
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "Levul a dextri, alt a bass"
+
+#: ../lib/open_type_layout.rb:99
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "Levul a dextri, alt a bass"
+
+#: ../lib/open_type_layout.rb:100
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "_Marcar"
+
+#: ../lib/open_type_layout.rb:101
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "Medial formas"
+
+#: ../lib/open_type_layout.rb:102
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "Medial formas"
+
+#: ../lib/open_type_layout.rb:103
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "Matematic grec"
+
+#: ../lib/open_type_layout.rb:104
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "_Marcar"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:106
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "Alternativ"
+
+#: ../lib/open_type_layout.rb:107
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "Formes NLC kanji"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "Formes nukta"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "Numeratores"
+
+#: ../lib/open_type_layout.rb:110
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "Ciffres por tabelles"
+
+#: ../lib/open_type_layout.rb:111
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "Optical"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:114
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "Plen-largore"
+
+#: ../lib/open_type_layout.rb:115
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "Majuscules"
+
+#: ../lib/open_type_layout.rb:116
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "Japanesi (kana)"
+
+#: ../lib/open_type_layout.rb:117
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "Ciffres por tabelles"
+
+#: ../lib/open_type_layout.rb:118
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "Base"
+
+#: ../lib/open_type_layout.rb:119
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "Substitutiones"
+
+#: ../lib/open_type_layout.rb:120
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "Base"
+
+#: ../lib/open_type_layout.rb:121
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "Substitutiones"
+
+#: ../lib/open_type_layout.rb:122
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "Automatic largore de columnes"
+
+#: ../lib/open_type_layout.rb:123
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "1-um lun-quarte"
+
+#: ../lib/open_type_layout.rb:124
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "Mixter li actual playlist"
+
+#: ../lib/open_type_layout.rb:125
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "Besonat per"
+
+#: ../lib/open_type_layout.rb:126
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "Expert formes"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "Besonat ligaturas"
+
+#: ../lib/open_type_layout.rb:128
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "Midí-formes"
+
+#: ../lib/open_type_layout.rb:129
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "Límites"
+
+#: ../lib/open_type_layout.rb:130
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "Levul a dextri, alt a bass"
+
+#: ../lib/open_type_layout.rb:131
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "Levul a dextri, alt a bass"
+
+#: ../lib/open_type_layout.rb:132
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Rubi"
+
+#: ../lib/open_type_layout.rb:133
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "Variation de caracter 1"
+
+#: ../lib/open_type_layout.rb:134
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "Stilistic serie 1"
+
+#: ../lib/open_type_layout.rb:135
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "Scientific"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "Optical dimension"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "Micri majuscules"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "Simplificat formes"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "Stilistic serie 1"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "Stilistic serie 2"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "Stilistic serie 3"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "Stilistic serie 4"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "Stilistic serie 5"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "Stilistic serie 6"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "Stilistic serie 7"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "Stilistic serie 8"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "Stilistic serie 9"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "Stilistic serie 10"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "Stilistic serie 11"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "Stilistic serie 12"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "Stilistic serie 13"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "Stilistic serie 14"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "Stilistic serie 15"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "Stilistic serie 16"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "Stilistic serie 17"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "Stilistic serie 18"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "Stilistic serie 19"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "Stilistic serie 20"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:160
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "Extension del fin"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "Subscrition"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "Superscrition"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "Titul-stil"
+
+#: ../lib/open_type_layout.rb:165
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "Formes sin punctu"
+
+#: ../lib/open_type_layout.rb:166
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "Traditional formes"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "Ciffres por tabelles"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "Traditional formes"
+
+#: ../lib/open_type_layout.rb:169
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "Triesim"
+
+#: ../lib/open_type_layout.rb:170
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "Unicase"
+
+#: ../lib/open_type_layout.rb:171
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "Alternativ:"
+
+#: ../lib/open_type_layout.rb:172
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "Variantes vattu"
+
+#: ../lib/open_type_layout.rb:173
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "_Vertical:"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:175
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "Vocalic punctus de hebreic"
+
+#: ../lib/open_type_layout.rb:176
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "Verticalmen"
+
+#: ../lib/open_type_layout.rb:177
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "_Vertical:"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:179
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "Verticalmen"
+
+#: ../lib/open_type_layout.rb:180
+#, fuzzy
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "Verticalmen"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "Trastrecat zero"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "Omni fondes"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr ""
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "Pri li Fondes"
+
+#: ../lib/preview_page.rb:22
+#, fuzzy
+msgid "_Install"
+msgstr "Installar"
+
+#: ../lib/preview_page.rb:23
+#, fuzzy
+msgid "Install Font"
+msgstr "Installar"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr ""
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr ""
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "Ne successat"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "Installat"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "Installante"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "Vider fondes de vor sistema"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Li projecte GNOME"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXTU"
+
+#~ msgid "SIZE"
+#~ msgstr "DIMENSION"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONDE-FILE PRODUCTION-FILE"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "Fondes de GNOME"
+
+#~ msgid "Show the application's version"
+#~ msgstr "Monstra li version del programma"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g, %g predefinit"
+
+#~ msgid "This font could not be installed."
+#~ msgstr "Ti-ci fonde ne posse esser installat."
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "Ti-ci fonde ne posse esser monstrat."
+
+#~ msgid "Info"
+#~ msgstr "Information"
+
+#~ msgid "Back"
+#~ msgstr "Retro"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "fondes;tipes;caracteres;"

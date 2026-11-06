@@ -1,0 +1,1164 @@
+# translation of gnome-utils.gnome-2-26.po to Ελληνικά
+# gnome-utils Greek translation.
+# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
+# 385 translated messages, 127 fuzzy translations, 188 untranslated messages.
+# Finished! now, 700 messages fully translated.
+# simos: 780 messages, visual verification, 14Feb2001 (sgpbea).
+# simos: 483 messages, 30Oct2002, translation review.
+# kostas: 483 messages, 30Oct2002, completed translation for GNOME2.
+# kostas: 468 messages, unfuzzy 3, 07Jan2003, one more update.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Simos Xenitellis <simos@hellug.gr>, 2000, 2001, 2002.
+# Nikos Charonitakis <frolix68@yahoo.gr>, 2003, 2004.
+# Kostas Papadimas <pkst@gnome.org>, 2002, 2003, 2004, 2005, 2006, 2008, 2012.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Fotis Tsamis <ftsamis@gmail.com>, 2009.
+# Sterios Prosiniklis <steriosprosiniklis@gmail.com>, 2009.
+# spyros:
+# translated around 500 messages, in 2000.
+# simos:
+# updated this:
+# One more update, now 701 total messages.
+# kostas: 26 Dec2002, updated translation for Gnome 2.1x
+# kostas: 03Aug2003, update translation for 2.4
+# Nikos: 13Oct2003, review translation for 2.4
+# Nikos: 17Nov2003, update translation for 2.6
+# kostas: 25Jan2004, updates and fixes
+# Nikos: 19Feb2004 update translation
+# Kostas: 14Jan2006 update for 2.14
+# Simos Xenitellis <simos.lists@googlemail.com>, 2010.
+# Tom Tryfonidis <tomtryf@gmail.com>, 2012.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013, 2014.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2013.
+# Dimitris Maroulidis <dmaroulidis@dimitrismaroulidis.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.gnome-2-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"PO-Revision-Date: 2023-10-15 11:06+0300\n"
+"Last-Translator: Efstathios Iosifidis <eiosifidis@gnome.org>\n"
+"Language-Team: Greek, Modern (1453-) <team@gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Project-Style: gnome\n"
+
+#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+msgid "Fonts"
+msgstr "Γραμματοσειρές"
+
+#: ../lib/about_dialog.rb:33
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+"Δημήτρης Σπίγγος <dmtrs32@gmail.com>\n"
+"Spiros Papadimitriou <spapadim+@cs.cmu.edu>\n"
+"Ευστάθιος Ιωσηφίδης <iosifidis@opensuse.org>\n"
+"Μαρία Θουκυδίδου <marablack3@gmail.com>\n"
+"Για περισσότερα δείτε http://www.gnome.gr/"
+
+#: ../lib/error_dialog.rb:19
+msgid "_Close"
+msgstr "_Κλείσιμο"
+
+#: ../lib/font_loader.rb:98
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr ""
+
+#: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "Instance %<position>d"
+msgstr "Στιγμιότυπο %d"
+
+#: ../lib/font_thumbnailer.rb:37
+msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:40
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Κείμενο σε μικρογραφία (προεπιλεγμένο: Αα)"
+
+#: ../lib/font_thumbnailer.rb:41
+msgid "Thumbnail size (default: 128)"
+msgstr "Μέγεθος μικρογραφίας (προεπιλογή: 128)"
+
+#: ../lib/font_view_window.rb:40
+msgid "Could Not Display Font"
+msgstr "Αδυναμία προβολής γραμματοσειράς"
+
+#: ../lib/font_view_window.rb:41
+msgid "Could Not Install Font"
+msgstr "Αδυναμία εγκατάστασης γραμματοσειρών"
+
+#: ../lib/info_page.rb:35
+msgid "Name"
+msgstr "Όνομα"
+
+#: ../lib/info_page.rb:36
+msgid "Location"
+msgstr "Θέση"
+
+#: ../lib/info_page.rb:37
+msgid "Style"
+msgstr "Πρότυπο"
+
+#: ../lib/info_page.rb:38
+msgid "Type"
+msgstr "Τύπος"
+
+#: ../lib/info_page.rb:39
+msgid "Version"
+msgstr "Έκδοση"
+
+#: ../lib/info_page.rb:40
+msgid "Copyright"
+msgstr "Πνευματικά δικαιώματα"
+
+#: ../lib/info_page.rb:41
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../lib/info_page.rb:42
+msgid "Manufacturer"
+msgstr "Κατασκευαστής"
+
+#: ../lib/info_page.rb:43
+msgid "Designer"
+msgstr "Σχεδιαστής"
+
+#: ../lib/info_page.rb:44
+msgid "License"
+msgstr "Άδεια"
+
+#: ../lib/info_page.rb:45
+msgid "Glyph Count"
+msgstr "Αριθμός γλυφικών"
+
+#: ../lib/info_page.rb:46
+msgid "Color Glyphs"
+msgstr "Έγχρωμα γλυφικά"
+
+#: ../lib/info_page.rb:47
+msgid "Layout Features"
+msgstr "Δυνατότητες διάταξης"
+
+#: ../lib/info_page.rb:48
+msgid "Variation Axes"
+msgstr "Άξονες παραλλαγής"
+
+#: ../lib/info_page.rb:49
+msgid "Named Styles"
+msgstr "Ονομασμένες μορφοποιήσεις"
+
+#: ../lib/info_page.rb:52
+msgid "yes"
+msgstr "ναι"
+
+#: ../lib/info_page.rb:53
+msgid "no"
+msgstr "όχι"
+
+#: ../lib/info_page.rb:63 ../lib/info_page.rb:69
+#, fuzzy
+msgid "TrueType font"
+msgstr "Προεπισκόπηση γραμματοσειρών"
+
+#: ../lib/info_page.rb:64 ../lib/info_page.rb:70 ../lib/info_page.rb:78
+msgid "OpenType font"
+msgstr ""
+
+#: ../lib/info_page.rb:65
+msgid "SFNT font"
+msgstr ""
+
+#: ../lib/info_page.rb:66
+msgid "Font collection"
+msgstr ""
+
+#: ../lib/info_page.rb:67
+msgid "WOFF font"
+msgstr ""
+
+#: ../lib/info_page.rb:68
+msgid "WOFF2 font"
+msgstr ""
+
+#: ../lib/info_page.rb:71
+msgid "TrueType XML font"
+msgstr ""
+
+#: ../lib/info_page.rb:72
+msgid "PostScript Type 1 font"
+msgstr ""
+
+#: ../lib/info_page.rb:73
+msgid "PCF font"
+msgstr ""
+
+#: ../lib/info_page.rb:74
+msgid "BDF font"
+msgstr ""
+
+#: ../lib/info_page.rb:75
+#, fuzzy
+msgid "SNF font"
+msgstr "Αναζήτηση γραμματοσειρών"
+
+#: ../lib/info_page.rb:76
+#, fuzzy
+msgid "Speedo font"
+msgstr "Αναζήτηση γραμματοσειρών"
+
+#: ../lib/info_page.rb:77
+msgid "Linux PSF console font"
+msgstr ""
+
+#: ../lib/info_page.rb:79
+msgid "Embedded OpenType font"
+msgstr ""
+
+#: ../lib/open_type_layout.rb:18
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#: ../lib/open_type_layout.rb:23
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "Πρόσβαση σε όλες τις εναλλακτικές λύσεις"
+
+#: ../lib/open_type_layout.rb:24
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "Μορφές πάνω από τη βάση"
+
+#: ../lib/open_type_layout.rb:25
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "Θέση των πάνω από τη βάση σημείων"
+
+#: ../lib/open_type_layout.rb:26
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "Αντικαταστάσεις πάνω από τη βάση"
+
+#: ../lib/open_type_layout.rb:27
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "Εναλλακτικά κλάσματα"
+
+#: ../lib/open_type_layout.rb:28
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "Αχάντ"
+
+#: ../lib/open_type_layout.rb:29
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "Μορφές κάτω από τη βάση"
+
+#: ../lib/open_type_layout.rb:30
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "Θέση των κάτω από τη βάση σημείων"
+
+#: ../lib/open_type_layout.rb:31
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "Αντικαταστάσεις κάτω από τη βάση"
+
+#: ../lib/open_type_layout.rb:32
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "Συμφραζόμενα εναλλακτικά"
+
+#: ../lib/open_type_layout.rb:33
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "Μορφές με διάκριση κεφαλαίων"
+
+#: ../lib/open_type_layout.rb:34
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "Σύνθεση / αποσύνθεση γλυφικών"
+
+#: ../lib/open_type_layout.rb:35
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "Συνδεδεμένη μορφή μετά από ro"
+
+#: ../lib/open_type_layout.rb:36
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "Συνδεδεμένες μορφές"
+
+#: ../lib/open_type_layout.rb:37
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "Συμφραζόμενοι σύνδεσμοι"
+
+#: ../lib/open_type_layout.rb:38
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "Κεντραρισμένη CJK στίξη"
+
+#: ../lib/open_type_layout.rb:39
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "Απόσταση κεφαλαίων"
+
+#: ../lib/open_type_layout.rb:40
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "Συμφραζόμενη καλλιγραφική μορφή"
+
+#: ../lib/open_type_layout.rb:41
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "Τοποθέτηση καλλιγραφικών μορφών"
+
+#: ../lib/open_type_layout.rb:42
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "Μικρά κεφαλαία από κεφαλαία"
+
+#: ../lib/open_type_layout.rb:43
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "Μικρά κεφαλαία από κεφαλαία"
+
+#: ../lib/open_type_layout.rb:44
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "Μεταβολή χαρακτήρων 1"
+
+#: ../lib/open_type_layout.rb:45
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "Μεταβολή χαρακτήρων 2"
+
+#: ../lib/open_type_layout.rb:46
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "Μεταβολή χαρακτήρων 3"
+
+#: ../lib/open_type_layout.rb:47
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "Μεταβολή χαρακτήρων 4"
+
+#: ../lib/open_type_layout.rb:48
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "Μεταβολή χαρακτήρων 5"
+
+#: ../lib/open_type_layout.rb:49
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "Μεταβολή χαρακτήρων 6"
+
+#: ../lib/open_type_layout.rb:50
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "Μεταβολή χαρακτήρων 7"
+
+#: ../lib/open_type_layout.rb:51
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "Μεταβολή χαρακτήρων 8"
+
+#: ../lib/open_type_layout.rb:52
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "Μεταβολή χαρακτήρων 9"
+
+#: ../lib/open_type_layout.rb:53
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "Μεταβολή χαρακτήρων 10"
+
+#: ../lib/open_type_layout.rb:54
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "Μεταβολή χαρακτήρων 11"
+
+#: ../lib/open_type_layout.rb:55
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "Μεταβολή χαρακτήρων 12"
+
+#: ../lib/open_type_layout.rb:56
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "Μεταβολή χαρακτήρων 13"
+
+#: ../lib/open_type_layout.rb:57
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "Μεταβολή χαρακτήρων 14"
+
+#: ../lib/open_type_layout.rb:58
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "Μεταβολή χαρακτήρων 15"
+
+#: ../lib/open_type_layout.rb:59
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "Μεταβολή χαρακτήρων 16"
+
+#: ../lib/open_type_layout.rb:60
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "Μεταβολή χαρακτήρων 17"
+
+#: ../lib/open_type_layout.rb:61
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "Μεταβολή χαρακτήρων 18"
+
+#: ../lib/open_type_layout.rb:62
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "Μεταβολή χαρακτήρων 19"
+
+#: ../lib/open_type_layout.rb:63
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "Αποστάσεις"
+
+#: ../lib/open_type_layout.rb:64
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "Προαιρετικοί σύνδεσμοι"
+
+#: ../lib/open_type_layout.rb:65
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "Παρονομαστές"
+
+#: ../lib/open_type_layout.rb:66
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "Μορφές χωρίς τελείες"
+
+#: ../lib/open_type_layout.rb:67
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "Ειδικές μορφές"
+
+#: ../lib/open_type_layout.rb:68
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "Τελικό γλυφικό στις εναλλακτικές γραμμές"
+
+#: ../lib/open_type_layout.rb:69
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "Τελικές μορφές #2"
+
+#: ../lib/open_type_layout.rb:70
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "Τελικές μορφές #3"
+
+#: ../lib/open_type_layout.rb:71
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "Τελικές μορφές"
+
+#: ../lib/open_type_layout.rb:72
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "Εξομαλυμμένες μορφές τόνων"
+
+#: ../lib/open_type_layout.rb:73
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "Κλάσματα"
+
+#: ../lib/open_type_layout.rb:74
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "Πλήρες πλάτος"
+
+#: ../lib/open_type_layout.rb:75
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "Μισό πλάτος"
+
+#: ../lib/open_type_layout.rb:76
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "Μορφές Halant"
+
+#: ../lib/open_type_layout.rb:77
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "Εναλλακτικά μισά πλάτη"
+
+#: ../lib/open_type_layout.rb:78
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "Ιστορικές μορφές"
+
+#: ../lib/open_type_layout.rb:79
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "Εναλλακτικές οριζόντιες μορφές Kana"
+
+#: ../lib/open_type_layout.rb:80
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "Ιστορικοί σύνδεσμοι"
+
+#: ../lib/open_type_layout.rb:81
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "Hangul"
+
+#: ../lib/open_type_layout.rb:82
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Μορφές Hojo Kanji"
+
+#: ../lib/open_type_layout.rb:83
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "Μισά πλάτη"
+
+#: ../lib/open_type_layout.rb:84
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "Αρχικές μορφές"
+
+#: ../lib/open_type_layout.rb:85
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "Μεμονωμένες μορφές"
+
+#: ../lib/open_type_layout.rb:86
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "Πλάγια γράμματα"
+
+#: ../lib/open_type_layout.rb:87
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "Εναλλακτικές για ευθυγράμμιση"
+
+#: ../lib/open_type_layout.rb:88
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "Μορφές JIS78"
+
+#: ../lib/open_type_layout.rb:89
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "Μορφές JIS83"
+
+#: ../lib/open_type_layout.rb:90
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "Μορφές JIS90"
+
+#: ../lib/open_type_layout.rb:91
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "Μορφές JIS2004"
+
+#: ../lib/open_type_layout.rb:92
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "Κερνισμός"
+
+#: ../lib/open_type_layout.rb:93
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "Αριστερά όρια"
+
+#: ../lib/open_type_layout.rb:94
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "Συνηθισμένοι σύνδεσμοι"
+
+#: ../lib/open_type_layout.rb:95
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "Μορφές Jamo με αρχικό σύμφωνο"
+
+#: ../lib/open_type_layout.rb:96
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "Συναφείς αριθμοί"
+
+#: ../lib/open_type_layout.rb:97
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "Τοπικές μορφές"
+
+#: ../lib/open_type_layout.rb:98
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "Εναλλακτικές μορφές από αριστερά προς δεξιά"
+
+#: ../lib/open_type_layout.rb:99
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "Καθρεπτίζουσες μορφές από αριστερά προς δεξιά"
+
+#: ../lib/open_type_layout.rb:100
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "Θέση σημείων"
+
+#: ../lib/open_type_layout.rb:101
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "Μεσαίες μορφές #2"
+
+#: ../lib/open_type_layout.rb:102
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "Μεσαίες μορφές"
+
+#: ../lib/open_type_layout.rb:103
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "Μαθηματικά ελληνικά"
+
+#: ../lib/open_type_layout.rb:104
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "Θέση σημείου σε σημείο"
+
+#: ../lib/open_type_layout.rb:105
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "Θέση σημείων μέσω αντικατάστασης"
+
+#: ../lib/open_type_layout.rb:106
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "Εναλλακτικές μορφές σχολιασμού"
+
+#: ../lib/open_type_layout.rb:107
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "Μορφές NLC Kanji"
+
+#: ../lib/open_type_layout.rb:108
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "Μορφές Nukta"
+
+#: ../lib/open_type_layout.rb:109
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "Αριθμητές"
+
+#: ../lib/open_type_layout.rb:110
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "Παλαιότροποι αριθμοί"
+
+#: ../lib/open_type_layout.rb:111
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "Οπτικά όρια"
+
+#: ../lib/open_type_layout.rb:112
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "Τακτικοί αριθμητικοί"
+
+#: ../lib/open_type_layout.rb:113
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "Στολίδια"
+
+#: ../lib/open_type_layout.rb:114
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "Αναλογικές εναλλακτικές πλάτη"
+
+#: ../lib/open_type_layout.rb:115
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "Μικρά κεφαλαία"
+
+#: ../lib/open_type_layout.rb:116
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "Αναλογικά Kana"
+
+#: ../lib/open_type_layout.rb:117
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "Αναλογικοί αριθμοί"
+
+#: ../lib/open_type_layout.rb:118
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "Μορφές πριν από τη βάση"
+
+#: ../lib/open_type_layout.rb:119
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "Αντικαταστάσεις πριν από τη βάση"
+
+#: ../lib/open_type_layout.rb:120
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "Μορφές μετά τη βάση"
+
+#: ../lib/open_type_layout.rb:121
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "Αντικαταστάσεις μετά τη βάση"
+
+#: ../lib/open_type_layout.rb:122
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "Αναλογικά πλάτη"
+
+#: ../lib/open_type_layout.rb:123
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "Πλάτη 1/4"
+
+#: ../lib/open_type_layout.rb:124
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "Τυχαία επιλογή"
+
+#: ../lib/open_type_layout.rb:125
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "Απαιτούμενες συμφραζόμενες εναλλακτικές"
+
+#: ../lib/open_type_layout.rb:126
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "Μορφές Rakar"
+
+#: ../lib/open_type_layout.rb:127
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "Απαιτούμενοι σύνδεσμοι"
+
+#: ../lib/open_type_layout.rb:128
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "Μορφές Reph"
+
+#: ../lib/open_type_layout.rb:129
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "Δεξιά όρια"
+
+#: ../lib/open_type_layout.rb:130
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "Εναλλακτικές από δεξιά προς αριστερά"
+
+#: ../lib/open_type_layout.rb:131
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "Καθρεπτίζουσες μορφές από δεξιά προς αριστερά"
+
+#: ../lib/open_type_layout.rb:132
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Μορφές σήμανσης Ruby"
+
+#: ../lib/open_type_layout.rb:133
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "Απαιτούμενες εναλλακτικές παραλλαγές"
+
+#: ../lib/open_type_layout.rb:134
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "Εναλλακτικά στυλ"
+
+#: ../lib/open_type_layout.rb:135
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "Επιστημονικοί κάτω δείκτες"
+
+#: ../lib/open_type_layout.rb:136
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "Οπτικό μέγεθος"
+
+#: ../lib/open_type_layout.rb:137
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "Μικρά κεφαλαία"
+
+#: ../lib/open_type_layout.rb:138
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "Απλοποιημένες μορφές"
+
+#: ../lib/open_type_layout.rb:139
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "Στυλιστικό σετ 1"
+
+#: ../lib/open_type_layout.rb:140
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "Στυλιστικό σετ 2"
+
+#: ../lib/open_type_layout.rb:141
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "Στυλιστικό σετ 3"
+
+#: ../lib/open_type_layout.rb:142
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "Στυλιστικό σετ 4"
+
+#: ../lib/open_type_layout.rb:143
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "Στυλιστικό σετ 5"
+
+#: ../lib/open_type_layout.rb:144
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "Στυλιστικό σετ 6"
+
+#: ../lib/open_type_layout.rb:145
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "Στυλιστικό σετ 7"
+
+#: ../lib/open_type_layout.rb:146
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "Στυλιστικό σετ 8"
+
+#: ../lib/open_type_layout.rb:147
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "Στυλιστικό σετ 9"
+
+#: ../lib/open_type_layout.rb:148
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "Στυλιστικό σετ 10"
+
+#: ../lib/open_type_layout.rb:149
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "Στυλιστικό σετ 11"
+
+#: ../lib/open_type_layout.rb:150
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "Στυλιστικό σετ 12"
+
+#: ../lib/open_type_layout.rb:151
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "Στυλιστικό σετ 13"
+
+#: ../lib/open_type_layout.rb:152
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "Στυλιστικό σετ 14"
+
+#: ../lib/open_type_layout.rb:153
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "Στυλιστικό σετ 15"
+
+#: ../lib/open_type_layout.rb:154
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "Στυλιστικό σετ 16"
+
+#: ../lib/open_type_layout.rb:155
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "Στυλιστικό σετ 17"
+
+#: ../lib/open_type_layout.rb:156
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "Στυλιστικό σετ 18"
+
+#: ../lib/open_type_layout.rb:157
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "Στυλιστικό σετ 19"
+
+#: ../lib/open_type_layout.rb:158
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "Στυλιστικό σετ 20"
+
+#: ../lib/open_type_layout.rb:159
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "Εναλλακτικές στυλ μαθηματικών σε γραφή δακτυλόγραφου"
+
+#: ../lib/open_type_layout.rb:160
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "Αποσύνθεση γλυφικών διαστολής"
+
+#: ../lib/open_type_layout.rb:161
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "Δείκτης"
+
+#: ../lib/open_type_layout.rb:162
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "Εκθέτης"
+
+#: ../lib/open_type_layout.rb:163
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "Επιδεικτικές μορφές"
+
+#: ../lib/open_type_layout.rb:164
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "Μορφές τίτλων"
+
+#: ../lib/open_type_layout.rb:165
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "Τελικές μορφές Jamo"
+
+#: ../lib/open_type_layout.rb:166
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "Παραδοσιακές μορφές ονομάτων"
+
+#: ../lib/open_type_layout.rb:167
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "Αριθμητικοί πίνακες"
+
+#: ../lib/open_type_layout.rb:168
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "Παραδοσιακές μορφές"
+
+#: ../lib/open_type_layout.rb:169
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "Πλάτη 1/3"
+
+#: ../lib/open_type_layout.rb:170
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "Ενοποιημένα κεφαλαία και πεζά"
+
+#: ../lib/open_type_layout.rb:171
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "Εναλλακτικές κατακόρυφες μετρικές"
+
+#: ../lib/open_type_layout.rb:172
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "Παραλλαγές Vattu"
+
+#: ../lib/open_type_layout.rb:173
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "Κατακόρυφη γραφή"
+
+#: ../lib/open_type_layout.rb:174
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "Εναλλακτικές κατακόρυφες μετρικές μισού μεγέθους"
+
+#: ../lib/open_type_layout.rb:175
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "Μορφές φωνηεντικών Jamo"
+
+#: ../lib/open_type_layout.rb:176
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "Εναλλακτικές κατακόρυφες μορφές Kana"
+
+#: ../lib/open_type_layout.rb:177
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "Κατακόρυφος έλεγχος απόστασης"
+
+#: ../lib/open_type_layout.rb:178
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "Αναλογικές εναλλακτικές κατακόρυφες μετρικές"
+
+#: ../lib/open_type_layout.rb:179
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "Κατακόρυφες εναλλακτικές και περιστροφή"
+
+#: ../lib/open_type_layout.rb:180
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "Κατακόρυφες εναλλακτικές για περιστροφή"
+
+#: ../lib/open_type_layout.rb:181
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "Διαγραμμένο μηδέν"
+
+#: ../lib/overview_page.rb:26
+msgid "All Fonts"
+msgstr "Όλες οι γραμματοσειρές"
+
+#: ../lib/overview_page.rb:28
+msgid "Search fonts"
+msgstr "Αναζήτηση γραμματοσειρών"
+
+#: ../lib/overview_page.rb:29
+msgid "About Fonts"
+msgstr "Περί Εφαρμογής Γραμματοσειρές"
+
+#: ../lib/preview_page.rb:22
+msgid "_Install"
+msgstr "_Εγκατάσταση"
+
+#: ../lib/preview_page.rb:23
+msgid "Install Font"
+msgstr "Εγκατάσταση γραμματοσειράς"
+
+#: ../lib/preview_page.rb:24
+msgid "I_nfo"
+msgstr "_Πληροφορίες"
+
+#: ../lib/preview_page.rb:25
+msgid "Font Details"
+msgstr "Λεπτομέρειες γραμαμτοσειράς"
+
+#: ../lib/preview_page.rb:31
+msgid "Failed"
+msgstr "Απέτυχε"
+
+#: ../lib/preview_page.rb:32
+msgid "Installed"
+msgstr "Εγκαταστάθηκε"
+
+#: ../lib/preview_page.rb:33
+msgid "Installing"
+msgstr "Γίνεται εγκατάσταση"
+
+#~ msgid "View fonts on your system"
+#~ msgstr "Δείτε τις γραμματοσειρές του συστήματος σας"
+
+#~ msgid ""
+#~ "Fonts shows you the fonts installed on your computer for your use as "
+#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+#~ "would look under various sizes."
+#~ msgstr ""
+#~ "Η εφαρμογή Γραμματοσειρές GNOME σας δείχνει τις γραμματοσειρές που είναι "
+#~ "εγκατεστημένες στον υπολογιστή σας για δική σας χρήση, σε μορφή "
+#~ "μικρογραφιών. Επιλέγοντας μια μικρογραφία, θα σας εμφανίσει σε πλήρη "
+#~ "προβολή πως θα έδειχνε αυτή η γραμματοσειρά σε διάφορα μεγέθη."
+
+#~ msgid ""
+#~ "Fonts also supports installing new font files downloaded in the .ttf and "
+#~ "other formats. Fonts may be installed only for your use or made available "
+#~ "to all users on the computer."
+#~ msgstr ""
+#~ "Η εφαρμογή Γραμματοσειρές GNOME υποστηρίζει επίσης την εγκατάσταση "
+#~ "αρχείων για νέες γραμματοσειρές που λήφθηκαν σε μορφή .ttf ή σε άλλα "
+#~ "πρότυπα. Οι γραμματοσειρές μπορούν να εγκατασταθούν είτε αποκλειστικά για "
+#~ "δική σας χρήση, είτε να είναι διαθέσιμες για όλους τους χρήστες στον "
+#~ "υπολογιστή σας."
+
+#~ msgid "The GNOME Project"
+#~ msgstr "Το έργο GNOME"
+
+#~ msgid "fonts;fontface;"
+#~ msgstr "γραμματοσειρές;οικογένεια γραμματοσειρών;fonts;fontface;"
+
+#~ msgid "TEXT"
+#~ msgstr "ΚΕΙΜΕΝΟ"
+
+#~ msgid "SIZE"
+#~ msgstr "ΜΕΓΕΘΟΣ"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONT-FILE OUTPUT-FILE"
+
+#~ msgid "Install"
+#~ msgstr "Εγκατάσταση"
+
+#, c-format
+#~ msgid "%s %g — %g, default %g"
+#~ msgstr "%s %g — %g, προεπιλογή %g"
+
+#~ msgid "Search"
+#~ msgstr "Αναζήτηση"
+
+#~ msgid "GNOME Fonts"
+#~ msgstr "Εφαρμογή Γραμματοσειρές GNOME"
+
+#~ msgid "Show the application's version"
+#~ msgstr "Εμφάνση έκδοσης της εφαρμογής"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~| msgid "This font could not be displayed."
+#~ msgid "This font could not be installed."
+#~ msgstr "Η γραμματοσειρά δεν μπόρεσε να εγκατασταθεί."
+
+#~ msgid "This font could not be displayed."
+#~ msgstr "Δε μπορεί να εμφανιστεί αυτή η γραμματοσειρά."
+
+#~ msgid "Info"
+#~ msgstr "Πληροφορίες"
+
+#~ msgid "About"
+#~ msgstr "Περί"
+
+#~ msgid "Quit"
+#~ msgstr "Έξοδος"
+
+#~ msgid "preferences-desktop-font"
+#~ msgstr "preferences-desktop-font"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Εφαρμογή προβολής γραμματοσειρών"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[ΑΡΧΕΙΟ...]"
+
+#~ msgid ""
+#~ "Run '%s --help' to see a full list of available command line options."
+#~ msgstr ""
+#~ "Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα των διαθέσιμων "
+#~ "επιλογών της εντολής."
+
+#~ msgid "Done"
+#~ msgstr "Ολοκληρώθηκε"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Μέγεθος γραμματοσειράς (προεπιλεγμένο: 64)"
+
+#~ msgid "Size:"
+#~ msgstr "Μέγεθος:"
+
+#~ msgid "Usage: %s fontfile\n"
+#~ msgstr "Χρήση: %s αρχείο γραμματοσειράς\n"

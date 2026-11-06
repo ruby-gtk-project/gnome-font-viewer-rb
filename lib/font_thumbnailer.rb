@@ -5,6 +5,7 @@ require 'optparse'
 
 require_relative 'font_loader'
 require_relative 'resource_monitor'
+require_relative 'translation'
 
 # FontThumbnailer renders a font file to a square PNG, which is what the desktop
 # thumbnailer entry runs for every font in a file manager.
@@ -17,6 +18,8 @@ require_relative 'resource_monitor'
 # Cairo's FreeType font face, since the Ruby bindings expose no FreeType.
 #
 class FontThumbnailer
+  include Translation
+
   THUMB_SIZE = 128
   PADDING_VERTICAL = 2
   PADDING_HORIZONTAL = 4
@@ -31,11 +34,11 @@ class FontThumbnailer
   # The wall clock upstream gives the monitor.
   MONITOR_SECONDS = 30
 
-  USAGE = 'Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE'
+  USAGE = _('Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE')
 
   # The option descriptions, which upstream marks translatable.
-  TEXT_DESCRIPTION = 'Text to thumbnail (default: Aa)'
-  SIZE_DESCRIPTION = 'Thumbnail size (default: 128)'
+  TEXT_DESCRIPTION = _('Text to thumbnail (default: Aa)')
+  SIZE_DESCRIPTION = _('Thumbnail size (default: 128)')
 
   # main(): parse the options, load the face, draw it, write the PNG. Returns the
   # process's exit status, as upstream's main does.

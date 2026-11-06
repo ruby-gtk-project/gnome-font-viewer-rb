@@ -128,7 +128,7 @@
           # computed its wrapper arguments, so a schema would end up somewhere
           # the wrapper never looks. The wrapper below is built by hand and
           # points at both the pre- and post-move paths.
-          nativeBuildInputs = [ pkgs.makeWrapper ];
+          nativeBuildInputs = [ pkgs.makeWrapper pkgs.gettext ];
           buildInputs = [ gems ] ++ gtkStack;
 
           dontBuild = true;
@@ -144,6 +144,23 @@
             # exe/ sits next to lib/ so the launcher's `require "gnome-font-viewer"`
             # resolves against the copied tree.
             install -Dm755 exe/${launcher} $out/share/gnome-font-viewer/exe/${launcher}
+
+            # Compile po/*.po into the locale/ tree Translation::LOCALE_DIR
+            # points at (lib's sibling), the same way the Meson i18n module's
+            # `msgfmt` targets do for upstream's GResource bundle.
+            if [ -f po/LINGUAS ]; then
+              while IFS= read -r lang; do
+                case "$lang" in
+                  ""|\#*) continue ;;
+                esac
+                po="po/$lang.po"
+                if [ -f "$po" ]; then
+                  mo_dir="$out/share/gnome-font-viewer/locale/$lang/LC_MESSAGES"
+                  mkdir -p "$mo_dir"
+                  msgfmt --output-file "$mo_dir/gnome-font-viewer-rb.mo" "$po"
+                fi
+              done < po/LINGUAS
+            fi
 
             # Compile any GSettings schema the port ships.
             if [ -d data/schemas ]; then

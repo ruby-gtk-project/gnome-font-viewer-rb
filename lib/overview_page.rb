@@ -3,6 +3,7 @@
 require 'adwaita'
 
 require_relative 'font_item'
+require_relative 'translation'
 
 # OverviewPage is the grid of every installed font, with the search entry in its
 # header bar.
@@ -20,10 +21,12 @@ require_relative 'font_item'
 # entry's search-changed signal tells the filter it changed.
 #
 class OverviewPage
-  TITLE = 'All Fonts'
+  include Translation
+
+  TITLE = _('All Fonts')
   TAG = 'overview'
-  SEARCH_PLACEHOLDER = 'Search fonts'
-  ABOUT_TOOLTIP = 'About Fonts'
+  SEARCH_PLACEHOLDER = _('Search fonts')
+  ABOUT_TOOLTIP = _('About Fonts')
   CLAMP_MAXIMUM_SIZE = 400
   CLAMP_TIGHTENING_THRESHOLD = 150
 

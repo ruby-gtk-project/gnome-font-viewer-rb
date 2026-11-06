@@ -5,6 +5,7 @@ require 'adwaita'
 require_relative 'about_dialog'
 require_relative 'font_view_window'
 require_relative 'style'
+require_relative 'translation'
 
 # FontViewApplication is the application: it owns the one window, the About and
 # Quit actions, the accelerators, and the handling of a font file passed on the
@@ -22,13 +23,15 @@ require_relative 'style'
 # there is no bundle here, so the stylesheet is loaded by Style instead.
 #
 class FontViewApplication
+  include Translation
+
   APPLICATION_ID = 'org.gnome.FontViewerRb'
 
   # FONT_VIEW_ICON_NAME, which the packaging in data/ installs.
   ICON_NAME = 'org.gnome.font-viewer'
 
   # g_set_application_name().
-  APPLICATION_NAME = 'Fonts'
+  APPLICATION_NAME = _('Fonts')
 
   # The name --version prints, from main.c.
   VERSION_NAME = 'GNOME Fonts'

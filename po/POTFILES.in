@@ -1,0 +1,12 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+lib/about_dialog.rb
+lib/error_dialog.rb
+lib/font_loader.rb
+lib/font_thumbnailer.rb
+lib/font_view_application.rb
+lib/font_view_window.rb
+lib/info_page.rb
+lib/open_type_layout.rb
+lib/overview_page.rb
+lib/preview_page.rb

@@ -170,3 +170,51 @@ rescue LoadError
     warn("NOTE: stone_checksums isn't installed, or is disabled for #{RUBY_VERSION} in the current environment")
   end
 end
+
+# kettle-jem:freeze
+### I18N TASKS
+# Ruby equivalents of the Meson i18n module's targets, driven by
+# po/POTFILES.in and po/LINGUAS. Needs the dev shell (pkgs.gettext for
+# msgmerge/msgfmt, pkgs.rubyPackages_3_4.gettext for rxgettext).
+namespace :i18n do
+  POT_FILE = File.join(__dir__, "po", "gnome-font-viewer-rb.pot")
+  POTFILES = File.readlines(File.join(__dir__, "po", "POTFILES.in"))
+    .map(&:strip)
+    .reject { |line| line.empty? || line.start_with?("#") }
+  LINGUAS = File.readlines(File.join(__dir__, "po", "LINGUAS"))
+    .map(&:strip)
+    .reject { |line| line.empty? || line.start_with?("#") }
+
+  desc "Extract translatable strings from POTFILES.in into the .pot template"
+  task :pot do
+    sh(
+      "rxgettext",
+      "--output", POT_FILE,
+      "--package-name", "gnome-font-viewer-rb",
+      *POTFILES,
+    )
+  end
+
+  desc "Merge the .pot template's new/changed strings into every po/*.po"
+  task update: :pot do
+    LINGUAS.each do |lang|
+      po_file = File.join(__dir__, "po", "#{lang}.po")
+      if File.exist?(po_file)
+        sh("msgmerge", "--update", "--backup=none", po_file, POT_FILE)
+      end
+    end
+  end
+
+  desc "Compile po/*.po into locale/<lang>/LC_MESSAGES/gnome-font-viewer-rb.mo"
+  task :mo do
+    LINGUAS.each do |lang|
+      po_file = File.join(__dir__, "po", "#{lang}.po")
+      next unless File.exist?(po_file)
+
+      mo_dir = File.join(__dir__, "locale", lang, "LC_MESSAGES")
+      FileUtils.mkdir_p(mo_dir)
+      sh("msgfmt", "--output-file", File.join(mo_dir, "gnome-font-viewer-rb.mo"), po_file)
+    end
+  end
+end
+# kettle-jem:unfreeze

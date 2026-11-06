@@ -5,6 +5,7 @@ require 'set'
 require 'zlib'
 
 require_relative 'open_type_layout'
+require_relative 'translation'
 
 # FontLoader reads a font file and answers everything the viewer displays about
 # it.
@@ -85,6 +86,8 @@ module FontLoader
   # Face is a loaded font — upstream's FT_Face, with the fields its window,
   # preview widget and thumbnailer read off it.
   class Face
+    include Translation
+
     # The stock strings build_strings_for_face checks the face for.
     LOWERCASE_TEXT = 'abcdefghijklmnopqrstuvwxyz'
     UPPERCASE_TEXT = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -92,10 +95,10 @@ module FontLoader
 
     # describe_axis()'s format string, which upstream marks translatable: the
     # axis name, then its range and its default.
-    AXIS_FORMAT = '%<name>s %<minimum>g — %<maximum>g, default %<default>g'
+    AXIS_FORMAT = _('%<name>s %<minimum>g — %<maximum>g, default %<default>g')
 
     # describe_instance()'s fallback for a named style with no usable name.
-    INSTANCE_FORMAT = 'Instance %<position>d'
+    INSTANCE_FORMAT = _('Instance %<position>d')
 
     attr_reader :path,
       :face_index,
