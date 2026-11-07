@@ -274,4 +274,26 @@ GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
     d.check('exits non-zero on a missing font file') { !status.success? }
     d.check('reports the failure') { out.include?('Could not load face') || out.include?('No such file') }
   end
+
+  # main.c's --version option short-circuits before g_application_run, so it
+  # is exercised as its own subprocess rather than through the running app.
+  d.step('the app reports its version with --version') do
+    out, status = Open3.capture2e(
+      'ruby',
+      File.expand_path('../exe/gnome-font-viewer', __dir__),
+      '--version',
+    )
+    d.check('exits successfully') { status.success? }
+    d.check('prints the version name and number') { out.include?('GNOME Fonts') && out =~ /\d+\.\d+/ }
+  end
+
+  # app.quit (bound to <Control>q) calls action_quit, which calls
+  # main_window.window.close. Closing the last window drops the application's
+  # last hold and the whole run (and this driver's own main loop) ends with
+  # it, so the check has to happen in the very same tick as the call: there
+  # is no next tick to come back on. This is therefore the last step.
+  d.step('firing app.quit closes the main window') do
+    viewer.main_window.window.application.activate_action('quit', nil)
+    d.check('the main window is no longer visible') { !viewer.main_window.window.visible? }
+  end
 end
