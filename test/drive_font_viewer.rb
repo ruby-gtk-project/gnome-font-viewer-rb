@@ -32,6 +32,7 @@ SAMPLE = `fc-list --format '%{file}\n' | head -1`.strip
 
 GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
   viewer = driven.viewer
+  previewed_path = nil
 
   d.window { viewer.main_window.window }
 
@@ -59,6 +60,17 @@ GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
       end
     end
     d.shot('01-overview')
+  end
+
+  d.step('firing the win.focus-search action focuses the search entry') do
+    viewer.main_window.window.activate_action('focus-search', nil)
+  end
+
+  d.step('the search entry has focus') do
+    d.check('focus landed inside the search entry') do
+      focused = viewer.main_window.window.focus
+      !focused.nil? && focused.ancestor?(viewer.main_window.overview_page.search_entry)
+    end
   end
 
   d.step('searching for a font that cannot match empties the grid') do
@@ -146,6 +158,24 @@ GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
       end
     end
     d.shot('04-preview')
+  end
+
+  d.step('firing the win.install-font action installs the previewed font') do
+    previewed_path = viewer.main_window.font_file
+    viewer.main_window.window.activate_action('install-font', nil)
+  end
+
+  d.step('the action-triggered install settles') do
+    d.check('a path was captured to install') { !previewed_path.nil? }
+  end
+
+  d.step('the action-triggered copy arrived') do
+    File.join(ENV.fetch('XDG_DATA_HOME'), 'fonts', File.basename(previewed_path)).then do |target|
+      d.check("installed to #{target}") { File.exist?(target) }
+      d.check('the copy is byte-identical') do
+        File.exist?(target) && File.binread(target) == File.binread(previewed_path)
+      end
+    end
   end
 
   d.step('the info page lists the font details') do
