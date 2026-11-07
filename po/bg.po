@@ -63,9 +63,8 @@ msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
 #: ../lib/font_loader.rb:101
-#, fuzzy
 msgid "Instance %<position>d"
-msgstr "Комбинация %d"
+msgstr "Комбинация %<position>d"
 
 #: ../lib/font_thumbnailer.rb:37
 msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
