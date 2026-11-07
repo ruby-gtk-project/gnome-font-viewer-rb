@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2013-03-01 12:40+0000\n"
 "Last-Translator: Denis <denisarnuad@yahoo.fr>\n"
 "Language-Team: Drouizig <drouizig@drouizig.org>\n"
@@ -24,7 +24,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "An holl nodrezhoù"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -34,25 +38,38 @@ msgstr ""
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Testenn da ziskouez er velvenn (dre ziouer Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Ment ar velvenn (dre ziouer : 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TESTENN"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "MENT"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "RESTR-NODREZH RESTR-EC'HANKAD"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "An holl nodrezhoù"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1033,15 +1050,6 @@ msgstr "Staliet"
 #, fuzzy
 msgid "Installing"
 msgstr "Staliañ"
-
-#~ msgid "TEXT"
-#~ msgstr "TESTENN"
-
-#~ msgid "SIZE"
-#~ msgstr "MENT"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "RESTR-NODREZH RESTR-EC'HANKAD"
 
 #~ msgid "Quit"
 #~ msgstr "Kuitaat"

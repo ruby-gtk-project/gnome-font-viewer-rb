@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2025-12-30 21:47+0530\n"
 "Last-Translator: \n"
 "Language-Team: Santali <sat@li.org>\n"
@@ -22,7 +22,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "GNOME ᱯᱟᱱᱛᱷᱟ"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "ᱛᱚᱨᱡᱚᱢᱟᱭ-ᱠᱨᱮᱰᱤᱴᱥ"
 
@@ -30,25 +34,38 @@ msgstr "ᱛᱚᱨᱡᱚᱢᱟᱭ-ᱠᱨᱮᱰᱤᱴᱥ"
 msgid "_Close"
 msgstr "_ᱵᱚᱸᱫ ᱢᱮ"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, ᱰᱤᱯᱷᱚᱞᱴ %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "ᱫᱟᱹᱭᱠᱟᱹ %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "ᱛᱷᱟᱢᱵᱱᱮᱞ ᱨᱮ ᱚᱞ (ᱰᱤᱯᱷᱚᱞᱴ: ᱟᱟ)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "ᱛᱷᱟᱢᱵᱱᱮᱞ ᱥᱟᱭᱤᱡᱽ (ᱰᱤᱯᱷᱚᱞᱴ: ᱑᱒᱘)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "ᱚᱞ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "ᱥᱟᱭᱤᱡᱽ"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ᱯᱷᱚᱱᱴ-ᱨᱮᱫ ᱟᱩᱴᱯᱩᱴ-ᱨᱮᱫ"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME ᱯᱷᱚᱱᱴ ᱠᱚ"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1048,27 +1065,8 @@ msgstr "ᱵᱚᱦᱟᱞ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ"
 #~ "ᱞᱟᱹᱜᱤᱫ ᱥᱟᱯᱚᱨᱴ ᱮᱢᱟᱭᱟ ᱾ ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ ᱠᱷᱟᱹᱞᱤ ᱟᱢᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱮ ᱵᱚᱦᱟᱞ ᱦᱩᱭ "
 #~ "ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱟᱨᱵᱟᱝ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱥᱟᱱᱟᱢ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱾"
 
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME ᱯᱟᱱᱛᱷᱟ"
-
-#~ msgid "TEXT"
-#~ msgstr "ᱚᱞ"
-
-#~ msgid "SIZE"
-#~ msgstr "ᱥᱟᱭᱤᱡᱽ"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "ᱯᱷᱚᱱᱴ-ᱨᱮᱫ ᱟᱩᱴᱯᱩᱴ-ᱨᱮᱫ"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, ᱰᱤᱯᱷᱚᱞᱴ %g"
-
 #~ msgid "Search"
 #~ msgstr "ᱥᱮᱸᱫᱽᱨᱟ"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME ᱯᱷᱚᱱᱴ ᱠᱚ"
 
 #~ msgid "Show the application's version"
 #~ msgstr "ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱩᱫᱩᱜ ᱢᱮ"

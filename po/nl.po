@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer.master.nl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-08-09 17:05+0200\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
@@ -31,7 +31,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Lettertypen"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "Het GNOME-project"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Wouter Bolsterlee\n"
@@ -44,25 +48,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Sluiten"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, standaard %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Instantie %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Tekst voor miniatuur (standaard: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Grootte van miniatuur (standaard: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKST"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "GROOTTE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "LETTERTYPEBESTAND UITVOERBESTAND"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME Lettertypen"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1064,9 +1081,6 @@ msgstr "Bezig met installeren"
 #~ "worden geïnstalleerd of beschikbaar worden gemaakt voor alle gebruikers "
 #~ "van de computer."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "Het GNOME-project"
-
 #~ msgid "Main Window"
 #~ msgstr "Hoofdvenster"
 
@@ -1075,22 +1089,6 @@ msgstr "Bezig met installeren"
 
 #~ msgid "Font Search"
 #~ msgstr "Lettertype zoeken"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKST"
-
-#~ msgid "SIZE"
-#~ msgstr "GROOTTE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "LETTERTYPEBESTAND UITVOERBESTAND"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, standaard %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME Lettertypen"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Toon de versie van de toepassing"

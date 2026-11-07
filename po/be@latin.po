@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2007-10-01 23:55+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <be-latin.open-tran.eu>\n"
@@ -23,7 +23,11 @@ msgstr ""
 msgid "Fonts"
 msgstr ""
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 
@@ -31,24 +35,36 @@ msgstr ""
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr ""
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr ""
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
 msgstr ""
 
 #: ../lib/font_view_window.rb:40

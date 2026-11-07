@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-08-23 13:25+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -27,7 +27,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Typsnitt"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "GNOME-projektet"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
@@ -41,25 +45,38 @@ msgstr ""
 msgid "_Close"
 msgstr "S_täng"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, standard %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Instans %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Text för miniatyrbild (standard: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Storlek på miniatyrbild (standard: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "STORLEK"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "TYPSNITTSFIL UTDATAFIL"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME Typsnitt"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1063,9 +1080,6 @@ msgstr "Installerar"
 #~ "formatet .ttf och andra format. Typsnitt kan installeras endast för dig "
 #~ "eller göras tillgängliga för alla användare på datorn."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME-projektet"
-
 #~ msgid "Main Window"
 #~ msgstr "Huvudfönster"
 
@@ -1074,22 +1088,6 @@ msgstr "Installerar"
 
 #~ msgid "Font Search"
 #~ msgstr "Typsnittssökning"
-
-#~ msgid "TEXT"
-#~ msgstr "TEXT"
-
-#~ msgid "SIZE"
-#~ msgstr "STORLEK"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "TYPSNITTSFIL UTDATAFIL"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, standard %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME Typsnitt"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Visa programmets version"

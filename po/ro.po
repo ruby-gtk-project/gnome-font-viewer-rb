@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-14.ro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-04-03 10:59+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
@@ -32,7 +32,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Tipuri de caractere"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "Proiectul GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Bogdan Mințoi <mintoi.bogdan@gmail.com>\n"
@@ -43,25 +47,38 @@ msgstr ""
 msgid "_Close"
 msgstr "În_chide"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, prestabilit %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Instanța %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Text în miniatură (prestabilit: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Mărimea miniaturii (prestabilit: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "MĂRIME"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "TIP-DE-CARACTERE FIȘIER-REZULTAT"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "Tipuri de caractere GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1063,9 +1080,6 @@ msgstr "Se instalează"
 #~ "instalate numai pentru uz personal sau pot fi disponibile tuturor "
 #~ "utilizatorilor calculatorului."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "Proiectul GNOME"
-
 #~ msgid "Main Window"
 #~ msgstr "Fereastra principală"
 
@@ -1074,22 +1088,6 @@ msgstr "Se instalează"
 
 #~ msgid "Font Search"
 #~ msgstr "Caută tipul de caractere"
-
-#~ msgid "TEXT"
-#~ msgstr "TEXT"
-
-#~ msgid "SIZE"
-#~ msgstr "MĂRIME"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "TIP-DE-CARACTERE FIȘIER-REZULTAT"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, prestabilit %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "Tipuri de caractere GNOME"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Afișează versiunea aplicației"

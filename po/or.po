@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-19 09:51+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -33,7 +33,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "ସମସ୍ତ ଅକ୍ଷରରୂପଗୁଡିକ"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "ମନୋଜ କୁମାର ଗିରି <mgiri@redhat.com>"
 
@@ -41,25 +45,38 @@ msgstr "ମନୋଜ କୁମାର ଗିରି <mgiri@redhat.com>"
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "ଅଙ୍ଗୁଳି ଚିହ୍ନ ପାଇଁ ପାଠ୍ୟ (ପୂର୍ବନିର୍ଦ୍ଧାରିତ: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "ଅଙ୍ଗୁଳି ଚିହ୍ନ ଆକାର (ପୂର୍ବନିର୍ଦ୍ଧାରିତ: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "ପାଠ୍ୟ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "ଆକାର"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ଅକ୍ଷରରୂପ ଫାଇଲ ଫଳାଫଳ ଫାଇଲ"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "ସମସ୍ତ ଅକ୍ଷରରୂପଗୁଡିକ"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1058,15 +1075,6 @@ msgstr "ସ୍ଥାପନ କରନ୍ତୁ"
 #~ "GNOME ଫଣ୍ଟ ପ୍ରଦର୍ଶକ ttf ଏବଂ ଅନ୍ୟାନ୍ୟ ଫରମାଟ୍‌ରେ ଆହରଣ କରାଯାଇଥିବା ନୂଆ ଫଣ୍ଟ ଫାଇଲଗୁଡ଼ିକୁ ମଧ୍ଯ "
 #~ "ସ୍ଥାପନ କରିବାରେ ସହାୟତା କରିଥାଏ।ଫଣ୍ଟଗୁଡ଼ିକ କେବଳ ଆପଣଙ୍କ ବ୍ୟବହାର ପାଇଁ ସ୍ଥାପନ କରାଯାଇପାରେ "
 #~ "ଅଥବା ସେହି କମ୍ପୁଟରରେ ସମସ୍ତ ବ୍ୟବହାରକାରୀଙ୍କ ପାଇଁ ଉପଲବ୍ଧ କରାଯାଇପାରିବ।"
-
-#~ msgid "TEXT"
-#~ msgstr "ପାଠ୍ୟ"
-
-#~ msgid "SIZE"
-#~ msgstr "ଆକାର"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "ଅକ୍ଷରରୂପ ଫାଇଲ ଫଳାଫଳ ଫାଇଲ"
 
 #~ msgid "About"
 #~ msgstr "ବିବରଣୀ"

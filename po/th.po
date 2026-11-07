@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2025-10-20 12:18+0700\n"
 "Last-Translator: Akom Chotiphantawanon <knight2000@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -26,7 +26,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "แบบอักษร"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "โครงการ GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
@@ -37,25 +41,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_ปิด"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, ค่าปริยาย %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "อินสแตนซ์ %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "ข้อความที่จะใช้ทำภาพย่อ (ค่าปริยาย: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "ขนาดของภาพย่อ (ค่าปริยาย: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "ข้อความ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "ขนาด"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ไฟล์แบบอักษร ไฟล์ผลลัพธ์"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "“แบบอักษร” ของ GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1051,30 +1068,11 @@ msgstr "กำลังติดตั้ง"
 #~ "“แบบอักษร” ยังรองรับการติดตั้งไฟล์แบบอักษรใหม่ที่ดาวน์โหลดเป็น .ttf หรือรูปแบบอื่นด้วย "
 #~ "แบบอักษรอาจติดตั้งสำหรับคุณคนเดียวหรือให้ผู้ใช้ทุกคนในเครื่องสามารถใช้งานได้"
 
-#~ msgid "The GNOME Project"
-#~ msgstr "โครงการ GNOME"
-
 #~ msgid "fonts;fontface;"
 #~ msgstr "แบบอักษร;ฟอนต์;"
 
-#~ msgid "TEXT"
-#~ msgstr "ข้อความ"
-
-#~ msgid "SIZE"
-#~ msgstr "ขนาด"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "ไฟล์แบบอักษร ไฟล์ผลลัพธ์"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, ค่าปริยาย %g"
-
 #~ msgid "Search"
 #~ msgstr "ค้นหา"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "“แบบอักษร” ของ GNOME"
 
 #~ msgid "Show the application's version"
 #~ msgstr "แสดงรุ่นของแอปพลิเคชัน"

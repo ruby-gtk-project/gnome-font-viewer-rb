@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.bs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2015-03-02 15:45+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team:  <lokal@linux.org.ba>\n"
@@ -18,7 +18,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Svi fontovi"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "   Samir Ribić https://launchpad.net/~megaribi"
 
@@ -26,25 +30,38 @@ msgstr "   Samir Ribić https://launchpad.net/~megaribi"
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Tekst za umanjeni prikaz (podrazumijevano: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Veličina sličice (podrazumijevano: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKST"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "VELIČINA"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "DATOTEKA-SLOVNOG-LIKA IZLAZNA-DATOTEKA"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "GNOME Prikazivač fontova"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1044,23 +1061,11 @@ msgstr "Instaliraj"
 #~ "u .ttf ili nekim drugim formatima. Fontovi mogu biti instalirati samo za "
 #~ "Vašu upotrebu ili dostupni svim korisnicima ovog računara."
 
-#~ msgid "TEXT"
-#~ msgstr "TEKST"
-
-#~ msgid "SIZE"
-#~ msgstr "VELIČINA"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "DATOTEKA-SLOVNOG-LIKA IZLAZNA-DATOTEKA"
-
 #~ msgid "About"
 #~ msgstr "O programu"
 
 #~ msgid "Quit"
 #~ msgstr "Izlaz"
-
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "GNOME Prikazivač fontova"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Prikaži verziju aplikacije"

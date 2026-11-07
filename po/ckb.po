@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2020-02-22 10:02+0300\n"
 "Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>\n"
 "Language-Team: Kurdish (Sorani) <ckb@li.org>\n"
@@ -22,7 +22,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "جۆرەپیت"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -32,25 +36,38 @@ msgstr ""
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, بنەڕەت %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "نموونە %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "دەق بۆ وێنۆچکە (بنەڕەت=Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "قەبارەی وێنۆچکە (بنەڕەت: ١٢٨)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "دەق"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "قەبارە"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "پەڕگەی-جۆرەپیت پەڕگەی-دەرهێنراو"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "جۆرەپیتەکانی گنۆم"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1027,9 +1044,6 @@ msgstr "دامەزرا"
 msgid "Installing"
 msgstr "دامەزراندنی..."
 
-#~ msgid "GNOME Fonts"
-#~ msgstr "جۆرەپیتەکانی گنۆم"
-
 #~ msgid "View fonts on your system"
 #~ msgstr "جۆرەپیتەکانی ناو سیستمەکەت پیشان بدە"
 
@@ -1051,21 +1065,8 @@ msgstr "دامەزراندنی..."
 #~ "جۆری .ttf  و جۆری تریش. جۆرەپیت دەتوانی بەس بۆ خۆت دایمەزرێنیت یان بۆ "
 #~ "هەموو بەکارهێنەرانی کۆمپیوتەرەکەت."
 
-#~ msgid "TEXT"
-#~ msgstr "دەق"
-
-#~ msgid "SIZE"
-#~ msgstr "قەبارە"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "پەڕگەی-جۆرەپیت پەڕگەی-دەرهێنراو"
-
 #~ msgid "Show the application's version"
 #~ msgstr "وەشانی داوانامە پیشانبدە"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, بنەڕەت %g"
 
 #~ msgid "This font could not be installed."
 #~ msgstr "ئەم جۆرە پیتە ناتوانرێت دابمەزرێت."

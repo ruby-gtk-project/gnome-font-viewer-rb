@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2013-09-11 23:03+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
@@ -31,7 +31,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Kõik kirjatüübid"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Lauris Kaplinski <lauris ariman ee>, 1999.\n"
@@ -44,25 +48,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Sulge"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Pisipildiks tehtav tekst (vaikimisi: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Pisipildi suurus (vaikimisi: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKST"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "SUURUS"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "KIRJATÜÜBI-FAIL VÄLJUNDFAIL"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "Kõik kirjatüübid"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1043,15 +1060,6 @@ msgstr "Paigaldatud"
 #, fuzzy
 msgid "Installing"
 msgstr "Paigalda"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKST"
-
-#~ msgid "SIZE"
-#~ msgstr "SUURUS"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "KIRJATÜÜBI-FAIL VÄLJUNDFAIL"
 
 #~ msgid "Quit"
 #~ msgstr "Lõpeta"

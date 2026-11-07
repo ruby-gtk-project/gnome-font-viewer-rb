@@ -94,8 +94,11 @@ module FontLoader
     PUNCTUATION_TEXT = "0123456789.:,;(*!?')"
 
     # describe_axis()'s format string, which upstream marks translatable: the
-    # axis name, then its range and its default.
-    AXIS_FORMAT = _('%<name>s %<minimum>g — %<maximum>g, default %<default>g')
+    # axis name, then its range and its default. Upstream flanks the em dash
+    # (U+2014) with thin spaces (U+2009), not plain spaces — reproduced here
+    # byte-for-byte so the msgid matches upstream's and existing translations
+    # of it are not silently discarded.
+    AXIS_FORMAT = _("%<name>s %<minimum>g — %<maximum>g, default %<default>g")
 
     # describe_instance()'s fallback for a named style with no usable name.
     INSTANCE_FORMAT = _('Instance %<position>d')

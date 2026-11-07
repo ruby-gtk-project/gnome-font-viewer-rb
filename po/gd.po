@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2018-03-02 09:59+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -25,7 +25,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Cruthan-clò"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -36,25 +40,37 @@ msgstr ""
 msgid "_Close"
 msgstr "_Dùin"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Teacsa na dealbhaige (bun-roghainn: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Meud na dealbhaige (bun-roghainn: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEACSA"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "MEUD"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "Cruthan-clò GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1036,10 +1052,6 @@ msgstr "Air a stàladh"
 msgid "Installing"
 msgstr "Stàlaich"
 
-#~| msgid "GNOME Font Viewer"
-#~ msgid "GNOME Fonts"
-#~ msgstr "Cruthan-clò GNOME"
-
 #~ msgid "View fonts on your system"
 #~ msgstr "Seall na cruthan-clò air an t-siostam agad"
 
@@ -1070,15 +1082,6 @@ msgstr "Stàlaich"
 #~ "chaidh a luchdadh a-nuas san fhòrmat .ttf agus eile. Faodaidh tu taghadh "
 #~ "an tèid cruth-clò a stàladh air do shon-sa a-mhàin no airson a h-uile "
 #~ "duine a chleachdas an coimpiutair agad."
-
-#~ msgid "TEXT"
-#~ msgstr "TEACSA"
-
-#~ msgid "SIZE"
-#~ msgstr "MEUD"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
 
 #~ msgid "About"
 #~ msgstr "Mu dhèidhinn"

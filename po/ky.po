@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer gnome-3-6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2012-09-27 23:29+0600\n"
 "Last-Translator: Timur Zhamakeev <ztimur@gmail.com>\n"
 "Language-Team: Russian <gnome-i18n@gnome.org>\n"
@@ -24,7 +24,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Бардык алиптер"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Тимур Жамакеев <ztimur@gmail.com>, 2012"
 
@@ -32,25 +36,38 @@ msgstr "Тимур Жамакеев <ztimur@gmail.com>, 2012"
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Миниатюра үчүн текст (абалкысы: Аа)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Миниатюра өлчөмү (абалкысы: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "ТЕКСТ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "ӨЛЧӨМ"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "АЛИП-ФАЙЛЫ ЧЫГУУ-ФАЙЛЫ"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "Бардык алиптер"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1031,15 +1048,6 @@ msgstr "Орнотулду"
 #, fuzzy
 msgid "Installing"
 msgstr "Орнотуу"
-
-#~ msgid "TEXT"
-#~ msgstr "ТЕКСТ"
-
-#~ msgid "SIZE"
-#~ msgstr "ӨЛЧӨМ"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "АЛИП-ФАЙЛЫ ЧЫГУУ-ФАЙЛЫ"
 
 #~ msgid "Quit"
 #~ msgstr "Чыгуу"

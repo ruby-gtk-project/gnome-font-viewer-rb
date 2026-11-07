@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-04-01 22:28+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -34,8 +34,12 @@ msgstr ""
 msgid "Fonts"
 msgstr "Yazı Tipleri"
 
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "GNOME Projesi"
+
 # header bilgisinden oluşturulmuştur
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Baris Cicek <baris@teamforce.name.tr>\n"
@@ -46,25 +50,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Kapat"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, öntanımlı %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Oluşum %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Örneklendirilecek metin (öntanımlı: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Küçük resim boyutu (öntanımlı: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "METİN"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "BOYUT"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "YAZI-TİPİ-DOSYASI ÇIKTI-DOSYASI"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME Yazı Tipleri"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1067,9 +1084,6 @@ msgstr "Kuruluyor"
 #~ "kullanımınız için kurulabilir ya da bilgisayardaki tüm kullanıcıların "
 #~ "kullanımına sunulabilir."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME Projesi"
-
 #~ msgid "Main Window"
 #~ msgstr "Ana Pencere"
 
@@ -1078,22 +1092,6 @@ msgstr "Kuruluyor"
 
 #~ msgid "Font Search"
 #~ msgstr "Yazı Tipi Ara"
-
-#~ msgid "TEXT"
-#~ msgstr "METİN"
-
-#~ msgid "SIZE"
-#~ msgstr "BOYUT"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "YAZI-TİPİ-DOSYASI ÇIKTI-DOSYASI"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, öntanımlı %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME Yazı Tipleri"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Uygulamanın sürümünü göster"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2024-06-19 14:33+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
@@ -27,7 +27,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "फॉन्ट्स"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "GNOME परियोजना"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "राजेश रंजन (rranjan@redhat.com, rajeshkajha@yahoo.com)\n"
@@ -37,25 +41,38 @@ msgstr ""
 msgid "_Close"
 msgstr "बंद करें (_C)"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, तयशुदा %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "इंस्टैंस %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "पाठ से लघुचित्र (तयशुदा: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "लघुचित्र आकार (तयशुदा: Aa)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "पाठ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "आकार"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "फॉन्ट-फाइल आउटपुट-फाइल"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "गनोम फॉन्ट्स"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1051,33 +1068,14 @@ msgstr "संस्थापित किया जा रहा है"
 #~ "केवल आपके लिए संस्थापित किया जा सकता है या कंप्यूटर पर सभी उपयोक्ता के लिए उपलब्ध "
 #~ "कराया जा सकता है।"
 
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME परियोजना"
-
 #~ msgid "fonts;fontface;"
 #~ msgstr "फॉन्ट;फॉन्टफेस;"
-
-#~ msgid "TEXT"
-#~ msgstr "पाठ"
-
-#~ msgid "SIZE"
-#~ msgstr "आकार"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "फॉन्ट-फाइल आउटपुट-फाइल"
 
 #~ msgid "Install"
 #~ msgstr "संस्थापित करें"
 
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, तयशुदा %g"
-
 #~ msgid "Search"
 #~ msgstr "खोजें"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "गनोम फॉन्ट्स"
 
 #~ msgid "Show the application's version"
 #~ msgstr "अनुप्रयोग का संस्करण दिखाएं"

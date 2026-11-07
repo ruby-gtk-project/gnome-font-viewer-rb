@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-15 09:28+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
@@ -33,7 +33,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "सर्व फाँट्स्"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "संदिप शेडमाके <sshedmak@redhat.com>, 2012"
 
@@ -41,25 +45,38 @@ msgstr "संदिप शेडमाके <sshedmak@redhat.com>, 2012"
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "मजकूर ते थम्बनेल (पूर्वनिर्धारित: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "थम्बनेल आकार (पूर्वनिर्धारित: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "मजकूर"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "आकार"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "सर्व फाँट्स्"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1059,15 +1076,6 @@ msgstr "प्रतिष्ठापीत करा"
 #~ "GNOME फाँट व्युअर नवीन फाँट फाइल्सना .ttf आणि इतर रूपणमध्ये इंस्टॉल करण्यासाठी समर्थन "
 #~ "पुरवते. फाँट्सला फक्त तुमच्या वापरकरिता किंवा संगणकावरील सर्व वापरकर्त्यांना उपलब्ध करून "
 #~ "देण्याकरिता होऊ शकते."
-
-#~ msgid "TEXT"
-#~ msgstr "मजकूर"
-
-#~ msgid "SIZE"
-#~ msgstr "आकार"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
 
 #~ msgid "About"
 #~ msgstr "विषयी"

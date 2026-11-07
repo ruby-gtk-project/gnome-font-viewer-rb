@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2018-11-06 00:24+0800\n"
 "Last-Translator: Anish A <aneesh.nl@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
@@ -28,7 +28,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "അക്ഷരസഞ്ചയങ്ങൾ"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "സന്തോഷ് തോട്ടിങ്കല്‍ <santhosh.thottingal@gmail.com>, പ്രവീണ്‍ എ <pravi.a@gmail.com>, "
@@ -40,25 +44,38 @@ msgstr ""
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, default %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "ഇന്‍സ്റ്റെന്‍സ് %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "വാചകത്തെ നഖചിത്രമാക്കുക (സ്വതേ: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "നഖചിത്ര വ്യാപ്തി (സ്വതേ: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "വാചകം"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "വലിപ്പം"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "അക്ഷരസഞ്ചയ-ഫയല്‍ ഔട്ട്പുട്ട്-ഫയല്‍"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "ഗ്നോം ഫോണ്ടുകൾ"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1038,9 +1055,6 @@ msgstr "ഇൻസ്റ്റാൾ ചെയ്തു"
 msgid "Installing"
 msgstr "ഇന്‍സ്റ്റാള്‍ ചെയുനു..."
 
-#~ msgid "GNOME Fonts"
-#~ msgstr "ഗ്നോം ഫോണ്ടുകൾ"
-
 #~ msgid "View fonts on your system"
 #~ msgstr "നിങ്ങളുടെ സിസ്റ്റത്തില്‍ അക്ഷരസഞ്ചയങ്ങള്‍ കാണുക"
 
@@ -1064,15 +1078,6 @@ msgstr "ഇന്‍സ്റ്റാള്‍ ചെയുനു..."
 #~ "ഉപയോഗത്തിനായി മാത്രം ഇൻസ്റ്റാൾ ചെയ്യുകയോ അല്ലെങ്കിൽ കമ്പ്യൂട്ടറിലെ എല്ലാ ഉപയോക്താക്കൾക്കും "
 #~ "ലഭ്യമാക്കുകയോ ചെയ്യാവുന്നതാണ്."
 
-#~ msgid "TEXT"
-#~ msgstr "വാചകം"
-
-#~ msgid "SIZE"
-#~ msgstr "വലിപ്പം"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "അക്ഷരസഞ്ചയ-ഫയല്‍ ഔട്ട്പുട്ട്-ഫയല്‍"
-
 #~ msgid "About"
 #~ msgstr "വിവരം"
 
@@ -1081,10 +1086,6 @@ msgstr "ഇന്‍സ്റ്റാള്‍ ചെയുനു..."
 
 #~ msgid "Show the application's version"
 #~ msgstr "പ്രയോഗത്തിന്റെ പതിപ്പ് കാണിക്കുക"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, default %g"
 
 #~ msgid "Install Failed"
 #~ msgstr "ഇൻസ്റ്റാൾ പരാജയം"

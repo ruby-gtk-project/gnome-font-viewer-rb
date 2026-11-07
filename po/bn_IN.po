@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn_IN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-25 16:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: Bengali (India) <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "সর্বধরনের ফন্ট"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "রুণা ভট্টাচার্য (runab@fedoraproject.org)"
 
@@ -36,25 +40,38 @@ msgstr "রুণা ভট্টাচার্য (runab@fedoraproject.org)"
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "থাম্ব-নেইল প্রদর্শনের জন্য চিহ্নিত লেখা (ডিফল্ট: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "থাম্ব-নেইল প্রদর্শনের মাপ (ডিফল্ট: Aa)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "সর্বধরনের ফন্ট"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1053,15 +1070,6 @@ msgstr "ইনস্টল করুন"
 #~ "GNOME হরফ ভিউয়ার, .ttf এবং অন্যান্য ফর্ম্যাটে ডাউনলোড করা নতুন হরফ ফাইলগুলির "
 #~ "ইনস্টলও সমর্থন করে। হরফগুলি শুধুমাত্র অাপনার ব্যবহারের জন্য ইনস্টল করা যেতে পারে "
 #~ "বা কম্পিউটারে সকল ব্যবহারকারীর কাছে উপলব্ধ করানো যেতে পারে।"
-
-#~ msgid "TEXT"
-#~ msgstr "TEXT"
-
-#~ msgid "SIZE"
-#~ msgstr "SIZE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
 
 #~ msgid "About"
 #~ msgstr "সম্পর্কে"

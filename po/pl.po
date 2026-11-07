@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-06-17 10:28+0200\n"
 "Last-Translator: Błażej Hanzel <blazej.hanzel@gmail.com>\n"
 "Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
@@ -31,7 +31,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Czcionki"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "Projekt GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 1999-2003\n"
@@ -48,25 +52,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Zamknij"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g-%g, domyślnie %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Wystąpienie %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Tekst w miniaturze (domyślnie: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Rozmiar miniatury (domyślnie: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKST"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "ROZMIAR"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "PLIK-CZCIONKI PLIK-WYJŚCIOWY"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "Przeglądarka czcionek GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1066,9 +1083,6 @@ msgstr "Instalowanie"
 #~ "z plików w formacie .ttf i wielu innych. Można je zainstalować do "
 #~ "własnego użytku lub udostępnić wszystkim użytkownikom komputera."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "Projekt GNOME"
-
 #~ msgid "Main Window"
 #~ msgstr "Główne okno aplikacji"
 
@@ -1077,22 +1091,6 @@ msgstr "Instalowanie"
 
 #~ msgid "Font Search"
 #~ msgstr "Wyszukiwanie czcionki"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKST"
-
-#~ msgid "SIZE"
-#~ msgstr "ROZMIAR"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "PLIK-CZCIONKI PLIK-WYJŚCIOWY"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g-%g, domyślnie %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "Przeglądarka czcionek GNOME"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Wyświetla wersję aplikacji"

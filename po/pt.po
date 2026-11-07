@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2023-02-14 11:41+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (https://l10n.gnome.org/teams/pt/)\n"
@@ -28,7 +28,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Fontes"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "O Projeto GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Duarte Loreto <happyguy_pt@hotmail.com>\n"
@@ -39,25 +43,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Fechar"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, predefinição %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Instância %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Texto para miniatura (predefinição: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Tamanho da miniatura (predefinição: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXTO"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "TAMANHO"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FICHEIRO-DE-FONTE FICHEIRO-RESULTADO"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "Fontes do GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1059,33 +1076,14 @@ msgstr "A instalar"
 #~ "instaladas para seu uso apenas ou tornadas disponíveis para todos os "
 #~ "utilizadores do computador."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "O Projeto GNOME"
-
-#~ msgid "TEXT"
-#~ msgstr "TEXTO"
-
-#~ msgid "SIZE"
-#~ msgstr "TAMANHO"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FICHEIRO-DE-FONTE FICHEIRO-RESULTADO"
-
 #~ msgid "Install"
 #~ msgstr "Instalar"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, predefinição %g"
 
 #~ msgid "Search"
 #~ msgstr "Pesquisar"
 
 #~ msgid "Back"
 #~ msgstr "Recuar"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "Fontes do GNOME"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Mostrar a versão da aplicação"

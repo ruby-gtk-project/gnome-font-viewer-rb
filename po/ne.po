@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-20.ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2025-03-16 15:30+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
@@ -25,7 +25,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "फन्टहरू"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "जिनोम परियोजना"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "pawan chitrakar <chautari@gmail.com>"
 
@@ -33,25 +37,38 @@ msgstr "pawan chitrakar <chautari@gmail.com>"
 msgid "_Close"
 msgstr "बन्द गर्नुहोस्"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g,  पुर्बनिर्धारित %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "दृष्टान्त %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "पाठबाट थम्बनेल प्रतिमा (पूर्वनिर्धारित Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "थम्बनेल प्रतिमा साइज(पूर्वनिर्धारित १२८)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "पाठ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "आकार"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "जिनोम फन्ट"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1049,30 +1066,11 @@ msgstr "स्थापना गर्दै"
 #~ "समर्थन गर्दछ। फन्टहरू तपाईँको प्रयोगको लागि मात्र स्थापना गर्न सकिन्छ वा कम्प्युटरमा "
 #~ "सबै प्रयोगकर्ताहरूलाई उपलब्ध गराउन सकिन्छ।."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "जिनोम परियोजना"
-
 #~ msgid "fonts;fontface;"
 #~ msgstr "फन्ट;फन्टफेस;"
 
-#~ msgid "TEXT"
-#~ msgstr "पाठ"
-
-#~ msgid "SIZE"
-#~ msgstr "आकार"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g,  पुर्बनिर्धारित %g"
-
 #~ msgid "Search"
 #~ msgstr "खोजी गर्नुहोस्"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "जिनोम फन्ट"
 
 #~ msgid "Show the application's version"
 #~ msgstr "एप्लिकेशनको संसकरण देखाउने"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-15 16:11+0530\n"
 "Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
 "Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
@@ -23,7 +23,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "ಎಲ್ಲಾ ಅಕ್ಷರಶೈಲಿಗಳು"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
 
@@ -31,25 +35,38 @@ msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.c
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "ಪಠ್ಯದಿಂದ ಕಿರುಚಿತ್ರಕ್ಕೆ (ಪೂರ್ವನಿಯೋಜಿತ: Aa )"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "ಕಿರುಚಿತ್ರದ ಗಾತ್ರ (ಪೂರ್ವನಿಯೋಜಿತ: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "ಎಲ್ಲಾ ಅಕ್ಷರಶೈಲಿಗಳು"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1048,15 +1065,6 @@ msgstr "ಅನುಸ್ಥಾಪಿಸು"
 #~ "GNOME ಫಾಂಟ್‌ ವೀವರ್‌ ttf ಮತ್ತು ಇತರೆ ವಿನ್ಯಾಸಗಳಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಲಾದ ಹೊಸ ಅಕ್ಷರಶೈಲಿ "
 #~ "ಕಡತಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸುವುದನ್ನೂ ಸಹ ಬೆಂಬಲಿಸುತ್ತದೆ. ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಕೇವಲ ನಿಮ್ಮ ಬಳಕೆಗೆ "
 #~ "ಮಾತ್ರವಾಗಿರುವಂತೆ ಅಥವ ಗಣಕದಲ್ಲಿನ ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಅನುಸ್ಥಾಪಿಸಬಹುದು."
-
-#~ msgid "TEXT"
-#~ msgstr "TEXT"
-
-#~ msgid "SIZE"
-#~ msgstr "SIZE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
 
 #~ msgid "About"
 #~ msgstr "ಕುರಿತು"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2013-10-06 13:13-0400\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -23,7 +23,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Alle fonte"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Friedel Wolff"
 
@@ -31,25 +35,38 @@ msgstr "Friedel Wolff"
 msgid "_Close"
 msgstr "_Sluit"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Teks vir duimnaal (verstek: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Duimnaalgrootte (verstek: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKS"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "GROOTTE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONTLÊER AFVOERLÊER"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "Alle fonte"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1031,15 +1048,6 @@ msgstr "Geïnstalleer"
 #, fuzzy
 msgid "Installing"
 msgstr "Installeer"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKS"
-
-#~ msgid "SIZE"
-#~ msgstr "GROOTTE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONTLÊER AFVOERLÊER"
 
 #~ msgid "Quit"
 #~ msgstr "Sluit af"

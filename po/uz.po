@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2025-04-04 11:26+0500\n"
 "Last-Translator: \n"
 "Language-Team: Uzbek (Latin) <uz@li.org>\n"
@@ -21,7 +21,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Shriftlar"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "GNOME loyihasi"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Baxrom Raxmatov <magdiyevbahrom@gmail.com>"
 
@@ -29,25 +33,38 @@ msgstr "Baxrom Raxmatov <magdiyevbahrom@gmail.com>"
 msgid "_Close"
 msgstr "_Yopish"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, standart %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "%<position>d misol"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Eskiz uchun matn (standart: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Eskiz oʻlchami (standart: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "MATN"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "SHIFT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME shriftlari"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1045,30 +1062,11 @@ msgstr "Oʻrnatilmoqda"
 #~ "foydalanishingiz uchun o'rnatilishi yoki kompyuterdagi barcha "
 #~ "foydalanuvchilarga taqdim etilishi mumkin."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME loyihasi"
-
 #~ msgid "fonts;fontface;"
 #~ msgstr "shriftlar;shrift yuzi;"
 
-#~ msgid "TEXT"
-#~ msgstr "MATN"
-
-#~ msgid "SIZE"
-#~ msgstr "SIZE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "SHIFT-FILE OUTPUT-FILE"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, standart %g"
-
 #~ msgid "Search"
 #~ msgstr "Qidiruv"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME shriftlari"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Ilova versiyasini ko’rsating"

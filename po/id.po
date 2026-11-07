@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2023-02-13 09:41+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
@@ -26,7 +26,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Fonta"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "Proyek GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Mohammad DAMT <mdamt@bisnisweb.com>, 2003-2005.\n"
@@ -38,25 +42,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Tutup"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, bawaan %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Instansi %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Teks mini (bawaan: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Ukuran gambar mini (bawaan: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKS"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "UKURAN"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "BERKAS-FONTA BERKAS-KELUARAN"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME Fonta"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1053,33 +1070,14 @@ msgstr "Memasang"
 #~ "format lain. Fonta bisa dipasang hanya untuk Anda pakai atau dibuat "
 #~ "tersedia bagi semua pengguna pada komputer."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "Proyek GNOME"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKS"
-
-#~ msgid "SIZE"
-#~ msgstr "UKURAN"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "BERKAS-FONTA BERKAS-KELUARAN"
-
 #~ msgid "Install"
 #~ msgstr "Pasang"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, bawaan %g"
 
 #~ msgid "Search"
 #~ msgstr "Cari"
 
 #~ msgid "Back"
 #~ msgstr "Mundur"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME Fonta"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Tampilkan versi aplikasi"

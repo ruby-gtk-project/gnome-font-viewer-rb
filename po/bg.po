@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-08-17 15:48+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -31,7 +31,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Шрифтове"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "Проектът GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Александър Шопов &lt;<a href='mailto:ash@kambanaria.org'>ash@kambanaria.org</"
@@ -58,25 +62,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Затваряне"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, стандартно %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Комбинация %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Показван текст (стандартно: „Aa“)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Размер на иконата (стандартно: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "ТЕКСТ"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "РАЗМЕР"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ШРИФТОВ_ФАЙЛ ИЗХОДЕН_ФАЙЛ"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "Преглед на шрифт"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1075,9 +1092,6 @@ msgstr "Инсталиране"
 #~ "множество формати. Инсталирането може да е за един или за всички "
 #~ "потребители."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "Проектът GNOME"
-
 #~ msgid "Main Window"
 #~ msgstr "Основен прозорец"
 
@@ -1086,22 +1100,6 @@ msgstr "Инсталиране"
 
 #~ msgid "Font Search"
 #~ msgstr "Търсене на шрифт"
-
-#~ msgid "TEXT"
-#~ msgstr "ТЕКСТ"
-
-#~ msgid "SIZE"
-#~ msgstr "РАЗМЕР"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "ШРИФТОВ_ФАЙЛ ИЗХОДЕН_ФАЙЛ"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, стандартно %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "Преглед на шрифт"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Извеждане на версията на програмата"

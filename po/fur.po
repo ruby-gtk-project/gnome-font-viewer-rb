@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer gnome-3-6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2023-02-25 07:33+0000\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
@@ -22,7 +22,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Caratars"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "Il progjet GNOME"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Fabio Tomat, <f.t.public@gmail.com>"
 
@@ -30,25 +34,38 @@ msgstr "Fabio Tomat, <f.t.public@gmail.com>"
 msgid "_Close"
 msgstr "_Siere"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, predefinît %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Istance %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Test di miniaturizâ (default: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Dimension de miniature (default: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEST"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "DIMENSION"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FILE-CARATAR FILE-JESSUDE"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "Caratars di GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1045,33 +1062,14 @@ msgstr "Daûr a instalâ"
 #~ "formât .ttf e altris formâts. Al è pussibil instalâ i caratars pal ûs "
 #~ "personâl o par ducj i utents dal computer."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "Il progjet GNOME"
-
-#~ msgid "TEXT"
-#~ msgstr "TEST"
-
-#~ msgid "SIZE"
-#~ msgstr "DIMENSION"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FILE-CARATAR FILE-JESSUDE"
-
 #~ msgid "Install"
 #~ msgstr "Instale"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, predefinît %g"
 
 #~ msgid "Search"
 #~ msgstr "Cîr"
 
 #~ msgid "Back"
 #~ msgstr "Indaûr"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "Caratars di GNOME"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Mostre la version de aplicazion"

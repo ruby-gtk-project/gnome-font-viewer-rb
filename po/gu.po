@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-04 12:36+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -50,7 +50,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "બધા ફોન્ટ"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Sweta Kothari <swkothar@redhat.com>"
 
@@ -58,25 +62,38 @@ msgstr "Sweta Kothari <swkothar@redhat.com>"
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "થમ્ભનેઇલ માટે લખાણ (મૂળભૂત: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "થમ્ભનેઇલ માપ (મૂળભૂત: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "બધા ફોન્ટ"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1076,15 +1093,6 @@ msgstr "સ્થાપિત કરો"
 #~ "GNOME ફોન્ટ દર્શક પણ ttf અને બીજા બંધારણોમાં ડાઉનલોડ થયેલ નવી ફોન્ટ ફાઇલોને "
 #~ "સ્થાપિત કરવા પણ આધાર આપે છે. ફોન્ટ તમારાં વપરાશ માટે પણ સ્થાપિત કરી શકાય છે અથવા "
 #~ "કમ્પ્યૂટર પર બધા વપરાશકર્તાઓ માટે ઉપલબ્ધ બને છે."
-
-#~ msgid "TEXT"
-#~ msgstr "TEXT"
-
-#~ msgid "SIZE"
-#~ msgstr "SIZE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
 
 #~ msgid "About"
 #~ msgstr "વિશે"

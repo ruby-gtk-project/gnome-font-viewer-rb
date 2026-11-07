@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2023-03-11 13:34+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -37,7 +37,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Skrifttyper"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "GNOME-projektet"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Kenneth Christiansen\n"
@@ -59,25 +63,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Luk"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, standard %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Forekomst %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Tekst for miniature (som standard: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Miniaturestørrelse (standardværdi: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKST"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "STØRRELSE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "SKRIFTTYPEFIL OUTPUTFIL"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME Skrifttyper"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1085,33 +1102,14 @@ msgstr "Installerer"
 #~ "i .ttf og andre formater. Skrifttyper kan installeres til brug for kun "
 #~ "dig selv eller gøres tilgængelige for alle brugere af computeren."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "GNOME-projektet"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKST"
-
-#~ msgid "SIZE"
-#~ msgstr "STØRRELSE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "SKRIFTTYPEFIL OUTPUTFIL"
-
 #~ msgid "Install"
 #~ msgstr "Installér"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, standard %g"
 
 #~ msgid "Search"
 #~ msgstr "Søg"
 
 #~ msgid "Back"
 #~ msgstr "Tilbage"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME Skrifttyper"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Vis programmets version"

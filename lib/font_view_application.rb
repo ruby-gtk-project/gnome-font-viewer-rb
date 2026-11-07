@@ -33,8 +33,8 @@ class FontViewApplication
   # g_set_application_name().
   APPLICATION_NAME = _('Fonts')
 
-  # The name --version prints, from main.c.
-  VERSION_NAME = 'GNOME Fonts'
+  # The name --version prints, from main.c's _ ("GNOME Fonts").
+  VERSION_NAME = _('GNOME Fonts')
 
   # gtk_application_set_accels_for_action(), plus the accelerator upstream's
   # window template declares as a managed shortcut.

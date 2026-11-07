@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2023-09-20 23:18+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
@@ -28,7 +28,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Tiparoj"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "La GNOME-projekto"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "Kevin SCHAEFER\n"
@@ -42,25 +46,38 @@ msgstr ""
 msgid "_Close"
 msgstr "_Fermi"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, implicite %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "Instanco %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Teksto por bildetigi (implicite: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Grando de bildeto (implicite: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEKSTO"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "GRANDO"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "TIPARO-DOSIERO ELIGO-DOSIERO"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "GNOME Tiparoj"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1057,33 +1074,14 @@ msgstr "Instalado"
 #~ "la .ttf kaj aliaj formatoj. Tiparoj povas esti instalitaj nur por via uzo "
 #~ "aŭ disponigitaj al ĉiuj uzantoj en la komputilo."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "La GNOME-projekto"
-
 #~ msgid "fonts;fontface;"
 #~ msgstr "tiparoj;tiparnomo;"
-
-#~ msgid "TEXT"
-#~ msgstr "TEKSTO"
-
-#~ msgid "SIZE"
-#~ msgstr "GRANDO"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "TIPARO-DOSIERO ELIGO-DOSIERO"
 
 #~ msgid "Install"
 #~ msgstr "Instali"
 
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, implicite %g"
-
 #~ msgid "Search"
 #~ msgstr "Serĉi"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "GNOME Tiparoj"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Montri la version de la programo"

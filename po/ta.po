@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-15 01:17+0630\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -38,7 +38,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "அனைத்து எழுத்துருக்களும்"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "I. Felix <ifelix@redhat.com>; Dr. T. Vasudevan <agnihot3@gmail.com>;  "
@@ -48,25 +52,38 @@ msgstr ""
 msgid "_Close"
 msgstr "மூடு (_C)"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "உரையிலிருந்து சிறுபடம் (முன்னிருப்பு: Aa )"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "சிறுபடம் அளவு (முன்னிருப்பு: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "அனைத்து எழுத்துருக்களும்"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1066,15 +1083,6 @@ msgstr "நிறுவு"
 #~ "GNOME Font Viewer பயன்பாடானாது .ttf மற்றும் பிற வடிவமைப்புகளில் பதிவிறக்கிய "
 #~ "எழுத்துருக் கோப்புகளை நிறுவவும் உதவும். எழுத்துருக்களை நீங்கள் பயன்படுத்த மட்டும் "
 #~ "நிறுவலாம் அல்லது கணினியின் எல்லாப் பயனர்களும் பயன்படுத்தும்படியும் நிறுவலாம்."
-
-#~ msgid "TEXT"
-#~ msgstr "TEXT"
-
-#~ msgid "SIZE"
-#~ msgstr "SIZE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
 
 #~ msgid "About"
 #~ msgstr "அறிமுகம்"

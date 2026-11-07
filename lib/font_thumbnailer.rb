@@ -34,11 +34,23 @@ class FontThumbnailer
   # The wall clock upstream gives the monitor.
   MONITOR_SECONDS = 30
 
-  USAGE = _('Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE')
+  # The program name GOption's own "Usage:" banner would use. Upstream never
+  # marks the banner itself translatable — only the pieces below are.
+  PROGRAM_NAME = 'gnome-thumbnail-font'
 
   # The option descriptions, which upstream marks translatable.
   TEXT_DESCRIPTION = _('Text to thumbnail (default: Aa)')
   SIZE_DESCRIPTION = _('Thumbnail size (default: 128)')
+
+  # The metavars upstream marks translatable as separate msgids from their
+  # descriptions above (N_("TEXT"), N_("SIZE")).
+  TEXT_METAVAR = _('TEXT')
+  SIZE_METAVAR = _('SIZE')
+
+  # G_OPTION_REMAINING's own metavar, N_("FONT-FILE OUTPUT-FILE").
+  POSITIONAL_METAVAR = _('FONT-FILE OUTPUT-FILE')
+
+  USAGE = "Usage: #{PROGRAM_NAME} [OPTION…] #{POSITIONAL_METAVAR}"
 
   # main(): parse the options, load the face, draw it, write the PNG. Returns the
   # process's exit status, as upstream's main does.
@@ -78,10 +90,14 @@ class FontThumbnailer
     def parser(options)
       OptionParser.new do |parser|
         parser.banner = USAGE
-        parser.on('-tTEXT', '--text=TEXT', TEXT_DESCRIPTION) { |text| options[:text] = text }
         parser.on(
-          '-sSIZE',
-          '--size=SIZE',
+          "-t#{TEXT_METAVAR}",
+          "--text=#{TEXT_METAVAR}",
+          TEXT_DESCRIPTION,
+        ) { |text| options[:text] = text }
+        parser.on(
+          "-s#{SIZE_METAVAR}",
+          "--size=#{SIZE_METAVAR}",
           Integer,
           SIZE_DESCRIPTION,
         ) { |size| options[:size] = size }

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2014-09-23 16:14+0530\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -25,7 +25,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "అన్ని ఖతులు"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011-12."
 
@@ -33,25 +37,38 @@ msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011-12."
 msgid "_Close"
 msgstr ""
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "పాఠ్యం నుండి చిరుచిత్రం (అప్రమేయం: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "చిరుచిత్ర పరిమాణం (అప్రమేయం: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "పాఠ్యం"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "పరిమాణం"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ఖతి-ఫైల్ అవుట్‌పుట్-ఫైల్"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "అన్ని ఖతులు"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1050,15 +1067,6 @@ msgstr "స్థాపించు"
 #~ "గ్నోమ్ ఫాంట్ దర్శని ఉపయోగించి కొత్తగా దిగుమతిచేసిన .ttf మరియు ఇతర ఫార్మాట్ల ఫాంట్ ఫైళ్ళను "
 #~ "సంస్థాపించవచ్చు. ఫాంట్లు మీ ఉపయోగంకొరకు సంస్థాపించవచ్చు లేదా కంప్యూటర్ పైని అన్ని వాడుకరులకు "
 #~ "అందుబాటులో ఉండునట్లు చేయవచ్చు."
-
-#~ msgid "TEXT"
-#~ msgstr "పాఠ్యం"
-
-#~ msgid "SIZE"
-#~ msgstr "పరిమాణం"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "ఖతి-ఫైల్ అవుట్‌పుట్-ఫైల్"
 
 #~ msgid "About"
 #~ msgstr "గురించి"

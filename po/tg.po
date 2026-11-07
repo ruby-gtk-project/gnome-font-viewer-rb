@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2015-03-14 10:18+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
@@ -22,7 +22,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "Ҳамаи шрифтҳо"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr ""
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr "Victor Ibragimov"
 
@@ -30,25 +34,38 @@ msgstr "Victor Ibragimov"
 msgid "_Close"
 msgstr "_Пӯшидан"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+#: ../lib/font_loader.rb:101
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:101
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr ""
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Матн ба эскизи шрифт (пешфарз: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "Андозаи эскизи шрифт (пешфарз: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "МАТН"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "АНДОЗА"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ФАЙЛИ-ШРИФТ ФАЙЛИ-БАРОРИШ"
+
+#: ../lib/font_view_application.rb:37
+#, fuzzy
+msgid "GNOME Fonts"
+msgstr "Пешнамоиши шрифти GNOME"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1050,24 +1067,11 @@ msgstr "Насб кардан"
 #~ "шрифтҳоро танҳо барои ниёзҳои худ насб кунед ё онҳоро барои корбарони "
 #~ "дигар дар компютери шумо дастрас кунед."
 
-#~ msgid "TEXT"
-#~ msgstr "МАТН"
-
-#~ msgid "SIZE"
-#~ msgstr "АНДОЗА"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "ФАЙЛИ-ШРИФТ ФАЙЛИ-БАРОРИШ"
-
 #~ msgid "About"
 #~ msgstr "Дар бораи барнома"
 
 #~ msgid "Quit"
 #~ msgstr "Баромад"
-
-#~| msgid "Font Viewer"
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "Пешнамоиши шрифти GNOME"
 
 #~ msgid "Show the application's version"
 #~ msgstr "Намоиш додани версияи барнома"

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 22:54+0000\n"
+"POT-Creation-Date: 2026-11-07 21:50+0000\n"
 "PO-Revision-Date: 2026-08-31 23:53+0900\n"
 "Last-Translator: DaeHyun Sung <sungdh86+git@gmail.com>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
@@ -31,7 +31,11 @@ msgstr ""
 msgid "Fonts"
 msgstr "글꼴"
 
-#: ../lib/about_dialog.rb:33
+#: ../lib/about_dialog.rb:21
+msgid "The GNOME Project"
+msgstr "그놈 프로젝트"
+
+#: ../lib/about_dialog.rb:35
 msgid "translator-credits"
 msgstr ""
 "류창우\n"
@@ -43,25 +47,38 @@ msgstr ""
 msgid "_Close"
 msgstr "닫기(_C)"
 
-#: ../lib/font_loader.rb:98
-msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
-msgstr ""
-
 #: ../lib/font_loader.rb:101
+#, fuzzy
+msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
+msgstr "%s %g — %g, 기본값 %g"
+
+#: ../lib/font_loader.rb:104
 msgid "Instance %<position>d"
 msgstr "인스턴스 %<position>d"
 
-#: ../lib/font_thumbnailer.rb:37
-msgid "Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE"
-msgstr ""
-
-#: ../lib/font_thumbnailer.rb:40
+#: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
 msgstr "섬네일에 사용할 텍스트(기본값: Aa)"
 
-#: ../lib/font_thumbnailer.rb:41
+#: ../lib/font_thumbnailer.rb:43
 msgid "Thumbnail size (default: 128)"
 msgstr "섬네일 크기(기본값: 128)"
+
+#: ../lib/font_thumbnailer.rb:47
+msgid "TEXT"
+msgstr "<텍스트>"
+
+#: ../lib/font_thumbnailer.rb:48
+msgid "SIZE"
+msgstr "<크기>"
+
+#: ../lib/font_thumbnailer.rb:51
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "<글꼴파일> <출력파일>"
+
+#: ../lib/font_view_application.rb:37
+msgid "GNOME Fonts"
+msgstr "그놈 글꼴"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1064,9 +1081,6 @@ msgstr "설치중"
 #~ "사용자 본인만 쓸 수 있게 설치할 수도 있고 컴퓨터의 모든 사용자가 사용할 "
 #~ "수 있게 설치할 수도 있습니다."
 
-#~ msgid "The GNOME Project"
-#~ msgstr "그놈 프로젝트"
-
 #~ msgid "Main Window"
 #~ msgstr "기본 창"
 
@@ -1075,22 +1089,6 @@ msgstr "설치중"
 
 #~ msgid "Font Search"
 #~ msgstr "글꼴 검색"
-
-#~ msgid "TEXT"
-#~ msgstr "<텍스트>"
-
-#~ msgid "SIZE"
-#~ msgstr "<크기>"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "<글꼴파일> <출력파일>"
-
-#, c-format
-#~ msgid "%s %g — %g, default %g"
-#~ msgstr "%s %g — %g, 기본값 %g"
-
-#~ msgid "GNOME Fonts"
-#~ msgstr "그놈 글꼴"
 
 #~ msgid "Show the application's version"
 #~ msgstr "프로그램 버전을 표시합니다"

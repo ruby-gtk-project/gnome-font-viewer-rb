@@ -16,7 +16,9 @@ class AboutDialog
   include Translation
 
   APPLICATION_NAME = _('Fonts')
-  DEVELOPER_NAME = 'The GNOME Project'
+
+  # adw_show_about_dialog's developer-name, which upstream marks translatable.
+  DEVELOPER_NAME = _('The GNOME Project')
   WEBSITE = 'https://gitlab.gnome.org/GNOME/gnome-font-viewer/'
   ISSUE_URL = 'https://gitlab.gnome.org/GNOME/gnome-font-viewer/-/issues/'
 
