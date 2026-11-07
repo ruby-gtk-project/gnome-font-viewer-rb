@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
 # Drives the font viewer: the overview grid, the search filter, the preview of
-# one font, its details page, the error dialog and an install into a scratch
-# font directory.
+# one font, its details page, the error dialog, an install into a scratch font
+# directory, and the standalone thumbnailer CLI (its own exe, not a widget, so
+# it is run as a subprocess rather than through GtkDriver's step/check loop).
 
+require 'open3'
 require 'tmpdir'
 
 ENV['XDG_CONFIG_HOME'] = Dir.mktmpdir('font-viewer-config')
@@ -203,5 +205,43 @@ GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
   d.step('the about dialog has settled') do
     d.shot('07-about')
     viewer.main_window.window.visible_dialog&.close
+  end
+
+  # The thumbnailer is a separate exe (exe/gnome-thumbnail-font), not a widget
+  # inside this application, so it is exercised as a subprocess rather than
+  # through a GtkDriver step.
+  d.step('the standalone thumbnailer renders a font to a PNG') do
+    Dir.mktmpdir('font-viewer-thumb').then do |dir|
+      output = File.join(dir, 'thumb.png')
+      ok = system(
+        'ruby',
+        File.expand_path('../exe/gnome-thumbnail-font', __dir__),
+        SAMPLE,
+        output,
+        out: File::NULL,
+        err: File::NULL,
+      )
+      d.check('thumbnailer exited successfully') { ok }
+      d.check('thumbnailer wrote a PNG') { File.exist?(output) && File.size(output).positive? }
+    end
+  end
+
+  d.step('the thumbnailer reports usage with no arguments') do
+    _out, status = Open3.capture2e(
+      'ruby',
+      File.expand_path('../exe/gnome-thumbnail-font', __dir__),
+    )
+    d.check('exits non-zero with no arguments') { !status.success? }
+  end
+
+  d.step('the thumbnailer errors on a font file that does not exist') do
+    out, status = Open3.capture2e(
+      'ruby',
+      File.expand_path('../exe/gnome-thumbnail-font', __dir__),
+      '/nonexistent-font-file.ttf',
+      File.join(Dir.mktmpdir('font-viewer-thumb-err'), 'thumb.png'),
+    )
+    d.check('exits non-zero on a missing font file') { !status.success? }
+    d.check('reports the failure') { out.include?('Could not load face') || out.include?('No such file') }
   end
 end
