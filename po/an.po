@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2015-01-23 00:35+0100\n"
 "Last-Translator: Daniel Martinez <entaltoaragon@gmail.com>\n"
 "Language-Team: Aragonés <softaragones@googlegroups.com>\n"
@@ -18,14 +18,62 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 2.91.6\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "Todas as fuents"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Veyer as fuents d'o suyo sistema"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fuents;tipografia;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"O GNOME Font Viewer t'amuestra as fuents instaladas en o tuyo ordinador ta "
+"lo tuyo emplego como miniaturas. Seleccionando cualsiquier miniatura "
+"amuestra l'anvista completa de como podría veyer-se a fuent en quantas "
+"grandarias."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"O GNOME Font Viewer tamién suporta instalar nuevos fichers de fuent "
+"descargaus en .ttf y atros formatos. As fuents pueden estar instaladas nomás "
+"ta lo tuyo emplego u meter-se disponibles ta totz os usuarios en l'ordinador."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Visor de fuents"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Visor de fuents"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +87,10 @@ msgstr "_Zarrar"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "Instalau"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,10 +112,14 @@ msgstr "TAMANYO"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FICHERO-DE-FUENT FICHERO-DE-SURTIDA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "Visor de fuents de GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Amostrar a versión de l'aplicación"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1049,46 +1102,17 @@ msgstr "Instalau"
 msgid "Installing"
 msgstr "Instalar"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "O GNOME Font Viewer t'amuestra as fuents instaladas en o tuyo ordinador "
-#~ "ta lo tuyo emplego como miniaturas. Seleccionando cualsiquier miniatura "
-#~ "amuestra l'anvista completa de como podría veyer-se a fuent en quantas "
-#~ "grandarias."
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "O GNOME Font Viewer tamién suporta instalar nuevos fichers de fuent "
-#~ "descargaus en .ttf y atros formatos. As fuents pueden estar instaladas "
-#~ "nomás ta lo tuyo emplego u meter-se disponibles ta totz os usuarios en "
-#~ "l'ordinador."
-
 #~ msgid "About"
 #~ msgstr "Sobre"
 
 #~ msgid "Quit"
 #~ msgstr "Salir"
 
-#~ msgid "Show the application's version"
-#~ msgstr "Amostrar a versión de l'aplicación"
-
 #~ msgid "This font could not be displayed."
 #~ msgstr "No se podió amostrar ista fuent."
 
 #~ msgid "Back"
 #~ msgstr "Tazaga"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Visor de fuents"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Veyer as fuents d'o suyo sistema"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[FICHERO…]"
@@ -1099,9 +1123,6 @@ msgstr "Instalar"
 #~ msgstr ""
 #~ "Execute '%s --help' ta veyer una lista completa d'as opcions de linia de "
 #~ "comandos disponibles."
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fuents;tipografia;"
 
 #~ msgid "Font size (default: 64)"
 #~ msgstr "Tamanyo d'a tipografía (predeterminau: 64)"

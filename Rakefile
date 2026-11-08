@@ -181,18 +181,50 @@ namespace :i18n do
   POTFILES = File.readlines(File.join(__dir__, "po", "POTFILES.in"))
     .map(&:strip)
     .reject { |line| line.empty? || line.start_with?("#") }
+  # rxgettext only understands Ruby source; data/*.desktop.in.in and
+  # data/*.metainfo.xml.in need plain xgettext, which (like upstream's own
+  # xgettext) recognises the Desktop Entry and AppStream metainfo formats on
+  # its own. The two extractions are combined with msgcat, in POTFILES.in's
+  # order, into one .pot.
+  RUBY_POTFILES = POTFILES.grep(/\.rb\z/)
+  DATA_POTFILES = POTFILES - RUBY_POTFILES
   LINGUAS = File.readlines(File.join(__dir__, "po", "LINGUAS"))
     .map(&:strip)
     .reject { |line| line.empty? || line.start_with?("#") }
 
   desc "Extract translatable strings from POTFILES.in into the .pot template"
   task :pot do
-    sh(
-      "rxgettext",
-      "--output", POT_FILE,
-      "--package-name", "gnome-font-viewer-rb",
-      *POTFILES,
-    )
+    # Both tools record each "#:" source-location comment relative to the
+    # directory of their own --output file, not the process's cwd, so the
+    # intermediate .pot files have to live in po/ alongside the real one —
+    # writing them to a tmpdir would turn every "../lib/foo.rb:N" comment
+    # into a useless "../../../home/.../lib/foo.rb:N".
+    data_pot = File.join(__dir__, "po", ".data.pot")
+    ruby_pot = File.join(__dir__, "po", ".ruby.pot")
+
+    # rxgettext's bin stub resolves itself through Gem.activate_bin_path,
+    # which Bundler's runtime restricts to gems the Gemfile locked; gettext
+    # (and so rxgettext) is a devshell tool, not a bundled dependency, so the
+    # lookup needs Bundler's own process environment, not the one Bundler
+    # narrowed this process to.
+    Bundler.with_unbundled_env do
+      sh(
+        "xgettext",
+        "--output", data_pot,
+        "--from-code", "UTF-8",
+        "--package-name", "gnome-font-viewer-rb",
+        *DATA_POTFILES,
+      )
+      sh(
+        "rxgettext",
+        "--output", ruby_pot,
+        "--package-name", "gnome-font-viewer-rb",
+        *RUBY_POTFILES,
+      )
+      sh("msgcat", "--use-first", "--output", POT_FILE, data_pot, ruby_pot)
+    end
+  ensure
+    FileUtils.rm_f([data_pot, ruby_pot])
   end
 
   desc "Merge the .pot template's new/changed strings into every po/*.po"

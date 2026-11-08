@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 3.1.90\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-02-01 07:18+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -24,14 +24,59 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.5.3\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "所有字型"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "檢視你系統上的字型"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;字型;字形;字樣;字體;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME 字型檢視器以縮圖顯示在你電腦上安裝的字型。選擇任何縮圖可以顯示出字型在"
+"各種尺寸下外觀的完整檢視。"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME 字型檢視器也支援從下載的 .ttf 與其他格式安裝新字型。字型可以僅安裝供你"
+"使用或是給電腦上所有的使用者使用。"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "字型檢視程式"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "字型檢視程式"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -54,9 +99,10 @@ msgstr "關閉(_C)"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "已安裝"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -78,10 +124,14 @@ msgstr "大小"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "字型檔 輸出檔"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "所有字型"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1064,22 +1114,6 @@ msgstr "已安裝"
 msgid "Installing"
 msgstr "安裝"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME 字型檢視器以縮圖顯示在你電腦上安裝的字型。選擇任何縮圖可以顯示出字型"
-#~ "在各種尺寸下外觀的完整檢視。"
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME 字型檢視器也支援從下載的 .ttf 與其他格式安裝新字型。字型可以僅安裝供"
-#~ "你使用或是給電腦上所有的使用者使用。"
-
 #~ msgid "About"
 #~ msgstr "關於"
 
@@ -1091,15 +1125,6 @@ msgstr "安裝"
 
 #~ msgid "Back"
 #~ msgstr "返回"
-
-#~ msgid "Font Viewer"
-#~ msgstr "字型檢視程式"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "檢視你系統上的字型"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;字型;字形;字樣;字體;"
 
 #~ msgid "Font size (default: 64)"
 #~ msgstr "字型大小（預設：64）"

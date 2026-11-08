@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.or\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-09-19 09:51+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
@@ -28,14 +28,60 @@ msgstr ""
 "\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "ସମସ୍ତ ଅକ୍ଷରରୂପଗୁଡିକ"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "ଆପଣଙ୍କ ତନ୍ତ୍ରରେ ଅକ୍ଷରରୂପଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "ଅକ୍ଷରରୂପ;ଅକ୍ଷରରୂପ ମୁଖା;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME ଫଣ୍ଟ ପ୍ରଦର୍ଶକ ଆପଣଙ୍କ ତନ୍ତ୍ରରେ ସ୍ଥାପିତ ଫଣ୍ଟଗୁଡ଼ିକୁ ଦର୍ଶାଇଥାଏ। କୌଣସି ଏକ ଥମ୍ବନେଲକୁ ବାଛିବା "
+"ଫଳରେ ତାହା ବିଭିନ୍ନ ଆକାରରେ ଫଣ୍ଟ କିପରି ଦେଖାଯାଇଥାଏ ତାହା ଦର୍ଶାଇଥାଏ।"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME ଫଣ୍ଟ ପ୍ରଦର୍ଶକ ttf ଏବଂ ଅନ୍ୟାନ୍ୟ ଫରମାଟ୍‌ରେ ଆହରଣ କରାଯାଇଥିବା ନୂଆ ଫଣ୍ଟ ଫାଇଲଗୁଡ଼ିକୁ ମଧ୍ଯ "
+"ସ୍ଥାପନ କରିବାରେ ସହାୟତା କରିଥାଏ।ଫଣ୍ଟଗୁଡ଼ିକ କେବଳ ଆପଣଙ୍କ ବ୍ୟବହାର ପାଇଁ ସ୍ଥାପନ କରାଯାଇପାରେ ଅଥବା "
+"ସେହି କମ୍ପୁଟରରେ ସମସ୍ତ ବ୍ୟବହାରକାରୀଙ୍କ ପାଇଁ ଉପଲବ୍ଧ କରାଯାଇପାରିବ।"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "ଅକ୍ଷରରୂପ ପ୍ରଦର୍ଶିକା"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ଅକ୍ଷରରୂପ ପ୍ରଦର୍ଶିକା"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -49,9 +95,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "ସ୍ଥାପିତ"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -73,10 +120,14 @@ msgstr "ଆକାର"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ଅକ୍ଷରରୂପ ଫାଇଲ ଫଳାଫଳ ଫାଇଲ"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "ସମସ୍ତ ଅକ୍ଷରରୂପଗୁଡିକ"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1059,23 +1110,6 @@ msgstr "ସ୍ଥାପିତ"
 msgid "Installing"
 msgstr "ସ୍ଥାପନ କରନ୍ତୁ"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME ଫଣ୍ଟ ପ୍ରଦର୍ଶକ ଆପଣଙ୍କ ତନ୍ତ୍ରରେ ସ୍ଥାପିତ ଫଣ୍ଟଗୁଡ଼ିକୁ ଦର୍ଶାଇଥାଏ। କୌଣସି ଏକ ଥମ୍ବନେଲକୁ "
-#~ "ବାଛିବା ଫଳରେ ତାହା ବିଭିନ୍ନ ଆକାରରେ ଫଣ୍ଟ କିପରି ଦେଖାଯାଇଥାଏ ତାହା ଦର୍ଶାଇଥାଏ।"
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME ଫଣ୍ଟ ପ୍ରଦର୍ଶକ ttf ଏବଂ ଅନ୍ୟାନ୍ୟ ଫରମାଟ୍‌ରେ ଆହରଣ କରାଯାଇଥିବା ନୂଆ ଫଣ୍ଟ ଫାଇଲଗୁଡ଼ିକୁ ମଧ୍ଯ "
-#~ "ସ୍ଥାପନ କରିବାରେ ସହାୟତା କରିଥାଏ।ଫଣ୍ଟଗୁଡ଼ିକ କେବଳ ଆପଣଙ୍କ ବ୍ୟବହାର ପାଇଁ ସ୍ଥାପନ କରାଯାଇପାରେ "
-#~ "ଅଥବା ସେହି କମ୍ପୁଟରରେ ସମସ୍ତ ବ୍ୟବହାରକାରୀଙ୍କ ପାଇଁ ଉପଲବ୍ଧ କରାଯାଇପାରିବ।"
-
 #~ msgid "About"
 #~ msgstr "ବିବରଣୀ"
 
@@ -1087,15 +1121,6 @@ msgstr "ସ୍ଥାପନ କରନ୍ତୁ"
 
 #~ msgid "Back"
 #~ msgstr "ପଛ"
-
-#~ msgid "Font Viewer"
-#~ msgstr "ଅକ୍ଷରରୂପ ପ୍ରଦର୍ଶିକା"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "ଆପଣଙ୍କ ତନ୍ତ୍ରରେ ଅକ୍ଷରରୂପଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "ଅକ୍ଷରରୂପ;ଅକ୍ଷରରୂପ ମୁଖା;"
 
 #, fuzzy
 #~ msgid "Size:"

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.gnome-2-14.ro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-04-03 10:59+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
@@ -28,13 +28,58 @@ msgstr ""
 "X-Generator: Gtranslator 48.0\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Tipuri de caractere"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Afișează tipurile de caractere din sistem"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr ""
+"fonts;fontface;caractere;tipuri de caractere;tip de caractere;tipografie;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Aplicația arată tipurile de caractere instalate în calculator, folosind "
+"miniaturi ale acestora. Selecționarea oricărei miniaturi va afișa "
+"caracterele tipului respectiv, în diferite mărimi."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Aplicația permite și instalarea de fișiere ale tipurilor de caractere "
+"descărcate în format .ttf și alte formate. Tipurile de caractere pot fi "
+"instalate numai pentru uz personal sau pot fi disponibile tuturor "
+"utilizatorilor calculatorului."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Proiectul GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Fereastra principală"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Previzualizarea tipului de caractere"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Caută tipul de caractere"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -52,9 +97,9 @@ msgstr "În_chide"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, prestabilit %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instanța %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instanța %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -76,9 +121,13 @@ msgstr "MĂRIME"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "TIP-DE-CARACTERE FIȘIER-REZULTAT"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Tipuri de caractere GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Afișează versiunea aplicației"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1053,41 +1102,3 @@ msgstr "Instalat"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Se instalează"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Afișează tipurile de caractere din sistem"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr ""
-#~ "fonts;fontface;caractere;tipuri de caractere;tip de caractere;tipografie;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Aplicația arată tipurile de caractere instalate în calculator, folosind "
-#~ "miniaturi ale acestora. Selecționarea oricărei miniaturi va afișa "
-#~ "caracterele tipului respectiv, în diferite mărimi."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Aplicația permite și instalarea de fișiere ale tipurilor de caractere "
-#~ "descărcate în format .ttf și alte formate. Tipurile de caractere pot fi "
-#~ "instalate numai pentru uz personal sau pot fi disponibile tuturor "
-#~ "utilizatorilor calculatorului."
-
-#~ msgid "Main Window"
-#~ msgstr "Fereastra principală"
-
-#~ msgid "Font Preview"
-#~ msgstr "Previzualizarea tipului de caractere"
-
-#~ msgid "Font Search"
-#~ msgstr "Caută tipul de caractere"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Afișează versiunea aplicației"

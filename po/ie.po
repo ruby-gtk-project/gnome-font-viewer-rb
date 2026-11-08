@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2022-12-16 18:07+0700\n"
 "Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
 "Language-Team: \n"
@@ -18,13 +18,50 @@ msgstr ""
 "X-Generator: Poedit 1.8.12\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Fondes"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Vider fondes de vor sistema"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fondes;tipes;caracteres;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Li projecte GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr ""
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +76,9 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, %g predefinit"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instantie %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instantie %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,9 +100,13 @@ msgstr "DIMENSION"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONDE-FILE PRODUCTION-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Fondes de GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Monstra li version del programma"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1119,12 +1160,6 @@ msgstr "Installat"
 msgid "Installing"
 msgstr "Installante"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Vider fondes de vor sistema"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Monstra li version del programma"
-
 #~ msgid "This font could not be installed."
 #~ msgstr "Ti-ci fonde ne posse esser installat."
 
@@ -1136,6 +1171,3 @@ msgstr "Installante"
 
 #~ msgid "Back"
 #~ msgstr "Retro"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fondes;tipes;caracteres;"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-04-01 22:28+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -30,13 +30,59 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Yazı Tipleri"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Sisteminizdeki yazı tiplerini görüntüleyin"
+
+# https://gitlab.gnome.org/GNOME/glib/-/issues/443 hatası sebebiyle uygulama adı dahil ingilizce hallerini de koruyalım.
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr ""
+"fonts;fontface;yazı tipleri;yazıtipleri;yazı tipi ailesi;yazıtipi ailesi;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Yazı Tipleri, kullanımınız için bilgisayarınızda kurulu yazı tiplerini küçük "
+"resim olarak gösterir. Herhangi bir küçük resmi seçmek, yazı tipinin türlü "
+"boyutlarda nasıl görüneceğini gösterir."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Yazı Tipleri ayrıca .ttf ve diğer biçimlerde indirilen yeni yazı tipi "
+"dosyalarının kurulumunu da sağlar. Yazı tipleri yalnızca kendi kullanımınız "
+"için kurulabilir ya da bilgisayardaki tüm kullanıcıların kullanımına "
+"sunulabilir."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Ana Pencere"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Yazı Tipi Ön İzle"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Yazı Tipi Ara"
 
 # header bilgisinden oluşturulmuştur
 #: ../lib/about_dialog.rb:35
@@ -55,9 +101,9 @@ msgstr "_Kapat"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, öntanımlı %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Oluşum %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Oluşum %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -79,9 +125,13 @@ msgstr "BOYUT"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "YAZI-TİPİ-DOSYASI ÇIKTI-DOSYASI"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Yazı Tipleri"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Uygulamanın sürümünü göster"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1056,42 +1106,3 @@ msgstr "Kuruldu"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Kuruluyor"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Sisteminizdeki yazı tiplerini görüntüleyin"
-
-# https://gitlab.gnome.org/GNOME/glib/-/issues/443 hatası sebebiyle uygulama adı dahil ingilizce hallerini de koruyalım.
-#~ msgid "fonts;fontface;"
-#~ msgstr ""
-#~ "fonts;fontface;yazı tipleri;yazıtipleri;yazı tipi ailesi;yazıtipi ailesi;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Yazı Tipleri, kullanımınız için bilgisayarınızda kurulu yazı tiplerini "
-#~ "küçük resim olarak gösterir. Herhangi bir küçük resmi seçmek, yazı "
-#~ "tipinin türlü boyutlarda nasıl görüneceğini gösterir."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Yazı Tipleri ayrıca .ttf ve diğer biçimlerde indirilen yeni yazı tipi "
-#~ "dosyalarının kurulumunu da sağlar. Yazı tipleri yalnızca kendi "
-#~ "kullanımınız için kurulabilir ya da bilgisayardaki tüm kullanıcıların "
-#~ "kullanımına sunulabilir."
-
-#~ msgid "Main Window"
-#~ msgstr "Ana Pencere"
-
-#~ msgid "Font Preview"
-#~ msgstr "Yazı Tipi Ön İzle"
-
-#~ msgid "Font Search"
-#~ msgstr "Yazı Tipi Ara"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Uygulamanın sürümünü göster"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2024-02-25 01:25+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -24,13 +24,58 @@ msgstr ""
 "2);\n"
 "X-Generator: Lokalize 23.08.1\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Fonti"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Pārlūkojiet un apskatiet savas sistēmas fontus"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonti;šrifti;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"“Fonti” rāda datorā instalētos fontus kā sīktēlus. Jebkura sīktēla "
+"izvēlēšanās rāda, kā fonts izskatītos dažādos izmēros."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"“Fonti” arī atbalsta jaunu fontu datņu instalēšanu, kas ir .ttf un citos "
+"formātos. Fontus var instalēt tikai savām vajadzībām vai visiem datora "
+"lietotājiem."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME projekts"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+# logview/logview.c:268
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Fontu pārlūks"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Meklēt"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -45,9 +90,9 @@ msgstr "_Aizvērt"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, noklusējuma %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instance %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instance %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -70,9 +115,13 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONTA-DATNE IZVADES-DATNE"
 
 # logview/logview.c:268
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME fonti"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Rādīt lietotnes versiju"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1051,37 +1100,8 @@ msgstr "Instalēts"
 msgid "Installing"
 msgstr "Instalē"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Pārlūkojiet un apskatiet savas sistēmas fontus"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "“Fonti” rāda datorā instalētos fontus kā sīktēlus. Jebkura sīktēla "
-#~ "izvēlēšanās rāda, kā fonts izskatītos dažādos izmēros."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "“Fonti” arī atbalsta jaunu fontu datņu instalēšanu, kas ir .ttf un citos "
-#~ "formātos. Fontus var instalēt tikai savām vajadzībām vai visiem datora "
-#~ "lietotājiem."
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonti;šrifti;"
-
 #~ msgid "Install"
 #~ msgstr "Instalēt"
-
-#~ msgid "Search"
-#~ msgstr "Meklēt"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Rādīt lietotnes versiju"
 
 #~ msgid "This font could not be installed."
 #~ msgstr "Šo fontu nevarēja uzinstalēt."
@@ -1106,10 +1126,6 @@ msgstr "Instalē"
 
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-# logview/logview.c:268
-#~ msgid "Font Viewer"
-#~ msgstr "Fontu pārlūks"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[DATNE...]"

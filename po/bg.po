@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-17 15:48+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -27,13 +27,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Шрифтове"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Преглед на шрифтовете"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;шрифтове;глифи;очертания;уникод;юникод;кирилица;латиница;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Шрифтовете на GNOME показват инсталираните шрифтове като миниатюри. Когато "
+"ги изберете, ще видите шрифта представен при различни размери."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Шрифтовете на GNOME позволяват инсталирането на допълнителни шрифтове в "
+"множество формати. Инсталирането може да е за един или за всички потребители."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Проектът GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Основен прозорец"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Преглед на шрифт"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Търсене на шрифт"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -67,9 +108,9 @@ msgstr "_Затваряне"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, стандартно %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Комбинация %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Комбинация %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -91,9 +132,13 @@ msgstr "РАЗМЕР"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ШРИФТОВ_ФАЙЛ ИЗХОДЕН_ФАЙЛ"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Преглед на шрифт"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Извеждане на версията на програмата"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1068,38 +1113,3 @@ msgstr "Инсталиран"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Инсталиране"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Преглед на шрифтовете"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;шрифтове;глифи;очертания;уникод;юникод;кирилица;латиница;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Шрифтовете на GNOME показват инсталираните шрифтове като миниатюри. "
-#~ "Когато ги изберете, ще видите шрифта представен при различни размери."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Шрифтовете на GNOME позволяват инсталирането на допълнителни шрифтове в "
-#~ "множество формати. Инсталирането може да е за един или за всички "
-#~ "потребители."
-
-#~ msgid "Main Window"
-#~ msgstr "Основен прозорец"
-
-#~ msgid "Font Preview"
-#~ msgstr "Преглед на шрифт"
-
-#~ msgid "Font Search"
-#~ msgstr "Търсене на шрифт"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Извеждане на версията на програмата"

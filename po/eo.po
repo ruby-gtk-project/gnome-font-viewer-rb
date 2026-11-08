@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-09-20 23:18+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
@@ -24,13 +24,58 @@ msgstr ""
 "X-Generator: Gtranslator 42.0\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Tiparoj"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Rigardi tiparojn en via sistemo"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "tiparoj;tiparnomo;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Tiparoj montras al vi la instalitajn tiparojn en via komputilo por via uzo "
+"kiel bildetojn. Elektante ajnajn bildetojn montras la plenan vidon de kiel "
+"la tiparo aspektus sub diversaj grandecoj."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Tiparoj ankaŭ subtenas instali novajn tipardosierojn elŝutitajn en la .ttf "
+"kaj aliaj formatoj. Tiparoj povas esti instalitaj nur por via uzo aŭ "
+"disponigitaj al ĉiuj uzantoj en la komputilo."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "La GNOME-projekto"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Tiparovidigilo"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Serĉi"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -51,9 +96,9 @@ msgstr "_Fermi"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, implicite %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instanco %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instanco %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -75,9 +120,13 @@ msgstr "GRANDO"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "TIPARO-DOSIERO ELIGO-DOSIERO"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Tiparoj"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Montri la version de la programo"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1053,38 +1102,8 @@ msgstr "Instalita"
 msgid "Installing"
 msgstr "Instalado"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Rigardi tiparojn en via sistemo"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Tiparoj montras al vi la instalitajn tiparojn en via komputilo por via "
-#~ "uzo kiel bildetojn. Elektante ajnajn bildetojn montras la plenan vidon de "
-#~ "kiel la tiparo aspektus sub diversaj grandecoj."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Tiparoj ankaŭ subtenas instali novajn tipardosierojn elŝutitajn en "
-#~ "la .ttf kaj aliaj formatoj. Tiparoj povas esti instalitaj nur por via uzo "
-#~ "aŭ disponigitaj al ĉiuj uzantoj en la komputilo."
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "tiparoj;tiparnomo;"
-
 #~ msgid "Install"
 #~ msgstr "Instali"
-
-#~ msgid "Search"
-#~ msgstr "Serĉi"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Montri la version de la programo"
 
 #~ msgid "About"
 #~ msgstr "Pri"
@@ -1103,9 +1122,6 @@ msgstr "Instalado"
 
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Tiparovidigilo"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[DOSIERO...]"

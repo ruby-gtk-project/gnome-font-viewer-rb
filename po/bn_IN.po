@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn_IN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-09-25 16:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: Bengali (India) <kde-i18n-doc@kde.org>\n"
@@ -23,14 +23,61 @@ msgstr ""
 "\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "সর্বধরনের ফন্ট"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "সিস্টেমের মধ্যে উপস্থিত ফন্ট দেখুন"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "ফন্ট;ফন্টফেস;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME ফন্ট ভিউয়ার অাপনাকে অাপনার কম্পিউটারে ইনস্টল করা হরফগুলি দেখায়, যাতে অাপনি "
+"থাম্বনেল হিসাবে ব্যবহার করতে পারেন। যেকোনো থাম্বনেলের নির্বাচন, বিভিন্ন মাপে হরফ "
+"কীরূপে দেখানো হবে তার সম্পূর্ণ রূপ দেখায়।"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME হরফ ভিউয়ার, .ttf এবং অন্যান্য ফর্ম্যাটে ডাউনলোড করা নতুন হরফ ফাইলগুলির "
+"ইনস্টলও সমর্থন করে। হরফগুলি শুধুমাত্র অাপনার ব্যবহারের জন্য ইনস্টল করা যেতে পারে বা "
+"কম্পিউটারে সকল ব্যবহারকারীর কাছে উপলব্ধ করানো যেতে পারে।"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -44,9 +91,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "ইনস্টল রয়েছে"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -68,10 +116,14 @@ msgstr "SIZE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "সর্বধরনের ফন্ট"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1053,24 +1105,6 @@ msgstr "ইনস্টল রয়েছে"
 msgid "Installing"
 msgstr "ইনস্টল করুন"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME ফন্ট ভিউয়ার অাপনাকে অাপনার কম্পিউটারে ইনস্টল করা হরফগুলি দেখায়, যাতে "
-#~ "অাপনি থাম্বনেল হিসাবে ব্যবহার করতে পারেন। যেকোনো থাম্বনেলের নির্বাচন, বিভিন্ন "
-#~ "মাপে হরফ কীরূপে দেখানো হবে তার সম্পূর্ণ রূপ দেখায়।"
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME হরফ ভিউয়ার, .ttf এবং অন্যান্য ফর্ম্যাটে ডাউনলোড করা নতুন হরফ ফাইলগুলির "
-#~ "ইনস্টলও সমর্থন করে। হরফগুলি শুধুমাত্র অাপনার ব্যবহারের জন্য ইনস্টল করা যেতে পারে "
-#~ "বা কম্পিউটারে সকল ব্যবহারকারীর কাছে উপলব্ধ করানো যেতে পারে।"
-
 #~ msgid "About"
 #~ msgstr "সম্পর্কে"
 
@@ -1082,12 +1116,3 @@ msgstr "ইনস্টল করুন"
 
 #~ msgid "Back"
 #~ msgstr "পূর্ববর্তী"
-
-#~ msgid "Font Viewer"
-#~ msgstr "ফন্ট প্রদর্শন ব্যবস্থা"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "সিস্টেমের মধ্যে উপস্থিত ফন্ট দেখুন"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "ফন্ট;ফন্টফেস;"

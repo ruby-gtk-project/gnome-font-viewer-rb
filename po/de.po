@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-02-22 10:54+0100\n"
 "Last-Translator: Philipp Kiemle <philipp.kiemle@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
@@ -40,13 +40,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Schriften"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Schriftarten Ihres Systems betrachten"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "Schriftart;Schriftschnitt;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Schriften zeigt Ihnen eine Vorschau der Schriftarten, die auf Ihrem Rechner "
+"installiert sind. Die Auswahl eines Vorschaubildes zeigt die vollständige "
+"Ansicht, wie die Schriftart in verschiedenen Größen aussieht."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Schriften unterstützt auch die Installation neuer Schriftartendateien "
+"als ».ttf« oder auch in anderen Formaten. Schriftarten können nur zu Ihrer "
+"eigenen Verwendung oder für alle Benutzer eines Rechners installiert werden."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Das GNOME-Projekt"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Suchen"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -69,9 +113,9 @@ msgstr "S_chließen"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g – %g, Standard %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instanz %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instanz %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -93,9 +137,13 @@ msgstr "GRÖSSE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "SCHRIFTART-DATEI AUSGABE-DATEI"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Schriften"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Die Version der Anwendung anzeigen"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1071,42 +1119,11 @@ msgstr "Installiert"
 msgid "Installing"
 msgstr "Wird installiert"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Schriftarten Ihres Systems betrachten"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Schriften zeigt Ihnen eine Vorschau der Schriftarten, die auf Ihrem "
-#~ "Rechner installiert sind. Die Auswahl eines Vorschaubildes zeigt die "
-#~ "vollständige Ansicht, wie die Schriftart in verschiedenen Größen aussieht."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Schriften unterstützt auch die Installation neuer Schriftartendateien "
-#~ "als ».ttf« oder auch in anderen Formaten. Schriftarten können nur zu "
-#~ "Ihrer eigenen Verwendung oder für alle Benutzer eines Rechners "
-#~ "installiert werden."
-
 #~ msgid "Install"
 #~ msgstr "Installieren"
 
-#~ msgid "Search"
-#~ msgstr "Suchen"
-
 #~ msgid "Back"
 #~ msgstr "Zurück"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Die Version der Anwendung anzeigen"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "Schriftart;Schriftschnitt;"
 
 #~ msgid "Info"
 #~ msgstr "Info"

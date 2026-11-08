@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.bs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2015-03-02 15:45+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team:  <lokal@linux.org.ba>\n"
@@ -13,14 +13,61 @@ msgstr ""
 "X-Generator: Poedit 1.7.4\n"
 "X-Launchpad-Export-Date: 2015-02-17 06:20+0000\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "Svi fontovi"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Pogledaj fontove na sistemu"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "tip slova; izgled slova;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME Font Viewer (font preglednik) prikazuje fontove instalirane na Vaš "
+"računar, u formatu sličica. Odabirom bilo koje sličice dobiti ćete puni "
+"prikaz kako font izgleda u različitim veličinama."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME Font Viewer također podržava instaliranje novih fontova preuzetih "
+"u .ttf ili nekim drugim formatima. Fontovi mogu biti instalirati samo za "
+"Vašu upotrebu ili dostupni svim korisnicima ovog računara."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Prikazivač fontova"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Prikazivač fontova"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -34,9 +81,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "Instaliran"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -58,10 +106,14 @@ msgstr "VELIČINA"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "DATOTEKA-SLOVNOG-LIKA IZLAZNA-DATOTEKA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "GNOME Prikazivač fontova"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Prikaži verziju aplikacije"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1043,44 +1095,17 @@ msgstr "Instaliran"
 msgid "Installing"
 msgstr "Instaliraj"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME Font Viewer (font preglednik) prikazuje fontove instalirane na Vaš "
-#~ "računar, u formatu sličica. Odabirom bilo koje sličice dobiti ćete puni "
-#~ "prikaz kako font izgleda u različitim veličinama."
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME Font Viewer također podržava instaliranje novih fontova preuzetih "
-#~ "u .ttf ili nekim drugim formatima. Fontovi mogu biti instalirati samo za "
-#~ "Vašu upotrebu ili dostupni svim korisnicima ovog računara."
-
 #~ msgid "About"
 #~ msgstr "O programu"
 
 #~ msgid "Quit"
 #~ msgstr "Izlaz"
 
-#~ msgid "Show the application's version"
-#~ msgstr "Prikaži verziju aplikacije"
-
 #~ msgid "This font could not be displayed."
 #~ msgstr "Ovaj tip slova ne može biti prikazan."
 
 #~ msgid "Back"
 #~ msgstr "Nazad"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Prikazivač fontova"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Pogledaj fontove na sistemu"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[DATOTEKA ...]"
@@ -1089,6 +1114,3 @@ msgstr "Instaliraj"
 #~ msgid ""
 #~ "Run '%s --help' to see a full list of available command line options."
 #~ msgstr "Pokrenite „%s --help“ za spisak svih opcija iz komandne linije."
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "tip slova; izgled slova;"

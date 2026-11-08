@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-master-po-gl-14799\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-10 20:44+0200\n"
 "Last-Translator: Fran Diéguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -38,13 +38,58 @@ msgstr ""
 "X-Generator: Poedit 3.9\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Tipos de letra"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Ver os tipos de letra do seu sistema"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "tipos de letra;fontface;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Tipos de letra de GNOME móstralle os tipos de letra instalados no seu "
+"computador listos para usar como miniaturas. Seleccionando calquera das "
+"miniaturas móstrase unha vista completa de como o tipo de letra debería "
+"verse con varios tamaños."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Tipos de letra de GNOME tamén admite a instalación de novos ficheiros de "
+"tipos de letra descargados en .ttf e outros formatos. Os tipos de letra "
+"poden instalarse só para o seu usuario ou facelo para todos os usuarios do "
+"computador."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "O Proxecto GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Xanela principal"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Vista previa do tipo de letra"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Buscar tipo de letra"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -59,9 +104,9 @@ msgstr "_Pechar"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, por omisión %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instancia %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instancia %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -83,9 +128,13 @@ msgstr "TAMAÑO"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FICHEIRO-DE-TIPOGRAFÍA FICHEIRO-DE-SAÍDA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Tipos de letra de GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Mostrar a versión da aplicación"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1060,44 +1109,6 @@ msgstr "Instalado"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Instalando"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Ver os tipos de letra do seu sistema"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "tipos de letra;fontface;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Tipos de letra de GNOME móstralle os tipos de letra instalados no seu "
-#~ "computador listos para usar como miniaturas. Seleccionando calquera das "
-#~ "miniaturas móstrase unha vista completa de como o tipo de letra debería "
-#~ "verse con varios tamaños."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Tipos de letra de GNOME tamén admite a instalación de novos ficheiros de "
-#~ "tipos de letra descargados en .ttf e outros formatos. Os tipos de letra "
-#~ "poden instalarse só para o seu usuario ou facelo para todos os usuarios "
-#~ "do computador."
-
-#~ msgid "Main Window"
-#~ msgstr "Xanela principal"
-
-#~ msgid "Font Preview"
-#~ msgstr "Vista previa do tipo de letra"
-
-#~ msgid "Font Search"
-#~ msgstr "Buscar tipo de letra"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Mostrar a versión da aplicación"
 
 #~ msgid "Install"
 #~ msgstr "Instalar"

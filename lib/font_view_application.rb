@@ -15,7 +15,10 @@ require_relative 'translation'
 # handler names the application, installs the actions and the accelerators;
 # activate shows the window on the overview; open points the window at the file
 # it was given, or shows the overview and an error if the file cannot be read.
-# The --version option is main.c's.
+# The --version option is main.c's: it is declared as a GOptionEntry there, so
+# it shows up in --help with its own translated description; this is the same
+# option declared through Gio::Application#add_main_option, with
+# 'handle-local-options' standing in for the GOptionEntry callback.
 #
 # Upstream is an AdwApplication, which the Ruby bindings cannot subclass; the
 # application object is a GtkApplication here, and Adwaita is initialised by the
@@ -36,6 +39,10 @@ class FontViewApplication
   # The name --version prints, from main.c's _ ("GNOME Fonts").
   VERSION_NAME = _('GNOME Fonts')
 
+  # main.c's goption_options entry for --version: N_ ("Show the application's
+  # version"), shown as its description in --help.
+  VERSION_OPTION_DESCRIPTION = _("Show the application's version")
+
   # gtk_application_set_accels_for_action(), plus the accelerator upstream's
   # window template declares as a managed shortcut.
   ACCELS = {
@@ -50,21 +57,20 @@ class FontViewApplication
 
   def build
     tap do
+      add_version_option
+      app.signal_connect('handle-local-options') { |_app, options| handle_local_options(options) }
       app.signal_connect('startup') { startup }
       app.signal_connect('activate') { activate }
       app.signal_connect('open') { |_app, files, _hint| open(files) }
     end
   end
 
-  # g_application_run(): --version short-circuits before the application starts,
-  # as main.c's option callback does.
+  # g_application_run(argc, argv): GLib's option parser treats argv[0] as the
+  # program name and skips it, the way C's main(argc, argv) does. Ruby's ARGV
+  # has no such element, so it is restored here or every real argument (a font
+  # path, --version) would be swallowed as if it were that program name.
   def run(argv = ARGV)
-    if argv.include?('--version')
-      $stdout.puts("#{VERSION_NAME} #{Gnome::Font::Viewer::Rb::VERSION}")
-      0
-    else
-      app.run(argv)
-    end
+    app.run([$PROGRAM_NAME, *argv])
   end
 
   # G_APPLICATION_HANDLES_OPEN, so a font file on the command line reaches the
@@ -82,6 +88,27 @@ class FontViewApplication
   end
 
   private
+
+    # g_application_add_main_option_entries(): declares --version as a
+    # GOptionEntry so it is listed, with its translated description, in
+    # --help.
+    def add_version_option
+      app.add_main_option(
+        'version', 0, GLib::OptionFlags::NONE, GLib::OptionArg::NONE,
+        VERSION_OPTION_DESCRIPTION, nil
+      )
+    end
+
+    # _print_version_and_exit(): the GOptionEntry callback. 'handle-local-options'
+    # is where the Ruby bindings surface it, since there is no G_OPTION_ARG_CALLBACK.
+    def handle_local_options(options)
+      if options.contains?('version')
+        $stdout.puts("#{VERSION_NAME} #{Gnome::Font::Viewer::Rb::VERSION}")
+        0
+      else
+        -1
+      end
+    end
 
     # font_view_application_startup(): name the application, set its icon, add
     # the actions and the accelerators, and load the stylesheet.

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-21 19:46+0200\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
@@ -23,13 +23,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Polices"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Affiche les polices de votre système"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "polices;fontes;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Polices affiche les polices de caractères installées sur votre ordinateur "
+"sous la forme de miniatures. En choisissant l’une de celles-ci, vous obtenez "
+"une vue complète de la police à différentes tailles."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Polices prend également en charge l’installation de nouveaux fichiers de "
+"police téléchargés (formats ttf et autres). Les polices peuvent être "
+"installées pour vous seul ou rendues disponibles à tous les utilisateurs de "
+"l’ordinateur."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Le projet GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Fenêtre principale"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Prévisualiser une police"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Rechercher une police"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -49,9 +93,9 @@ msgstr "_Fermer"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, %g par défaut"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Exemple %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Exemple %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -73,9 +117,13 @@ msgstr "TAILLE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FICHIER-POLICE FICHIER-SORTIE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Polices de GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Affiche la version de l’application"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1050,43 +1098,6 @@ msgstr "Installé"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Installation"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Affiche les polices de votre système"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "polices;fontes;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Polices affiche les polices de caractères installées sur votre ordinateur "
-#~ "sous la forme de miniatures. En choisissant l’une de celles-ci, vous "
-#~ "obtenez une vue complète de la police à différentes tailles."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Polices prend également en charge l’installation de nouveaux fichiers de "
-#~ "police téléchargés (formats ttf et autres). Les polices peuvent être "
-#~ "installées pour vous seul ou rendues disponibles à tous les utilisateurs "
-#~ "de l’ordinateur."
-
-#~ msgid "Main Window"
-#~ msgstr "Fenêtre principale"
-
-#~ msgid "Font Preview"
-#~ msgstr "Prévisualiser une police"
-
-#~ msgid "Font Search"
-#~ msgstr "Rechercher une police"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Affiche la version de l’application"
 
 #~ msgid "Install"
 #~ msgstr "Installer"

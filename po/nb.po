@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer 3.27.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-24 20:14+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -18,13 +18,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Skrifter"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Vis skrifter på systemet"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "skrifter;skrifttyper;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Skrifter viser deg skrifter som er installert på din datamaskin som "
+"miniatyrer. Ved å velge en miniatyr får du en full visning av hvordan "
+"skriften vil se ut i forskjellige størrelser."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Skrifter støtter også å installere nye skriftfiler som er lastet ned i ttf- "
+"og andre formater. Skriftene kan installeres for personlig bruk eller gjøres "
+"tilgjengelig for alle brukere på datamaskinen."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME prosjektet"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Hovedvindu"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Forhåndsvisning av skrift"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Skriftsøk"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +82,9 @@ msgstr "_Lukk"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g – %g, forvalg %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instans %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instans %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,9 +106,13 @@ msgstr "STØRRELSE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "SKRIFTFIL UTDATAFIL"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME skrifter"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Vis programmets versjon"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1040,39 +1087,3 @@ msgstr "Installert"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Installerer"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Vis skrifter på systemet"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "skrifter;skrifttyper;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Skrifter viser deg skrifter som er installert på din datamaskin som "
-#~ "miniatyrer. Ved å velge en miniatyr får du en full visning av hvordan "
-#~ "skriften vil se ut i forskjellige størrelser."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Skrifter støtter også å installere nye skriftfiler som er lastet ned i "
-#~ "ttf- og andre formater. Skriftene kan installeres for personlig bruk "
-#~ "eller gjøres tilgjengelig for alle brukere på datamaskinen."
-
-#~ msgid "Main Window"
-#~ msgstr "Hovedvindu"
-
-#~ msgid "Font Preview"
-#~ msgstr "Forhåndsvisning av skrift"
-
-#~ msgid "Font Search"
-#~ msgstr "Skriftsøk"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Vis programmets versjon"

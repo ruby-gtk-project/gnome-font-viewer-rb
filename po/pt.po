@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-02-14 11:41+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (https://l10n.gnome.org/teams/pt/)\n"
@@ -24,13 +24,62 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Fontes"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Ver as fontes existentes no sistema"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fontes;letras;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"A aplicação Fontes mostra, como miniaturas, as fontes instaladas para uso no "
+"computador. Selecionar qualquer uma das miniaturas mostra em vista completa "
+"a aparência da fonte em diversos tamanhos.\n"
+"As fontes mostram-lhe as fontes instaladas no seu computador para a sua "
+"utilização como miniaturas. A selecção de quaisquer miniaturas mostra a "
+"visão completa de como a fonte ficaria sob vários tamanhos."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"A aplicação Fontes também suporta a instalação de novos ficheiros de fontes "
+"transferidos em .ttf ou noutros formatos. As fontes podem ser instaladas "
+"para seu uso apenas ou tornadas disponíveis para todos os utilizadores do "
+"computador."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "O Projeto GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Visualizador de letras"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Pesquisar"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -48,9 +97,9 @@ msgstr "_Fechar"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, predefinição %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instância %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instância %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -72,9 +121,13 @@ msgstr "TAMANHO"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FICHEIRO-DE-FONTE FICHEIRO-RESULTADO"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Fontes do GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Mostrar a versão da aplicação"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1051,45 +1104,11 @@ msgstr "Instalada"
 msgid "Installing"
 msgstr "A instalar"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Ver as fontes existentes no sistema"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "A aplicação Fontes mostra, como miniaturas, as fontes instaladas para uso "
-#~ "no computador. Selecionar qualquer uma das miniaturas mostra em vista "
-#~ "completa a aparência da fonte em diversos tamanhos.\n"
-#~ "As fontes mostram-lhe as fontes instaladas no seu computador para a sua "
-#~ "utilização como miniaturas. A selecção de quaisquer miniaturas mostra a "
-#~ "visão completa de como a fonte ficaria sob vários tamanhos."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "A aplicação Fontes também suporta a instalação de novos ficheiros de "
-#~ "fontes transferidos em .ttf ou noutros formatos. As fontes podem ser "
-#~ "instaladas para seu uso apenas ou tornadas disponíveis para todos os "
-#~ "utilizadores do computador."
-
 #~ msgid "Install"
 #~ msgstr "Instalar"
 
-#~ msgid "Search"
-#~ msgstr "Pesquisar"
-
 #~ msgid "Back"
 #~ msgstr "Recuar"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Mostrar a versão da aplicação"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fontes;letras;"
 
 #~ msgid "Info"
 #~ msgstr "Informação"
@@ -1105,9 +1124,6 @@ msgstr "A instalar"
 
 #~ msgid "Quit"
 #~ msgstr "Sair"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Visualizador de letras"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[FICHEIRO...]"

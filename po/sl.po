@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-04-01 18:29+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
@@ -21,13 +21,56 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 3.8\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Pisave"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Pregledovalnik sistemskih pisav"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr ""
+"pisave;fonti;oblika zapisa;zapis;črke;besede;znaki;ikone;emotikoni;izrazne;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Program omogoča prikaz pisav, nameščenih v sistem kot sličice. Z izborom "
+"posamezne sličice se pokaže poln prikaz pisave pri različnih velikostih."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Program omogoča tudi nameščanje datotek pisav .ttf in drugih zapisov. "
+"Namestiti jih je mogoče le za posameznega uporabnika, ali za vse uporabnike "
+"naprave."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Glavno okno"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Predogled pisave"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Iskanje pisave"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -42,9 +85,9 @@ msgstr "_Zapri"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g – %g, privzeto %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Primerek %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Primerek %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -66,9 +109,13 @@ msgstr "VELIKOST"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "DATOTEKA-PISAVE ODVODNA-DATOTEKA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Pisave GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Pokaži različico programa"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1043,40 +1090,3 @@ msgstr "Nameščeno"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Poteka nameščanje …"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Pregledovalnik sistemskih pisav"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr ""
-#~ "pisave;fonti;oblika "
-#~ "zapisa;zapis;črke;besede;znaki;ikone;emotikoni;izrazne;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Program omogoča prikaz pisav, nameščenih v sistem kot sličice. Z izborom "
-#~ "posamezne sličice se pokaže poln prikaz pisave pri različnih velikostih."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Program omogoča tudi nameščanje datotek pisav .ttf in drugih zapisov. "
-#~ "Namestiti jih je mogoče le za posameznega uporabnika, ali za vse "
-#~ "uporabnike naprave."
-
-#~ msgid "Main Window"
-#~ msgstr "Glavno okno"
-
-#~ msgid "Font Preview"
-#~ msgstr "Predogled pisave"
-
-#~ msgid "Font Search"
-#~ msgstr "Iskanje pisave"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Pokaži različico programa"

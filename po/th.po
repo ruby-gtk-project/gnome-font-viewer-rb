@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2025-10-20 12:18+0700\n"
 "Last-Translator: Akom Chotiphantawanon <knight2000@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -22,13 +22,56 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.8\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "แบบอักษร"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "ดูแบบอักษรต่างๆ ในระบบของคุณ"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "แบบอักษร;ฟอนต์;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"“แบบอักษร” จะแสดงแบบอักษรต่าง ๆ ที่ติดตั้งในคอมพิวเตอร์ของคุณในแบบภาพย่อ การเลือกภาพย่อใด "
+"ๆ จะแสดงภาพเต็มของแบบอักษรในขนาดต่าง ๆ"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"“แบบอักษร” ยังรองรับการติดตั้งไฟล์แบบอักษรใหม่ที่ดาวน์โหลดเป็น .ttf หรือรูปแบบอื่นด้วย "
+"แบบอักษรอาจติดตั้งสำหรับคุณคนเดียวหรือให้ผู้ใช้ทุกคนในเครื่องสามารถใช้งานได้"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "โครงการ GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "โปรแกรมดูแบบอักษร"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ค้นหา"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -46,9 +89,9 @@ msgstr "_ปิด"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, ค่าปริยาย %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "อินสแตนซ์ %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "อินสแตนซ์ %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -70,9 +113,13 @@ msgstr "ขนาด"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ไฟล์แบบอักษร ไฟล์ผลลัพธ์"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "“แบบอักษร” ของ GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "แสดงรุ่นของแอปพลิเคชัน"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1049,34 +1096,6 @@ msgstr "ติดตั้งแล้ว"
 msgid "Installing"
 msgstr "กำลังติดตั้ง"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "ดูแบบอักษรต่างๆ ในระบบของคุณ"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "“แบบอักษร” จะแสดงแบบอักษรต่าง ๆ ที่ติดตั้งในคอมพิวเตอร์ของคุณในแบบภาพย่อ "
-#~ "การเลือกภาพย่อใด ๆ จะแสดงภาพเต็มของแบบอักษรในขนาดต่าง ๆ"
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "“แบบอักษร” ยังรองรับการติดตั้งไฟล์แบบอักษรใหม่ที่ดาวน์โหลดเป็น .ttf หรือรูปแบบอื่นด้วย "
-#~ "แบบอักษรอาจติดตั้งสำหรับคุณคนเดียวหรือให้ผู้ใช้ทุกคนในเครื่องสามารถใช้งานได้"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "แบบอักษร;ฟอนต์;"
-
-#~ msgid "Search"
-#~ msgstr "ค้นหา"
-
-#~ msgid "Show the application's version"
-#~ msgstr "แสดงรุ่นของแอปพลิเคชัน"
-
 #~ msgid "About"
 #~ msgstr "เกี่ยวกับ"
 
@@ -1088,9 +1107,6 @@ msgstr "กำลังติดตั้ง"
 
 #~ msgid "Back"
 #~ msgstr "ย้อนกลับ"
-
-#~ msgid "Font Viewer"
-#~ msgstr "โปรแกรมดูแบบอักษร"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[แฟ้ม...]"

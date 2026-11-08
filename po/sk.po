@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2024-07-14 13:18+0200\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
@@ -24,13 +24,58 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Písma"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Zobrazuje písma vo vašom systéme"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "písmo;písma;rodina;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Písma v podobe miniatúr zobrazujú písma nainštalované v počítači, ktoré je "
+"možné použiť. Po vybratí niektorej miniatúry sa zobrazí celistvý náhľad "
+"vzhľadu písma v rôznych veľkostiach."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Písma tiež podporujú inštalovanie nových písiem z prevzatých súborov vo "
+"formáte .ttf a v iných formátoch. Písma môžu byť nainštalované iba pre "
+"jedného používateľa alebo všetkých používateľov na počítači."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Prehliadač písiem"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Hľadať"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -45,9 +90,9 @@ msgstr "_Zavrieť"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, predvolená hodnota %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Inštancia %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Inštancia %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -69,9 +114,13 @@ msgstr "VEĽKOSŤ"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "SÚBOR-S-PÍSMOM VÝSTUPNÝ-SÚBOR"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Písma prostredia GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Zobrazí verziu aplikácie"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1047,36 +1096,6 @@ msgstr "Nainštalované"
 msgid "Installing"
 msgstr "Inštaluje sa"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Zobrazuje písma vo vašom systéme"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Písma v podobe miniatúr zobrazujú písma nainštalované v počítači, ktoré "
-#~ "je možné použiť. Po vybratí niektorej miniatúry sa zobrazí celistvý "
-#~ "náhľad vzhľadu písma v rôznych veľkostiach."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Písma tiež podporujú inštalovanie nových písiem z prevzatých súborov vo "
-#~ "formáte .ttf a v iných formátoch. Písma môžu byť nainštalované iba pre "
-#~ "jedného používateľa alebo všetkých používateľov na počítači."
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "písmo;písma;rodina;"
-
-#~ msgid "Search"
-#~ msgstr "Hľadať"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Zobrazí verziu aplikácie"
-
 #~ msgid "Install"
 #~ msgstr "Nainštalovať"
 
@@ -1100,9 +1119,6 @@ msgstr "Inštaluje sa"
 
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Prehliadač písiem"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[SÚBOR...]"

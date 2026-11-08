@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-09-04 12:36+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -45,14 +45,61 @@ msgstr ""
 "\n"
 "\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "બધા ફોન્ટ"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "તમારી સિસ્ટમ પર ફોન્ટ જુઓ"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "ફોન્ટ;ફોન્ટફેસ;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME ફોન્ટ દર્શક થમ્ભનેઇલ તરીકે તમારાં વપરાશ માટે તમારાં કમ્પ્યૂટર પર સ્થાપિત થયેલ ફોન્ટને "
+"તમને બતાવે છે. કોઇપણ થમ્ભનેઇલને પસંદ કરીને સંપૂર્ણ દેખાવને બતાવે છે કે કેવી રીતે ફોન્ટ વિવિધ "
+"માપ હેઠળ દેખાશે."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME ફોન્ટ દર્શક પણ ttf અને બીજા બંધારણોમાં ડાઉનલોડ થયેલ નવી ફોન્ટ ફાઇલોને સ્થાપિત "
+"કરવા પણ આધાર આપે છે. ફોન્ટ તમારાં વપરાશ માટે પણ સ્થાપિત કરી શકાય છે અથવા કમ્પ્યૂટર પર "
+"બધા વપરાશકર્તાઓ માટે ઉપલબ્ધ બને છે."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "ફોન્ટ દર્શક"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ફોન્ટ દર્શક"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -66,9 +113,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "સ્થાપિત થયેલ"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -90,10 +138,14 @@ msgstr "SIZE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "બધા ફોન્ટ"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1076,24 +1128,6 @@ msgstr "સ્થાપિત થયેલ"
 msgid "Installing"
 msgstr "સ્થાપિત કરો"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME ફોન્ટ દર્શક થમ્ભનેઇલ તરીકે તમારાં વપરાશ માટે તમારાં કમ્પ્યૂટર પર સ્થાપિત થયેલ "
-#~ "ફોન્ટને તમને બતાવે છે. કોઇપણ થમ્ભનેઇલને પસંદ કરીને સંપૂર્ણ દેખાવને બતાવે છે કે કેવી રીતે ફોન્ટ "
-#~ "વિવિધ માપ હેઠળ દેખાશે."
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME ફોન્ટ દર્શક પણ ttf અને બીજા બંધારણોમાં ડાઉનલોડ થયેલ નવી ફોન્ટ ફાઇલોને "
-#~ "સ્થાપિત કરવા પણ આધાર આપે છે. ફોન્ટ તમારાં વપરાશ માટે પણ સ્થાપિત કરી શકાય છે અથવા "
-#~ "કમ્પ્યૂટર પર બધા વપરાશકર્તાઓ માટે ઉપલબ્ધ બને છે."
-
 #~ msgid "About"
 #~ msgstr "વિશે"
 
@@ -1105,15 +1139,6 @@ msgstr "સ્થાપિત કરો"
 
 #~ msgid "Back"
 #~ msgstr "પાછા જાઓ"
-
-#~ msgid "Font Viewer"
-#~ msgstr "ફોન્ટ દર્શક"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "તમારી સિસ્ટમ પર ફોન્ટ જુઓ"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "ફોન્ટ;ફોન્ટફેસ;"
 
 #, fuzzy
 #~ msgid "Size:"

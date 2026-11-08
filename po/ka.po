@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fonts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-07-31 06:04+0200\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
@@ -18,13 +18,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "ფონტები"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "თქვენს სისტემაში არსებული ფონტების ნახვა"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;ფონტი;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Fonts თქვენს კომპიუტერზე დაყენებულ ფონტებს გაჩვენებთ, მინიატურებისთვის. "
+"ნებისმიერი მინიატურის მონიშვნა გაჩვენებთ, როგორ გამოჩნდებოდა ესა თუ ს ფონტი "
+"სხვადასხვა ზომებით."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Fonts-ს ასევე აქვს მხარდაჭერა, ახალი .ttf ან სხვა ახალი ფონტები დააყენოთ. "
+"ფონტები, შეგიძლიათ, მხოლოდ თქვენთვის, ან კომპიუტერის ყველა მომხმარებლისთვის "
+"დააყენოთ."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "პროექტი „GNOME“"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "მთავარი ფანჯარა"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "ფონტის მინიატურა"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "ფონტის ძებნა"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +82,9 @@ msgstr "დახურვა"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, ნაგულისხმები %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "ასლი %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "ასლი %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,9 +106,13 @@ msgstr "SIZE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Fonts"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "აპლიკაციის ვერსიის ჩვენება"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1040,42 +1087,6 @@ msgstr "ჩადგმულია"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "დაყენება"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "თქვენს სისტემაში არსებული ფონტების ნახვა"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;ფონტი;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Fonts თქვენს კომპიუტერზე დაყენებულ ფონტებს გაჩვენებთ, მინიატურებისთვის. "
-#~ "ნებისმიერი მინიატურის მონიშვნა გაჩვენებთ, როგორ გამოჩნდებოდა ესა თუ ს "
-#~ "ფონტი სხვადასხვა ზომებით."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Fonts-ს ასევე აქვს მხარდაჭერა, ახალი .ttf ან სხვა ახალი ფონტები დააყენოთ. "
-#~ "ფონტები, შეგიძლიათ, მხოლოდ თქვენთვის, ან კომპიუტერის ყველა "
-#~ "მომხმარებლისთვის დააყენოთ."
-
-#~ msgid "Main Window"
-#~ msgstr "მთავარი ფანჯარა"
-
-#~ msgid "Font Preview"
-#~ msgstr "ფონტის მინიატურა"
-
-#~ msgid "Font Search"
-#~ msgstr "ფონტის ძებნა"
-
-#~ msgid "Show the application's version"
-#~ msgstr "აპლიკაციის ვერსიის ჩვენება"
 
 #~ msgid "Install"
 #~ msgstr "დაყენება"

@@ -16,8 +16,9 @@ require_relative '../lib/font_view_application'
 require_relative 'gtk_driver'
 
 # The driver expects `build` to return the GApplication; the port's own build
-# returns the application object so `--version` can short-circuit, so this
-# hands the driver the GtkApplication inside it.
+# returns the FontViewApplication wrapper instead (so callers get `run`'s
+# argv[0] handling and the rest of its API), so this hands the driver the
+# GtkApplication inside it.
 class Driven
   attr_reader :viewer
 
@@ -275,8 +276,9 @@ GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
     d.check('reports the failure') { out.include?('Could not load face') || out.include?('No such file') }
   end
 
-  # main.c's --version option short-circuits before g_application_run, so it
-  # is exercised as its own subprocess rather than through the running app.
+  # --version is a GOptionEntry handled in 'handle-local-options', before the
+  # application activates, so it is exercised as its own subprocess rather
+  # than through the already-running app.
   d.step('the app reports its version with --version') do
     out, status = Open3.capture2e(
       'ruby',
@@ -285,6 +287,20 @@ GtkDriver.drive(Driven.new, shots: 'tmp/shots', interval: 1000) do |d, driven|
     )
     d.check('exits successfully') { status.success? }
     d.check('prints the version name and number') { out.include?('GNOME Fonts') && out =~ /\d+\.\d+/ }
+  end
+
+  # --version is declared as a GOptionEntry (via add_main_option), the way
+  # main.c's goption_options does, so it has to show up in --help with its
+  # own description rather than being handled invisibly before GOption sees it.
+  d.step('--help lists --version with its own description') do
+    out, status = Open3.capture2e(
+      'ruby',
+      File.expand_path('../exe/gnome-font-viewer', __dir__),
+      '--help',
+    )
+    d.check('exits successfully') { status.success? }
+    d.check('lists --version') { out.include?('--version') }
+    d.check("shows the version option's description") { out.include?("Show the application's version") }
   end
 
   # app.quit (bound to <Control>q) calls action_quit, which calls

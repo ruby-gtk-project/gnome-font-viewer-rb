@@ -1,5 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
+data/org.gnome.font-viewer.desktop.in.in
+data/org.gnome.font-viewer.metainfo.xml.in
 lib/about_dialog.rb
 lib/error_dialog.rb
 lib/font_loader.rb

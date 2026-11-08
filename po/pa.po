@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2024-03-18 17:55-0500\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -21,13 +21,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.08.5\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "ਫ਼ੋਂਟ"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "ਆਪਣੇ ਸਿਸਟਮ ਉੱਤੇ ਫੋਂਟ ਵੇਖੋ"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "ਫੋਂਟ;ਫ਼ੋਂਟਫੇਸ;ਫ਼ੋਂਟ;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"ਫੋਂਟਸ (Fonts) ਤੁਹਾਡੀ ਵਰਤੋਂ ਲਈ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਉੱਤੇ ਇੰਸਟਾਲ ਹੋਏ ਫੋਂਟ ਨੂੰ ਥੰਮਨੇਲ ਵਜੋਂ ਵੇਖਾਉਂਦਾ ਹੈ। ਕਿਸੇ "
+"ਵੀ ਥੰਮਨੇਲ ਨੂੰ ਚੁਣ ਕੇ ਤੁਸੀਂ ਵੇਖ ਸਕਦੇ ਹੋ ਕਿ ਫੋਂਟ ਵੱਖ-ਵੱਖ ਆਕਾਰਾਂ ਵਿੱਚ ਕਿੰਝ ਵੇਖਾਈ ਦੇਣਗੇ।"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"ਫ਼ੋਂਟਸ (Fonts) ਹੁਣ ttf ਤੇ ਹੋਰ ਫਾਰਮੈਟ ਵਿੱਚੋਂ ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਨਵੀਂ ਫੋਂਟ ਫਾਇਲਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਲਈ "
+"ਸਹਾਇਕ ਹੈ। ਫੋਂਟ ਨੂੰ ਕੇਵਲ ਤੁਹਾਡੀ ਵਰਤੋਂ ਲਈ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ ਜਾਂ ਤੁਸੀਂ ਕੰਪਿਊਟਰ ਉੱਤੇ ਸਭ ਫੋਂਟ "
+"ਵਰਤਣ ਵਾਲਿਆਂ ਲਈ ਵੀ ਇੰਸਟਾਲ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "ਗਨੋਮ ਪਰੋਜੈਕਟ"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "ਫੋਂਟ ਦਰਸ਼ਕ"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ਖੋਜੋ"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -44,9 +88,9 @@ msgstr "ਬੰਦ ਕਰੋ(_C)"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, default %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "ਮੌਕਾ %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "ਮੌਕਾ %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -68,9 +112,13 @@ msgstr "ਅਕਾਰ"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "ਗਨੋਮ ਫ਼ੋਂਟਸ"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜ਼ਨ ਵੇਖਾਓ"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1047,45 +1095,8 @@ msgstr "ਇੰਸਟਾਲ ਹੈ"
 msgid "Installing"
 msgstr "ਇੰਸਟਾਲ ਕਰਨੇ"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "ਆਪਣੇ ਸਿਸਟਮ ਉੱਤੇ ਫੋਂਟ ਵੇਖੋ"
-
-#~| msgid ""
-#~| "GNOME Fonts shows you the fonts installed on your computer for your use "
-#~| "as thumbnails. Selecting any thumbnails shows the full view of how the "
-#~| "font would look under various sizes."
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "ਫੋਂਟਸ (Fonts) ਤੁਹਾਡੀ ਵਰਤੋਂ ਲਈ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਉੱਤੇ ਇੰਸਟਾਲ ਹੋਏ ਫੋਂਟ ਨੂੰ ਥੰਮਨੇਲ ਵਜੋਂ ਵੇਖਾਉਂਦਾ ਹੈ। "
-#~ "ਕਿਸੇ ਵੀ ਥੰਮਨੇਲ ਨੂੰ ਚੁਣ ਕੇ ਤੁਸੀਂ ਵੇਖ ਸਕਦੇ ਹੋ ਕਿ ਫੋਂਟ ਵੱਖ-ਵੱਖ ਆਕਾਰਾਂ ਵਿੱਚ ਕਿੰਝ ਵੇਖਾਈ ਦੇਣਗੇ।"
-
-#~| msgid ""
-#~| "GNOME Fonts also supports installing new font files downloaded in "
-#~| "the .ttf and other formats. Fonts may be installed only for your use or "
-#~| "made available to all users on the computer."
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "ਫ਼ੋਂਟਸ (Fonts) ਹੁਣ ttf ਤੇ ਹੋਰ ਫਾਰਮੈਟ ਵਿੱਚੋਂ ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਨਵੀਂ ਫੋਂਟ ਫਾਇਲਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ "
-#~ "ਲਈ ਸਹਾਇਕ ਹੈ। ਫੋਂਟ ਨੂੰ ਕੇਵਲ ਤੁਹਾਡੀ ਵਰਤੋਂ ਲਈ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ ਜਾਂ ਤੁਸੀਂ ਕੰਪਿਊਟਰ ਉੱਤੇ "
-#~ "ਸਭ ਫੋਂਟ ਵਰਤਣ ਵਾਲਿਆਂ ਲਈ ਵੀ ਇੰਸਟਾਲ ਕਰ ਸਕਦੇ ਹੋ।"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "ਫੋਂਟ;ਫ਼ੋਂਟਫੇਸ;ਫ਼ੋਂਟ;"
-
 #~ msgid "Install"
 #~ msgstr "ਇੰਸਟਾਲ"
-
-#~ msgid "Search"
-#~ msgstr "ਖੋਜੋ"
-
-#~ msgid "Show the application's version"
-#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜ਼ਨ ਵੇਖਾਓ"
 
 #~| msgid "This font could not be displayed."
 #~ msgid "This font could not be installed."
@@ -1105,9 +1116,6 @@ msgstr "ਇੰਸਟਾਲ ਕਰਨੇ"
 
 #~ msgid "Quit"
 #~ msgstr "ਬਾਹਰ"
-
-#~ msgid "Font Viewer"
-#~ msgstr "ਫੋਂਟ ਦਰਸ਼ਕ"
 
 #~ msgid "Font size (default: 64)"
 #~ msgstr "ਫੋਂਟ ਆਕਾਰ (ਡਿਫਾਲਟ: 64)"

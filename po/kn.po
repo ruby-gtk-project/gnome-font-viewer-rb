@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-09-15 16:11+0530\n"
 "Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
 "Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
@@ -18,14 +18,61 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "ಎಲ್ಲಾ ಅಕ್ಷರಶೈಲಿಗಳು"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಯಲ್ಲಿನ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ನೋಡಿ"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "ಅಕ್ಷರಶೈಲಿಗಳು;ಅಕ್ಷರಶೈಲಿಗುಂಪು;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME ಫಾಂಟ್‌ ವೀವರ್ ನೀವು ತಂಬ್‌ನೈಲ್‌ಗಳಾಗಿ ಬಳಸಲು ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಅನುಸ್ಥಾಪಿಸಲಾದ "
+"ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಯಾವುದೆ ತಂಬ್‌ನೈಲ್ ಅನ್ನು ಆರಿಸುವುದರಿಂದ ಹಲವಾರು ಗಾತ್ರಗಳ "
+"ಅಡಿಯಲ್ಲಿ ಅಕ್ಷರಶೈಲಿಯು ಹೇಗೆ ಕಾಣಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ತೋರಿಸುತ್ತದೆ."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME ಫಾಂಟ್‌ ವೀವರ್‌ ttf ಮತ್ತು ಇತರೆ ವಿನ್ಯಾಸಗಳಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಲಾದ ಹೊಸ ಅಕ್ಷರಶೈಲಿ "
+"ಕಡತಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸುವುದನ್ನೂ ಸಹ ಬೆಂಬಲಿಸುತ್ತದೆ. ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಕೇವಲ ನಿಮ್ಮ ಬಳಕೆಗೆ "
+"ಮಾತ್ರವಾಗಿರುವಂತೆ ಅಥವ ಗಣಕದಲ್ಲಿನ ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಅನುಸ್ಥಾಪಿಸಬಹುದು."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "ಫಾಂಟ್‌ ವೀವರ್"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ಫಾಂಟ್‌ ವೀವರ್"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +86,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "ಅನುಸ್ಥಾಪಿಸಲಾದ"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,10 +111,14 @@ msgstr "SIZE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "ಎಲ್ಲಾ ಅಕ್ಷರಶೈಲಿಗಳು"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1048,24 +1100,6 @@ msgstr "ಅನುಸ್ಥಾಪಿಸಲಾದ"
 msgid "Installing"
 msgstr "ಅನುಸ್ಥಾಪಿಸು"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME ಫಾಂಟ್‌ ವೀವರ್ ನೀವು ತಂಬ್‌ನೈಲ್‌ಗಳಾಗಿ ಬಳಸಲು ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಅನುಸ್ಥಾಪಿಸಲಾದ "
-#~ "ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಯಾವುದೆ ತಂಬ್‌ನೈಲ್ ಅನ್ನು ಆರಿಸುವುದರಿಂದ ಹಲವಾರು ಗಾತ್ರಗಳ "
-#~ "ಅಡಿಯಲ್ಲಿ ಅಕ್ಷರಶೈಲಿಯು ಹೇಗೆ ಕಾಣಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ತೋರಿಸುತ್ತದೆ."
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME ಫಾಂಟ್‌ ವೀವರ್‌ ttf ಮತ್ತು ಇತರೆ ವಿನ್ಯಾಸಗಳಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಲಾದ ಹೊಸ ಅಕ್ಷರಶೈಲಿ "
-#~ "ಕಡತಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸುವುದನ್ನೂ ಸಹ ಬೆಂಬಲಿಸುತ್ತದೆ. ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ಕೇವಲ ನಿಮ್ಮ ಬಳಕೆಗೆ "
-#~ "ಮಾತ್ರವಾಗಿರುವಂತೆ ಅಥವ ಗಣಕದಲ್ಲಿನ ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಅನುಸ್ಥಾಪಿಸಬಹುದು."
-
 #~ msgid "About"
 #~ msgstr "ಕುರಿತು"
 
@@ -1077,12 +1111,3 @@ msgstr "ಅನುಸ್ಥಾಪಿಸು"
 
 #~ msgid "Back"
 #~ msgstr "ಹಿಂದಕ್ಕೆ"
-
-#~ msgid "Font Viewer"
-#~ msgstr "ಫಾಂಟ್‌ ವೀವರ್"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಯಲ್ಲಿನ ಅಕ್ಷರಶೈಲಿಗಳನ್ನು ನೋಡಿ"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "ಅಕ್ಷರಶೈಲಿಗಳು;ಅಕ್ಷರಶೈಲಿಗುಂಪು;"

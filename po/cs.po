@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-04-01 17:38+0200\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
@@ -32,13 +32,55 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Fonty"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Zobrazte si fonty ve svém systému"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonty;písma;řezy;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Aplikace Fonty vám zobrazí v podobě náhledů fonty nainstalovaná ve vašem "
+"počítači. Po vybrání náhledu uvidíte, jak font vypadá v různých velikostech."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Umí také nainstalovat nové fonty poskytnuté ve formátu .ttf a dalších "
+"formátech. Fonty je možné instalovat jen pro své použití nebo je zpřístupnit "
+"všem uživatelům počítače."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Hlavní okno"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Náhled fontů"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Hledání fontů"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -53,9 +95,9 @@ msgstr "_Zavřít"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, výchozí %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instance %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instance %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -77,9 +119,13 @@ msgstr "VELIKOST"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "SOUBOR-FONTU VÝSTUPNÍ-SOUBOR"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Prohlížeč fontů GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Zobrazit verzi aplikace"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1054,42 +1100,6 @@ msgstr "Nainstalováno"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Instaluje se"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Zobrazte si fonty ve svém systému"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonty;písma;řezy;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Aplikace Fonty vám zobrazí v podobě náhledů fonty nainstalovaná ve vašem "
-#~ "počítači. Po vybrání náhledu uvidíte, jak font vypadá v různých "
-#~ "velikostech."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Umí také nainstalovat nové fonty poskytnuté ve formátu .ttf a dalších "
-#~ "formátech. Fonty je možné instalovat jen pro své použití nebo je "
-#~ "zpřístupnit všem uživatelům počítače."
-
-#~ msgid "Main Window"
-#~ msgstr "Hlavní okno"
-
-#~ msgid "Font Preview"
-#~ msgstr "Náhled fontů"
-
-#~ msgid "Font Search"
-#~ msgstr "Hledání fontů"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Zobrazit verzi aplikace"
 
 #~ msgid "Install"
 #~ msgstr "Nainstalovat"

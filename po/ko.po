@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-31 23:53+0900\n"
 "Last-Translator: DaeHyun Sung <sungdh86+git@gmail.com>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
@@ -27,13 +27,55 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "글꼴"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "시스템에 설치된 글꼴을 봅니다"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;글꼴;fontface;폰트;서체;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"글꼴은 컴퓨터에 설치된 글꼴을 섬네일로 보여줍니다. 섬네일을 선택하면 크기에 "
+"따라 글꼴이 어떻게 보이는지 표시합니다."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"글꼴은 .ttf나 기타 형식으로 다운로드한 글꼴 파일을 설치할 수도 있습니다. 사용"
+"자 본인만 쓸 수 있게 설치할 수도 있고 컴퓨터의 모든 사용자가 사용할 수 있게 "
+"설치할 수도 있습니다."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "그놈 프로젝트"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "기본 창"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "글꼴 미리보기"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "글꼴 검색"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -52,9 +94,9 @@ msgstr "닫기(_C)"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, 기본값 %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "인스턴스 %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "인스턴스 %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -76,9 +118,13 @@ msgstr "<크기>"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "<글꼴파일> <출력파일>"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "그놈 글꼴"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "프로그램 버전을 표시합니다"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1057,41 +1103,6 @@ msgstr "설치함"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "설치중"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "시스템에 설치된 글꼴을 봅니다"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;글꼴;fontface;폰트;서체;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "글꼴은 컴퓨터에 설치된 글꼴을 섬네일로 보여줍니다. 섬네일을 선택하면 크기"
-#~ "에 따라 글꼴이 어떻게 보이는지 표시합니다."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "글꼴은 .ttf나 기타 형식으로 다운로드한 글꼴 파일을 설치할 수도 있습니다. "
-#~ "사용자 본인만 쓸 수 있게 설치할 수도 있고 컴퓨터의 모든 사용자가 사용할 "
-#~ "수 있게 설치할 수도 있습니다."
-
-#~ msgid "Main Window"
-#~ msgstr "기본 창"
-
-#~ msgid "Font Preview"
-#~ msgstr "글꼴 미리보기"
-
-#~ msgid "Font Search"
-#~ msgstr "글꼴 검색"
-
-#~ msgid "Show the application's version"
-#~ msgstr "프로그램 버전을 표시합니다"
 
 #~ msgid "Install"
 #~ msgstr "설치"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-02-18 07:28+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
@@ -21,13 +21,58 @@ msgstr ""
 "X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Bookmarks: -1,21,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Фонтови"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Прегледајте писма на вашем систему"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "слова;фонтови;писма;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Фонтови вам приказују фонтове инсталиране на вашем рачунару за вашу употребу "
+"као минијатуре. Бирање неке минијатуре приказује потпун преглед како би фонт "
+"требао да изгледау разним величинама."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Фонтови такође подржавају инсталирање датотека нових фонтова преузетих у "
+"„.ttf“ и другим записима. Фонтови могу бити инсталирани само за вашу "
+"употребу или могу бити доступни свим корисницима на рачунару."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Гномов пројекат"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Прегледач писама"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Претрага"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -46,9 +91,9 @@ msgstr "_Затвори"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, подразумевано %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Примерак %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Примерак %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -70,9 +115,13 @@ msgstr "ВЕЛИЧИНА"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ДАТОТЕКА-ПИСМА ИЗЛАЗНА-ДАТОТЕКА"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Гномови фонтови"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Приказује издање програма"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1049,41 +1098,11 @@ msgstr "Инсталирано"
 msgid "Installing"
 msgstr "Инсталирам"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Прегледајте писма на вашем систему"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Фонтови вам приказују фонтове инсталиране на вашем рачунару за вашу "
-#~ "употребу као минијатуре. Бирање неке минијатуре приказује потпун преглед "
-#~ "како би фонт требао да изгледау разним величинама."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Фонтови такође подржавају инсталирање датотека нових фонтова преузетих у "
-#~ "„.ttf“ и другим записима. Фонтови могу бити инсталирани само за вашу "
-#~ "употребу или могу бити доступни свим корисницима на рачунару."
-
 #~ msgid "Install"
 #~ msgstr "Инсталирај"
 
-#~ msgid "Search"
-#~ msgstr "Претрага"
-
 #~ msgid "Back"
 #~ msgstr "Назад"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Приказује издање програма"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "слова;фонтови;писма;"
 
 #~ msgid "This font could not be installed."
 #~ msgstr "Овај фонт не може бити инсталиран."
@@ -1105,9 +1124,6 @@ msgstr "Инсталирам"
 
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Прегледач писама"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[ДАТОТЕКА...]"

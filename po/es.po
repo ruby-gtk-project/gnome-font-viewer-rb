@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-02-28 13:26+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
@@ -28,13 +28,59 @@ msgstr ""
 "X-Generator: Gtranslator 42.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Tipografías"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Ver las tipografías de su sistema"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "tipografía;letra;tipo;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Tipografías muestra las tipografías instaladas en el equipo como miniaturas. "
+"Al seleccionar cualquiera de ellas se muestra una vista completa de cómo "
+"queda la tipografía con varios tamaños."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Tipografías también soporta instalar nuevas tipografías descargadas como "
+"archivos .ttf u otros formatos. Las tipografías se puede instalar para su "
+"uso personal o para que estén disponibles para todos los usuarios del "
+"sistema."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "El Proyecto GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Visor de tipografías"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Buscar"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -49,9 +95,9 @@ msgstr "_Cerrar"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, predeterminada %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instancia %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instancia %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -73,9 +119,13 @@ msgstr "TAMAÑO"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ARCHIVO-DE-TIPOGRAFÍA ARCHIVO-DE-SALIDA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Tipografías de GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Mostrar la versión de la aplicación"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1058,42 +1108,11 @@ msgstr "Instalado"
 msgid "Installing"
 msgstr "Instalando"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Ver las tipografías de su sistema"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Tipografías muestra las tipografías instaladas en el equipo como "
-#~ "miniaturas. Al seleccionar cualquiera de ellas se muestra una vista "
-#~ "completa de cómo queda la tipografía con varios tamaños."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Tipografías también soporta instalar nuevas tipografías descargadas como "
-#~ "archivos .ttf u otros formatos. Las tipografías se puede instalar para su "
-#~ "uso personal o para que estén disponibles para todos los usuarios del "
-#~ "sistema."
-
 #~ msgid "Install"
 #~ msgstr "Instalar"
 
-#~ msgid "Search"
-#~ msgstr "Buscar"
-
 #~ msgid "Back"
 #~ msgstr "Atrás"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Mostrar la versión de la aplicación"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "tipografía;letra;tipo;"
 
 #~ msgid "This font could not be installed."
 #~ msgstr "No se pudo instalar esta tipografía."
@@ -1118,9 +1137,6 @@ msgstr "Instalando"
 
 #~ msgid "General"
 #~ msgstr "General"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Visor de tipografías"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[ARCHIVO…]"

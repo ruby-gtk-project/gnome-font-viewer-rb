@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2024-04-04 23:42+0200\n"
 "Last-Translator: sa\n"
 "Language-Team: Kabyle <kab@li.org>\n"
@@ -17,13 +17,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Tisefsiyin"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Wali tisefsa n unagraw-inek"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "tisefsiyin;udem n tsefsiyin;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Tisefsiyin skanayent tisefsiyin i yettusbedden ɣef uselkim-ik i useqdec am "
+"tenfulin. Afran n kra n tenfult yeskanay taskant taččurant ɣef wamek d-"
+"tettban tsefsit s teɣzi yemgaraden."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Tisefsiyin ssefrakent asebded n yifuyla n tsefsiyin imaynuten i d-"
+"yettwasadren s umasal .ttf akked yimasalen niḍen. Tisefsiyin zemrent ad "
+"ttwasbeddent kan i useqdec-ik neɣ ad ilint akk i meṛṛa iseqdacen ɣef uselkim."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Asenfar n GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Nadi"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -38,9 +82,9 @@ msgstr "Mdel (_C)"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, %g amezwer"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Tummant %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Tummant %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -62,9 +106,13 @@ msgstr "TEΓZI"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "TASEFSIT-ANEKCUM N UFAYLU-AFAYLU"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Tisefsiyin n GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Sken lqem n usnas"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1040,36 +1088,5 @@ msgstr "Ttusbedden"
 msgid "Installing"
 msgstr "Sebded"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Wali tisefsa n unagraw-inek"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Tisefsiyin skanayent tisefsiyin i yettusbedden ɣef uselkim-ik i useqdec "
-#~ "am tenfulin. Afran n kra n tenfult yeskanay taskant taččurant ɣef wamek d-"
-#~ "tettban tsefsit s teɣzi yemgaraden."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Tisefsiyin ssefrakent asebded n yifuyla n tsefsiyin imaynuten i d-"
-#~ "yettwasadren s umasal .ttf akked yimasalen niḍen. Tisefsiyin zemrent ad "
-#~ "ttwasbeddent kan i useqdec-ik neɣ ad ilint akk i meṛṛa iseqdacen ɣef "
-#~ "uselkim."
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "tisefsiyin;udem n tsefsiyin;"
-
 #~ msgid "Install"
 #~ msgstr "Sebded"
-
-#~ msgid "Search"
-#~ msgstr "Nadi"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Sken lqem n usnas"

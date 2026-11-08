@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2020-02-22 10:02+0300\n"
 "Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>\n"
 "Language-Team: Kurdish (Sorani) <ckb@li.org>\n"
@@ -18,12 +18,57 @@ msgstr ""
 "X-Launchpad-Export-Date: 2020-02-22 06:56+0000\n"
 "X-Generator: Poedit 2.3\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "جۆرەپیت"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "جۆرەپیتەکانی ناو سیستمەکەت پیشان بدە"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"جۆرەپیتی گنۆم هەموو جۆرەپیتە دامەزراوەکانی ناو کۆمپیوتەرەکەت بە شێوەی "
+"وێنۆچکە پیشان دەدات. لەگەڵ دیاریکردنی هەر دانەیەک هەموو جۆرەپیتەکە پیشان "
+"دەدات و چؤن دەردەکەوێت بە قەبارەی جیاواز."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"جۆرەپیتی گنۆم هەروەها پشتگیری دامەزراندنی جۆرەپیتە داگیراوەکان دەکات بە "
+"جۆری .ttf  و جۆری تریش. جۆرەپیت دەتوانی بەس بۆ خۆت دایمەزرێنیت یان بۆ هەموو "
+"بەکارهێنەرانی کۆمپیوتەرەکەت."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
 msgstr ""
 
 #: ../lib/about_dialog.rb:35
@@ -41,9 +86,9 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, بنەڕەت %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "نموونە %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "نموونە %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -65,9 +110,13 @@ msgstr "قەبارە"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "پەڕگەی-جۆرەپیت پەڕگەی-دەرهێنراو"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "جۆرەپیتەکانی گنۆم"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "وەشانی داوانامە پیشانبدە"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1044,30 +1093,6 @@ msgstr "دامەزرا"
 msgid "Installing"
 msgstr "دامەزراندنی..."
 
-#~ msgid "View fonts on your system"
-#~ msgstr "جۆرەپیتەکانی ناو سیستمەکەت پیشان بدە"
-
-#~ msgid ""
-#~ "GNOME Fonts shows you the fonts installed on your computer for your use "
-#~ "as thumbnails. Selecting any thumbnails shows the full view of how the "
-#~ "font would look under various sizes."
-#~ msgstr ""
-#~ "جۆرەپیتی گنۆم هەموو جۆرەپیتە دامەزراوەکانی ناو کۆمپیوتەرەکەت بە شێوەی "
-#~ "وێنۆچکە پیشان دەدات. لەگەڵ دیاریکردنی هەر دانەیەک هەموو جۆرەپیتەکە پیشان "
-#~ "دەدات و چؤن دەردەکەوێت بە قەبارەی جیاواز."
-
-#~ msgid ""
-#~ "GNOME Fonts also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "جۆرەپیتی گنۆم هەروەها پشتگیری دامەزراندنی جۆرەپیتە داگیراوەکان دەکات بە "
-#~ "جۆری .ttf  و جۆری تریش. جۆرەپیت دەتوانی بەس بۆ خۆت دایمەزرێنیت یان بۆ "
-#~ "هەموو بەکارهێنەرانی کۆمپیوتەرەکەت."
-
-#~ msgid "Show the application's version"
-#~ msgstr "وەشانی داوانامە پیشانبدە"
-
 #~ msgid "This font could not be installed."
 #~ msgstr "ئەم جۆرە پیتە ناتوانرێت دابمەزرێت."
 
@@ -1079,9 +1104,6 @@ msgstr "دامەزراندنی..."
 
 #~ msgid "Back"
 #~ msgstr "بڕۆدواوە"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;"
 
 #~ msgid "org.gnome.font-viewer"
 #~ msgstr "org.gnome.font-viewer"

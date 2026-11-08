@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-07-26 14:17+0300\n"
 "Last-Translator: Artur So <Arturios2005@mail.ru>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
@@ -30,13 +30,56 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1: 2);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Шрифты"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Просмотр шрифтов, доступных в системе"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "шрифты;начертание;шрифта;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Приложение «Шрифты» показывает установленные на вашем компьютере шрифты в "
+"виде миниатюр. Выбор миниатюры открывает подробный режим просмотра шрифта, "
+"как будет выглядеть шрифт при различных размерах."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Приложение «Шрифты» также поддерживает установку новых шрифтов из файлов "
+"формата .ttf и прочих форматов. Шрифты можно установить для текущего "
+"пользователя или для всех пользователей компьютера."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Проект GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Главное окно"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Предпросмотр шрифта"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Поиск шрифта"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -54,9 +97,9 @@ msgstr "_Закрыть"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, по умолчанию %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Экземпляр %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Экземпляр %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -78,9 +121,13 @@ msgstr "РАЗМЕР"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ФАЙЛ-ШРИФТА ФАЙЛ-ВЫВОДА"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Шрифты GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Показать версию приложения"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1055,42 +1102,6 @@ msgstr "Установлено"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Установка"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Просмотр шрифтов, доступных в системе"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "шрифты;начертание;шрифта;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Приложение «Шрифты» показывает установленные на вашем компьютере шрифты в "
-#~ "виде миниатюр. Выбор миниатюры открывает подробный режим просмотра "
-#~ "шрифта, как будет выглядеть шрифт при различных размерах."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Приложение «Шрифты» также поддерживает установку новых шрифтов из файлов "
-#~ "формата .ttf и прочих форматов. Шрифты можно установить для текущего "
-#~ "пользователя или для всех пользователей компьютера."
-
-#~ msgid "Main Window"
-#~ msgstr "Главное окно"
-
-#~ msgid "Font Preview"
-#~ msgstr "Предпросмотр шрифта"
-
-#~ msgid "Font Search"
-#~ msgstr "Поиск шрифта"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Показать версию приложения"
 
 #~ msgid "Install"
 #~ msgstr "Установить"

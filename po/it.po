@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-05-18 12:17+0200\n"
 "Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
 "Language-Team: Italian <gnome-it-list@gnome.org>\n"
@@ -33,13 +33,60 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 42.0\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Tipi di carattere"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Visualizza i tipi di carattere presenti nel sistema"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr ""
+"tipo di carattere;tipi di carattere;carattere;caratteri;carattere "
+"tipografico;caratteri tipografici;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Tipi di carattere mostra tutti i tipi di carattere installati sul proprio "
+"computer tramite delle miniature degli stessi: selezionando una miniatura "
+"vengono mostrate le varie dimensioni del tipo di carattere."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Tipi di carattere consente di installare nuovi tipi di carattere da file "
+"scaricati nel formato .ttf e anche altri formati. I tipi di carattere "
+"possono essere installati per uso personale o per tutti gli utenti del "
+"computer."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Il progetto GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Cerca"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -61,9 +108,9 @@ msgstr "_Chiudi"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, predefinito %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Istanza %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Istanza %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -85,9 +132,13 @@ msgstr "DIMENSIONE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FILE-TIPO-CARATTERE FILE-USCITA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Tipi di carattere GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Mostra la versione dell'applicazione"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1066,41 +1117,8 @@ msgstr "Installato"
 msgid "Installing"
 msgstr "Installazione in corso"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Visualizza i tipi di carattere presenti nel sistema"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Tipi di carattere mostra tutti i tipi di carattere installati sul proprio "
-#~ "computer tramite delle miniature degli stessi: selezionando una miniatura "
-#~ "vengono mostrate le varie dimensioni del tipo di carattere."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Tipi di carattere consente di installare nuovi tipi di carattere da file "
-#~ "scaricati nel formato .ttf e anche altri formati. I tipi di carattere "
-#~ "possono essere installati per uso personale o per tutti gli utenti del "
-#~ "computer."
-
 #~ msgid "Install"
 #~ msgstr "Installa"
 
-#~ msgid "Search"
-#~ msgstr "Cerca"
-
 #~ msgid "Back"
 #~ msgstr "Indietro"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Mostra la versione dell'applicazione"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr ""
-#~ "tipo di carattere;tipi di carattere;carattere;caratteri;carattere "
-#~ "tipografico;caratteri tipografici;"

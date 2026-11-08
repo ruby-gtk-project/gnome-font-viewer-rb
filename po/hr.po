@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2022-03-02 14:39+0100\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -16,13 +16,58 @@ msgstr ""
 "X-Launchpad-Export-Date: 2016-09-22 19:56+0000\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Slova"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Pregledajte slova na vašem sustavu"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "slova;izgledslova;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Slova vam prikazuju slova instalirana na vaše računalo, prikazana kao "
+"minijature. Odabir bilo koje minijature prikazuje cjelovit prikaz kako slova "
+"izgledaju u različitim veličinama."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Slova isto tako podržava instalaciju datoteka novih slova preuzetih u .ttf i "
+"ostalim formatima. Slova možete instalirati samo za vlastitu upotrebu ili ih "
+"možete učiniti dostupnim ostalim korisnicima na računalu."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME projekt"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Preglednik slova"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Preglednik slova"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +84,9 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, zadano %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Primjerak %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Primjerak %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,9 +108,13 @@ msgstr "VELIČINA"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "DATOTEKA-SLOVA IZLAZNA-DATOTEKA"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Slova"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Prikaži inačicu aplikacije"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1042,30 +1091,6 @@ msgstr "Instalirano"
 msgid "Installing"
 msgstr "Instalacija"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Pregledajte slova na vašem sustavu"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Slova vam prikazuju slova instalirana na vaše računalo, prikazana kao "
-#~ "minijature. Odabir bilo koje minijature prikazuje cjelovit prikaz kako "
-#~ "slova izgledaju u različitim veličinama."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Slova isto tako podržava instalaciju datoteka novih slova preuzetih "
-#~ "u .ttf i ostalim formatima. Slova možete instalirati samo za vlastitu "
-#~ "upotrebu ili ih možete učiniti dostupnim ostalim korisnicima na računalu."
-
-#~ msgid "Show the application's version"
-#~ msgstr "Prikaži inačicu aplikacije"
-
 #~ msgid "This font could not be installed."
 #~ msgstr "Slova ne mogu biti instalirana."
 
@@ -1077,9 +1102,6 @@ msgstr "Instalacija"
 
 #~ msgid "Back"
 #~ msgstr "Natrag"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "slova;izgledslova;"
 
 #~ msgid "org.gnome.font-viewer"
 #~ msgstr "org.gnome.font-viewer"
@@ -1095,6 +1117,3 @@ msgstr "Instalacija"
 
 #~ msgid "General"
 #~ msgstr "Općenito"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Preglednik slova"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-22 16:28+0300\n"
 "Last-Translator: Aurimas Černius <aurimas.cernius@mailo.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
@@ -24,13 +24,56 @@ msgstr ""
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Šriftai"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Rodyti sistemos šriftus"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "šriftai;šrifto peržiūra;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Šriftai rodo jūsų kompiuteryje įdiegtus šriftus miniatiūrų pavidalu. "
+"Pasirinkus bet kurią miniatiūrą parodoma, kaip šriftas atrodytų įvairiais "
+"dydžiais."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Šriftai taip pat palaiko naujus šriftų failus, parsiųstus .ttf ir kitais "
+"formatais. Šriftai gali būti įdiegti jūsų naudojimui arba padaryti "
+"prieinamais visiems kompiuterio naudotojams."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME projektas"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Pagrindinis langas"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Šrifto peržiūra"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Šrifto paieška"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -47,9 +90,9 @@ msgstr "_Užverti"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, numatyta %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Egzempliorius %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Egzempliorius %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -71,9 +114,13 @@ msgstr "DYDIS"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ŠRIFTO-FAILAS REZULTATO-FAILAS"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME šriftai"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Rodyti programos versiją"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1048,42 +1095,6 @@ msgstr "Įdiegta"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Diegiama"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Rodyti sistemos šriftus"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "šriftai;šrifto peržiūra;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Šriftai rodo jūsų kompiuteryje įdiegtus šriftus miniatiūrų pavidalu. "
-#~ "Pasirinkus bet kurią miniatiūrą parodoma, kaip šriftas atrodytų įvairiais "
-#~ "dydžiais."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Šriftai taip pat palaiko naujus šriftų failus, parsiųstus .ttf ir kitais "
-#~ "formatais. Šriftai gali būti įdiegti jūsų naudojimui arba padaryti "
-#~ "prieinamais visiems kompiuterio naudotojams."
-
-#~ msgid "Main Window"
-#~ msgstr "Pagrindinis langas"
-
-#~ msgid "Font Preview"
-#~ msgstr "Šrifto peržiūra"
-
-#~ msgid "Font Search"
-#~ msgstr "Šrifto paieška"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Rodyti programos versiją"
 
 #~ msgid "Install"
 #~ msgstr "Įdiegti"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2017-09-17 14:56+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
@@ -20,13 +20,60 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Xem phông chữ"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Ứng dụng xem phông chữ trên hệ thống của bạn"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;phông;phong;chữ;chư;chu;fontface;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Bộ xem phông chữ GNOME hiển thị cho bạn những phông chữ đã được cài đặt trên "
+"máy tính của bạn để bạn dùng như là ảnh mẫu. Chọn bất kỳ ảnh mẫu nào để hiển "
+"thị xem nó trông như thế nào khi ở các kích cỡ khác nhau."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Bộ xem phông chữ GNOME cũng hỗ trợ cài đặt các tập tin phông chữ được tải về "
+"ở định dạng .ttf và khác nữa. Phông chữ có thể được cài đặt dành riêng cho "
+"bạn hay cho tất cả các tài khoản khác trên máy tính."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Xem phông chữ"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Xem phông chữ"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -40,9 +87,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "Đã cài"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -64,9 +112,13 @@ msgstr "CỠ"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "TẬP-TIN-PHÔNG TẬP-TIN-KẾT-XUẤT"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Xem phông chữ GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Hiển thị phiên bản của ứng dụng"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1049,35 +1101,11 @@ msgstr "Đã cài"
 msgid "Installing"
 msgstr "Cài đặt"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Ứng dụng xem phông chữ trên hệ thống của bạn"
-
-#~ msgid ""
-#~ "GNOME Fonts shows you the fonts installed on your computer for your use "
-#~ "as thumbnails. Selecting any thumbnails shows the full view of how the "
-#~ "font would look under various sizes."
-#~ msgstr ""
-#~ "Bộ xem phông chữ GNOME hiển thị cho bạn những phông chữ đã được cài đặt "
-#~ "trên máy tính của bạn để bạn dùng như là ảnh mẫu. Chọn bất kỳ ảnh mẫu nào "
-#~ "để hiển thị xem nó trông như thế nào khi ở các kích cỡ khác nhau."
-
-#~ msgid ""
-#~ "GNOME Fonts also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "Bộ xem phông chữ GNOME cũng hỗ trợ cài đặt các tập tin phông chữ được tải "
-#~ "về ở định dạng .ttf và khác nữa. Phông chữ có thể được cài đặt dành riêng "
-#~ "cho bạn hay cho tất cả các tài khoản khác trên máy tính."
-
 #~ msgid "About"
 #~ msgstr "Giới thiệu"
 
 #~ msgid "Quit"
 #~ msgstr "Thoát"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Hiển thị phiên bản của ứng dụng"
 
 #~ msgid "This font could not be displayed."
 #~ msgstr "Không thể hiển thị phông chữ này."
@@ -1085,14 +1113,8 @@ msgstr "Cài đặt"
 #~ msgid "Back"
 #~ msgstr "Quay lại"
 
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;phông;phong;chữ;chư;chu;fontface;"
-
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Xem phông chữ"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[TẬP TIN…]"

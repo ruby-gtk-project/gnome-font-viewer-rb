@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-09-15 09:28+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
@@ -28,14 +28,61 @@ msgstr ""
 "\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "सर्व फाँट्स्"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "प्रणालीवरील फाँट्स्चे दृष्य"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "फाँट्स;फाँटफेस;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"GNOME फाँट व्युअर तुम्हाला थंबनेल्स म्हणून वापरकरिता संगणकावरील इंस्टॉल केलेले फाँट्स दाखवते. "
+"कोणतेही थंबनेल्स पसंत केल्याने तुम्हाला फाँट विविध आकारात कसे दिसेल त्याचे संपूर्णतया अवलोकन "
+"पुरवते."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"GNOME फाँट व्युअर नवीन फाँट फाइल्सना .ttf आणि इतर रूपणमध्ये इंस्टॉल करण्यासाठी समर्थन "
+"पुरवते. फाँट्सला फक्त तुमच्या वापरकरिता किंवा संगणकावरील सर्व वापरकर्त्यांना उपलब्ध करून "
+"देण्याकरिता होऊ शकते."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "फाँट व्युअर"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "फाँट व्युअर"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -49,9 +96,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "प्रतिष्ठापीत"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -73,10 +121,14 @@ msgstr "आकार"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "सर्व फाँट्स्"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1059,24 +1111,6 @@ msgstr "प्रतिष्ठापीत"
 msgid "Installing"
 msgstr "प्रतिष्ठापीत करा"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "GNOME फाँट व्युअर तुम्हाला थंबनेल्स म्हणून वापरकरिता संगणकावरील इंस्टॉल केलेले फाँट्स "
-#~ "दाखवते. कोणतेही थंबनेल्स पसंत केल्याने तुम्हाला फाँट विविध आकारात कसे दिसेल त्याचे "
-#~ "संपूर्णतया अवलोकन पुरवते."
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "GNOME फाँट व्युअर नवीन फाँट फाइल्सना .ttf आणि इतर रूपणमध्ये इंस्टॉल करण्यासाठी समर्थन "
-#~ "पुरवते. फाँट्सला फक्त तुमच्या वापरकरिता किंवा संगणकावरील सर्व वापरकर्त्यांना उपलब्ध करून "
-#~ "देण्याकरिता होऊ शकते."
-
 #~ msgid "About"
 #~ msgstr "विषयी"
 
@@ -1088,15 +1122,6 @@ msgstr "प्रतिष्ठापीत करा"
 
 #~ msgid "Back"
 #~ msgstr "मागे"
-
-#~ msgid "Font Viewer"
-#~ msgstr "फाँट व्युअर"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "प्रणालीवरील फाँट्स्चे दृष्य"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "फाँट्स;फाँटफेस;"
 
 #, fuzzy
 #~ msgid "Size:"

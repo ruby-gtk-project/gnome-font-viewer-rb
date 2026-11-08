@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2014-09-23 16:14+0530\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <kde-i18n-doc@kde.org>\n"
@@ -20,14 +20,60 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 #, fuzzy
 msgid "Fonts"
 msgstr "అన్ని ఖతులు"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "మీ వ్యవస్థలో ఉన్న ఖతులను చూడండి"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"థంబ్‌నైల్స్‌గా ఉపయోగించుటకు గ్నోమ్ ఫాంట్ దర్శని మీకు మీ కంప్యూటర్ నందు సంస్థాపించివున్న ఫాంట్లను "
+"చూపును. ఏదైనా థంబ్‌నైల్ ఎంపికచేస్తే ఆ ఫాంట్ వివిధ పరిమాణాలలో ఏ విధంగా ఉంటుందో చూపబడుతుంది."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"గ్నోమ్ ఫాంట్ దర్శని ఉపయోగించి కొత్తగా దిగుమతిచేసిన .ttf మరియు ఇతర ఫార్మాట్ల ఫాంట్ ఫైళ్ళను సంస్థాపించవచ్చు. "
+"ఫాంట్లు మీ ఉపయోగంకొరకు సంస్థాపించవచ్చు లేదా కంప్యూటర్ పైని అన్ని వాడుకరులకు అందుబాటులో ఉండునట్లు "
+"చేయవచ్చు."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "ఖతి వీక్షకం"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ఖతి వీక్షకం"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -41,9 +87,10 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "స్థాపించబడింది"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -65,10 +112,14 @@ msgstr "పరిమాణం"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ఖతి-ఫైల్ అవుట్‌పుట్-ఫైల్"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 #, fuzzy
 msgid "GNOME Fonts"
 msgstr "అన్ని ఖతులు"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr ""
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1051,23 +1102,6 @@ msgstr "స్థాపించబడింది"
 msgid "Installing"
 msgstr "స్థాపించు"
 
-#~ msgid ""
-#~ "GNOME Font Viewer shows you the fonts installed on your computer for your "
-#~ "use as thumbnails. Selecting any thumbnails shows the full view of how "
-#~ "the font would look under various sizes."
-#~ msgstr ""
-#~ "థంబ్‌నైల్స్‌గా ఉపయోగించుటకు గ్నోమ్ ఫాంట్ దర్శని మీకు మీ కంప్యూటర్ నందు సంస్థాపించివున్న ఫాంట్లను "
-#~ "చూపును. ఏదైనా థంబ్‌నైల్ ఎంపికచేస్తే ఆ ఫాంట్ వివిధ పరిమాణాలలో ఏ విధంగా ఉంటుందో చూపబడుతుంది."
-
-#~ msgid ""
-#~ "GNOME Font Viewer also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "గ్నోమ్ ఫాంట్ దర్శని ఉపయోగించి కొత్తగా దిగుమతిచేసిన .ttf మరియు ఇతర ఫార్మాట్ల ఫాంట్ ఫైళ్ళను "
-#~ "సంస్థాపించవచ్చు. ఫాంట్లు మీ ఉపయోగంకొరకు సంస్థాపించవచ్చు లేదా కంప్యూటర్ పైని అన్ని వాడుకరులకు "
-#~ "అందుబాటులో ఉండునట్లు చేయవచ్చు."
-
 #~ msgid "About"
 #~ msgstr "గురించి"
 
@@ -1079,15 +1113,6 @@ msgstr "స్థాపించు"
 
 #~ msgid "Back"
 #~ msgstr "వెనుకకు"
-
-#~ msgid "Font Viewer"
-#~ msgstr "ఖతి వీక్షకం"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "మీ వ్యవస్థలో ఉన్న ఖతులను చూడండి"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;"
 
 #~ msgid "Done"
 #~ msgstr "అయినది"

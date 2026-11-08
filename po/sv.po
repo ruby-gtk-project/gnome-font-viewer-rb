@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-23 13:25+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -23,13 +23,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Typsnitt"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Visa typsnitt på ditt system"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "typsnitt;teckensnitt;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Typsnitt visar dig de för dig tillgängliga installerade typsnitten på din "
+"dator som miniatyrbilder. Att välja en miniatyrbild visar en full överblick "
+"över hur typsnittet skulle se ut i olika storlekar."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Typsnitt stöder också installation av nya typsnittsfiler hämtade i "
+"formatet .ttf och andra format. Typsnitt kan installeras endast för dig "
+"eller göras tillgängliga för alla användare på datorn."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME-projektet"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Huvudfönster"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Typsnittsförhandsgranskning"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Typsnittssökning"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -50,9 +93,9 @@ msgstr "S_täng"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, standard %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instans %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instans %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -74,9 +117,13 @@ msgstr "STORLEK"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "TYPSNITTSFIL UTDATAFIL"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Typsnitt"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Visa programmets version"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1055,42 +1102,6 @@ msgstr "Installerat"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Installerar"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Visa typsnitt på ditt system"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "typsnitt;teckensnitt;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Typsnitt visar dig de för dig tillgängliga installerade typsnitten på din "
-#~ "dator som miniatyrbilder. Att välja en miniatyrbild visar en full "
-#~ "överblick över hur typsnittet skulle se ut i olika storlekar."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Typsnitt stöder också installation av nya typsnittsfiler hämtade i "
-#~ "formatet .ttf och andra format. Typsnitt kan installeras endast för dig "
-#~ "eller göras tillgängliga för alla användare på datorn."
-
-#~ msgid "Main Window"
-#~ msgstr "Huvudfönster"
-
-#~ msgid "Font Preview"
-#~ msgstr "Typsnittsförhandsgranskning"
-
-#~ msgid "Font Search"
-#~ msgstr "Typsnittssökning"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Visa programmets version"
 
 #~ msgid "Install"
 #~ msgstr "Installera"

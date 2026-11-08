@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer.master.nl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-09 17:05+0200\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
@@ -27,13 +27,57 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Lettertypen"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Bekijk lettertypen op uw systeem"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fontface;lettertype;letter;font;typografie;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Lettertypen toont u de lettertypen die op uw computer geïnstalleerd zijn als "
+"miniaturen. Het selecteren van een miniatuur laat zien hoe het lettertype "
+"eruitziet bij verschillende groottes."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Lettertypen ondersteunt ook het installeren van nieuwe lettertypen, o.a. in "
+"de vorm van .ttf-bestanden. Lettertypen kunnen voor eigen gebruik worden "
+"geïnstalleerd of beschikbaar worden gemaakt voor alle gebruikers van de "
+"computer."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Het GNOME-project"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Hoofdvenster"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Voorvertoning van lettertype"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Lettertype zoeken"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -53,9 +97,9 @@ msgstr "_Sluiten"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, standaard %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Instantie %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Instantie %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -77,9 +121,13 @@ msgstr "GROOTTE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "LETTERTYPEBESTAND UITVOERBESTAND"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Lettertypen"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Toon de versie van de toepassing"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1055,43 +1103,6 @@ msgstr "Geïnstalleerd"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Bezig met installeren"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Bekijk lettertypen op uw systeem"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fontface;lettertype;letter;font;typografie;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Lettertypen toont u de lettertypen die op uw computer geïnstalleerd zijn "
-#~ "als miniaturen. Het selecteren van een miniatuur laat zien hoe het "
-#~ "lettertype eruitziet bij verschillende groottes."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Lettertypen ondersteunt ook het installeren van nieuwe lettertypen, o.a. "
-#~ "in de vorm van .ttf-bestanden. Lettertypen kunnen voor eigen gebruik "
-#~ "worden geïnstalleerd of beschikbaar worden gemaakt voor alle gebruikers "
-#~ "van de computer."
-
-#~ msgid "Main Window"
-#~ msgstr "Hoofdvenster"
-
-#~ msgid "Font Preview"
-#~ msgstr "Voorvertoning van lettertype"
-
-#~ msgid "Font Search"
-#~ msgstr "Lettertype zoeken"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Toon de versie van de toepassing"
 
 #~ msgid "Install"
 #~ msgstr "Installeren"

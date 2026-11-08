@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2023-03-11 13:34+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -33,13 +33,58 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Skrifttyper"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Vis skrifttyper på dit system"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "skrifttyper;skrifttypefamilie;skrifttypefremtoning;fonts;fontface;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Skrifttyper viser dig de skrifttyper, som er installeret på din computer, "
+"som miniaturer. Hvis du vælger en miniature, vises en fuld repræsentation af "
+"skrifttypen med forskellige tekststørrelser."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Skrifttyper understøtter også installation af nye skrifttypefiler hentet "
+"i .ttf og andre formater. Skrifttyper kan installeres til brug for kun dig "
+"selv eller gøres tilgængelige for alle brugere af computeren."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME-projektet"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Skrifttypefremviser"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Søg"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -68,9 +113,9 @@ msgstr "_Luk"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, standard %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Forekomst %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Forekomst %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -92,9 +137,13 @@ msgstr "STØRRELSE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "SKRIFTTYPEFIL OUTPUTFIL"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Skrifttyper"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Vis programmets version"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1081,41 +1130,11 @@ msgstr "Installeret"
 msgid "Installing"
 msgstr "Installerer"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Vis skrifttyper på dit system"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Skrifttyper viser dig de skrifttyper, som er installeret på din computer, "
-#~ "som miniaturer. Hvis du vælger en miniature, vises en fuld repræsentation "
-#~ "af skrifttypen med forskellige tekststørrelser."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Skrifttyper understøtter også installation af nye skrifttypefiler hentet "
-#~ "i .ttf og andre formater. Skrifttyper kan installeres til brug for kun "
-#~ "dig selv eller gøres tilgængelige for alle brugere af computeren."
-
 #~ msgid "Install"
 #~ msgstr "Installér"
 
-#~ msgid "Search"
-#~ msgstr "Søg"
-
 #~ msgid "Back"
 #~ msgstr "Tilbage"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Vis programmets version"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "skrifttyper;skrifttypefamilie;skrifttypefremtoning;fonts;fontface;"
 
 #~ msgid "This font could not be installed."
 #~ msgstr "Denne skrifttype kunne ikke installeres."
@@ -1137,9 +1156,6 @@ msgstr "Installerer"
 
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Skrifttypefremviser"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[FIL...]"

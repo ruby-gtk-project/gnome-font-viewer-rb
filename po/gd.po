@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2018-03-02 09:59+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -21,13 +21,62 @@ msgstr ""
 "X-Launchpad-Export-Date: 2013-09-19 08:00+0000\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Cruthan-clò"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Seall na cruthan-clò air an t-siostam agad"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "cruthan-clò;aodann crutha-clò;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Seallaidh Cruthan-clò GNOME na cruthan-clò a bhios stàlaichte air a’ "
+"choimpiutair agad ach an cleachd thu mar dhealbhagan iad. Tagh dealbhag sam "
+"bith airson sealladh iomlan air cò ris a bhiodh an cruth-clò coltach ann an "
+"caochladh de mheudan."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Cuiridh Cruthan-clò GNOME cuideachd taic ri stàladh chruthan-clò ùra a "
+"chaidh a luchdadh a-nuas san fhòrmat .ttf agus eile. Faodaidh tu taghadh an "
+"tèid cruth-clò a stàladh air do shon-sa a-mhàin no airson a h-uile duine a "
+"chleachdas an coimpiutair agad."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "Sealladair nan cruthan-clò"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "Sealladair nan cruthan-clò"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -44,9 +93,10 @@ msgstr "_Dùin"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr ""
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr ""
+#: ../lib/font_loader.rb:107
+#, fuzzy
+msgid "Instance %d"
+msgstr "Air a stàladh"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -68,9 +118,13 @@ msgstr "MEUD"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Cruthan-clò GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Seall tionndadh na h-aplacaid"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1052,45 +1106,11 @@ msgstr "Air a stàladh"
 msgid "Installing"
 msgstr "Stàlaich"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Seall na cruthan-clò air an t-siostam agad"
-
-#~| msgid ""
-#~| "GNOME Font Viewer shows you the fonts installed on your computer for "
-#~| "your use as thumbnails. Selecting any thumbnails shows the full view of "
-#~| "how the font would look under various sizes."
-#~ msgid ""
-#~ "GNOME Fonts shows you the fonts installed on your computer for your use "
-#~ "as thumbnails. Selecting any thumbnails shows the full view of how the "
-#~ "font would look under various sizes."
-#~ msgstr ""
-#~ "Seallaidh Cruthan-clò GNOME na cruthan-clò a bhios stàlaichte air a’ "
-#~ "choimpiutair agad ach an cleachd thu mar dhealbhagan iad. Tagh dealbhag "
-#~ "sam bith airson sealladh iomlan air cò ris a bhiodh an cruth-clò coltach "
-#~ "ann an caochladh de mheudan."
-
-#~| msgid ""
-#~| "GNOME Font Viewer also supports installing new font files downloaded in "
-#~| "the .ttf and other formats. Fonts may be installed only for your use or "
-#~| "made available to all users on the computer."
-#~ msgid ""
-#~ "GNOME Fonts also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "Cuiridh Cruthan-clò GNOME cuideachd taic ri stàladh chruthan-clò ùra a "
-#~ "chaidh a luchdadh a-nuas san fhòrmat .ttf agus eile. Faodaidh tu taghadh "
-#~ "an tèid cruth-clò a stàladh air do shon-sa a-mhàin no airson a h-uile "
-#~ "duine a chleachdas an coimpiutair agad."
-
 #~ msgid "About"
 #~ msgstr "Mu dhèidhinn"
 
 #~ msgid "Quit"
 #~ msgstr "Fàg an-seo"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Seall tionndadh na h-aplacaid"
 
 #~ msgid "This font could not be displayed."
 #~ msgstr "Cha b’ urrainn dhuinn an cruth-clò seo a thaisbeanadh."
@@ -1098,14 +1118,8 @@ msgstr "Stàlaich"
 #~ msgid "Back"
 #~ msgstr "Air ais"
 
-#~ msgid "fonts;fontface;"
-#~ msgstr "cruthan-clò;aodann crutha-clò;"
-
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
-
-#~ msgid "Font Viewer"
-#~ msgstr "Sealladair nan cruthan-clò"
 
 #~ msgid "[FILE...]"
 #~ msgstr "[FAIDHLE...]"

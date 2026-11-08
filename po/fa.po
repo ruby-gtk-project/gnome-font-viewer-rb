@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-06 01:02+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian\n"
@@ -27,13 +27,56 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "قلم‌ها"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "دیدن قلم‌های روی سامانه‌تان"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;فونت; قلم;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"قلم‌ها، قلم‌هایی که روی رایانه‌تان نصب شده را به صورت بندانگشتی نشان‌تان می‌دهد. "
+"گزینش هر بندانگشتی، نمای کامل چگونگی دیده شدن قلم در اندازه‌های مختلف را نشان "
+"می‌دهد."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"قلم‌ها همچنین از نصب پرونده‌های قلم جدید بارگیری شده در قالب ttf و دیگر قالب‌ها "
+"پشتیبانی می‌کند. قلم‌ها می‌توانند فقط برای استفادهٔ شما نصب شده یا برای تمامی "
+"کاربران روی رایانه در دسترس باشند."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "پروژهٔ گنوم"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "پنجرهٔ اصلی"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "پیش‌نمایش قلم"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "جست‌وجوی قلم"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -51,9 +94,9 @@ msgstr "خروج"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g، به صورت پیش‌گزیده %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "نمونهٔ %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "نمونهٔ %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -75,9 +118,13 @@ msgstr "SIZE"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONT-FILE OUTPUT-FILE"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "قلم‌های گنوم"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "نمایش نگارش برنامه"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1053,42 +1100,6 @@ msgstr "نصب شده"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "در حال نصب"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "دیدن قلم‌های روی سامانه‌تان"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;فونت; قلم;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "قلم‌ها، قلم‌هایی که روی رایانه‌تان نصب شده را به صورت بندانگشتی نشان‌تان "
-#~ "می‌دهد. گزینش هر بندانگشتی، نمای کامل چگونگی دیده شدن قلم در اندازه‌های "
-#~ "مختلف را نشان می‌دهد."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "قلم‌ها همچنین از نصب پرونده‌های قلم جدید بارگیری شده در قالب ttf و دیگر "
-#~ "قالب‌ها پشتیبانی می‌کند. قلم‌ها می‌توانند فقط برای استفادهٔ شما نصب شده یا "
-#~ "برای تمامی کاربران روی رایانه در دسترس باشند."
-
-#~ msgid "Main Window"
-#~ msgstr "پنجرهٔ اصلی"
-
-#~ msgid "Font Preview"
-#~ msgstr "پیش‌نمایش قلم"
-
-#~ msgid "Font Search"
-#~ msgstr "جست‌وجوی قلم"
-
-#~ msgid "Show the application's version"
-#~ msgstr "نمایش نگارش برنامه"
 
 #~ msgid "Install"
 #~ msgstr "نصب"

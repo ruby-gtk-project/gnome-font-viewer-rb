@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2020-01-27 17:39+0800\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Pasukan Terjemahan GNOME Malaysia\n"
@@ -15,13 +15,58 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Fon"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Lihat fon dalam sistem anda"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fon;rupa fon;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Fon GNOME menunjukkan kepada anda fon-fon yang terpasang di dalam komputer "
+"anda dalam bentuk lakaran kenit. Memilih mana-mana lakaran kenit dapat "
+"menunjukkan pandangan penuh rupa fon di bawah pelbagai saiz."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Fon GNOME juga menyokong pemasangan fail-fail fon baharu yang dimuat turun "
+"dalam format .ttf dan lain-lain format. Fon-fon yang dipasang hanya untuk "
+"kegunaan anda sendiri atau kepada semua pengguna yang menggunakan komputer."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Projek GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr ""
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -44,9 +89,9 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, lalai %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Tika %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Tika %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -68,9 +113,13 @@ msgstr "SAIZ"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FAIL-FON FAIL-OUPUT"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Fon GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Tunjuk versi aplikasi"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1048,31 +1097,6 @@ msgstr "Dipasang"
 msgid "Installing"
 msgstr "Memasang…"
 
-#~ msgid "View fonts on your system"
-#~ msgstr "Lihat fon dalam sistem anda"
-
-#~ msgid ""
-#~ "GNOME Fonts shows you the fonts installed on your computer for your use "
-#~ "as thumbnails. Selecting any thumbnails shows the full view of how the "
-#~ "font would look under various sizes."
-#~ msgstr ""
-#~ "Fon GNOME menunjukkan kepada anda fon-fon yang terpasang di dalam "
-#~ "komputer anda dalam bentuk lakaran kenit. Memilih mana-mana lakaran kenit "
-#~ "dapat menunjukkan pandangan penuh rupa fon di bawah pelbagai saiz."
-
-#~ msgid ""
-#~ "GNOME Fonts also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "Fon GNOME juga menyokong pemasangan fail-fail fon baharu yang dimuat "
-#~ "turun dalam format .ttf dan lain-lain format. Fon-fon yang dipasang hanya "
-#~ "untuk kegunaan anda sendiri atau kepada semua pengguna yang menggunakan "
-#~ "komputer."
-
-#~ msgid "Show the application's version"
-#~ msgstr "Tunjuk versi aplikasi"
-
 #~ msgid "This font could not be installed."
 #~ msgstr "Fon ini tidak dapat dipasangkan."
 
@@ -1084,9 +1108,6 @@ msgstr "Memasang…"
 
 #~ msgid "Back"
 #~ msgstr "Undur"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fon;rupa fon;"
 
 #~ msgid "Size:"
 #~ msgstr "Saiz:"

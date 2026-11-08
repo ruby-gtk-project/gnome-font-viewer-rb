@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-08-01 22:43+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
@@ -19,13 +19,56 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Шрыфты"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Прагляд шрыфтоў вашай сістэмы"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;шрыфты;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Праграма «Шрыфты» паказвае ў выглядзе мініяцюр, усталяваныя на камп'ютары "
+"шрыфты. Пры выбары мініяцюры можна ўбачыць, як шрыфт будзе выглядаць у "
+"розных памерах."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Таксама праграма падтрымлівае ўсталяванне новых шрыфтоў з файлаў .ttf і "
+"іншых фарматаў. Шрыфты можна ўсталяваць толькі для сябе або для ўсіх "
+"карыстальнікаў камп'ютара."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "Праект GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Галоўнае акно"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Папярэдні прагляд шрыфту"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Пошук шрыфту"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -42,9 +85,9 @@ msgstr "_Закрыць"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, прадвызначана %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Экзэмпляр %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Экзэмпляр %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -66,9 +109,13 @@ msgstr "ПАМЕР"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ФАЙЛ_ШРЫФТУ ВЫХАДНЫ_ФАЙЛ"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "Шрыфты GNOME"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Паказаць версію праграмы"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1080,42 +1127,6 @@ msgstr "Усталяваны"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Усталяванне"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Прагляд шрыфтоў вашай сістэмы"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;шрыфты;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Праграма «Шрыфты» паказвае ў выглядзе мініяцюр, усталяваныя на камп'ютары "
-#~ "шрыфты. Пры выбары мініяцюры можна ўбачыць, як шрыфт будзе выглядаць у "
-#~ "розных памерах."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Таксама праграма падтрымлівае ўсталяванне новых шрыфтоў з файлаў .ttf і "
-#~ "іншых фарматаў. Шрыфты можна ўсталяваць толькі для сябе або для ўсіх "
-#~ "карыстальнікаў камп'ютара."
-
-#~ msgid "Main Window"
-#~ msgstr "Галоўнае акно"
-
-#~ msgid "Font Preview"
-#~ msgstr "Папярэдні прагляд шрыфту"
-
-#~ msgid "Font Search"
-#~ msgstr "Пошук шрыфту"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Паказаць версію праграмы"
 
 #~ msgid "Install"
 #~ msgstr "Усталяваць"

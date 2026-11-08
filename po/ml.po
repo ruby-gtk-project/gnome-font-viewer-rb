@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2018-11-06 00:24+0800\n"
 "Last-Translator: Anish A <aneesh.nl@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
@@ -24,13 +24,61 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "അക്ഷരസഞ്ചയങ്ങൾ"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "നിങ്ങളുടെ സിസ്റ്റത്തില്‍ അക്ഷരസഞ്ചയങ്ങള്‍ കാണുക"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fonts;fontface;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+#, fuzzy
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"ഗ്നോം ഫോണ്ട് വ്യൂവർ താങ്കളുടെ കംപ്യൂട്ടറിൽ ചേർത്തിിക്കുന്ന അക്ഷസഞ്ചയങ്ങളെ താങ്കളുടെ "
+"ഉപയോഗത്തിനായി നഖചിത്രങ്ങളായി പ്രദർശ്ശിപ്പിക്കുന്നു. ഏതെങ്കിലും നഖചിത്രം തിരഞ്ഞെടുത്താൽ "
+"അക്ഷയസഞ്ചയം വിവിധ വലുപ്പങ്ങളിൽ എങ്ങനെയായിരിക്കും കാണുക എന്നതിന്റെ പൂർണ്ണദൃശ്യം കാണിക്കുന്നതാണ്."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+#, fuzzy
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"ഗ്നോം ഫോണ്ട് വ്യൂവർ .ttf അല്ലെങ്കിൽ മറ്റേതെങ്കിലും രീതിയിൽ ഡൗൺലോഡ് ചെയ്ത പുതിയ ഫോണ്ട് ഫയലുകൾ "
+"ഇൻസ്റ്റാൾ ചെയ്യാനും സഹായിക്കുന്നു. ഫോണ്ടുകിൽ ഒന്നുകിൽ താങ്കളുടെ മാത്രം ഉപയോഗത്തിനായി മാത്രം "
+"ഇൻസ്റ്റാൾ ചെയ്യുകയോ അല്ലെങ്കിൽ കമ്പ്യൂട്ടറിലെ എല്ലാ ഉപയോക്താക്കൾക്കും ലഭ്യമാക്കുകയോ "
+"ചെയ്യാവുന്നതാണ്."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+#, fuzzy
+msgid "Font Preview"
+msgstr "അക്ഷരരൂപ നിരീക്ഷകന്‍"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "അക്ഷരരൂപ നിരീക്ഷകന്‍"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -49,9 +97,9 @@ msgstr ""
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, default %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "ഇന്‍സ്റ്റെന്‍സ് %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "ഇന്‍സ്റ്റെന്‍സ് %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -73,9 +121,13 @@ msgstr "വലിപ്പം"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "അക്ഷരസഞ്ചയ-ഫയല്‍ ഔട്ട്പുട്ട്-ഫയല്‍"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "ഗ്നോം ഫോണ്ടുകൾ"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "പ്രയോഗത്തിന്റെ പതിപ്പ് കാണിക്കുക"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1055,37 +1107,11 @@ msgstr "ഇൻസ്റ്റാൾ ചെയ്തു"
 msgid "Installing"
 msgstr "ഇന്‍സ്റ്റാള്‍ ചെയുനു..."
 
-#~ msgid "View fonts on your system"
-#~ msgstr "നിങ്ങളുടെ സിസ്റ്റത്തില്‍ അക്ഷരസഞ്ചയങ്ങള്‍ കാണുക"
-
-#~ msgid ""
-#~ "GNOME Fonts shows you the fonts installed on your computer for your use "
-#~ "as thumbnails. Selecting any thumbnails shows the full view of how the "
-#~ "font would look under various sizes."
-#~ msgstr ""
-#~ "ഗ്നോം ഫോണ്ട് വ്യൂവർ താങ്കളുടെ കംപ്യൂട്ടറിൽ ചേർത്തിിക്കുന്ന അക്ഷസഞ്ചയങ്ങളെ താങ്കളുടെ "
-#~ "ഉപയോഗത്തിനായി നഖചിത്രങ്ങളായി പ്രദർശ്ശിപ്പിക്കുന്നു. ഏതെങ്കിലും നഖചിത്രം തിരഞ്ഞെടുത്താൽ "
-#~ "അക്ഷയസഞ്ചയം വിവിധ വലുപ്പങ്ങളിൽ എങ്ങനെയായിരിക്കും കാണുക എന്നതിന്റെ പൂർണ്ണദൃശ്യം "
-#~ "കാണിക്കുന്നതാണ്."
-
-#~ msgid ""
-#~ "GNOME Fonts also supports installing new font files downloaded in "
-#~ "the .ttf and other formats. Fonts may be installed only for your use or "
-#~ "made available to all users on the computer."
-#~ msgstr ""
-#~ "ഗ്നോം ഫോണ്ട് വ്യൂവർ .ttf അല്ലെങ്കിൽ മറ്റേതെങ്കിലും രീതിയിൽ ഡൗൺലോഡ് ചെയ്ത പുതിയ ഫോണ്ട് "
-#~ "ഫയലുകൾ ഇൻസ്റ്റാൾ ചെയ്യാനും സഹായിക്കുന്നു. ഫോണ്ടുകിൽ ഒന്നുകിൽ താങ്കളുടെ മാത്രം "
-#~ "ഉപയോഗത്തിനായി മാത്രം ഇൻസ്റ്റാൾ ചെയ്യുകയോ അല്ലെങ്കിൽ കമ്പ്യൂട്ടറിലെ എല്ലാ ഉപയോക്താക്കൾക്കും "
-#~ "ലഭ്യമാക്കുകയോ ചെയ്യാവുന്നതാണ്."
-
 #~ msgid "About"
 #~ msgstr "വിവരം"
 
 #~ msgid "Quit"
 #~ msgstr "പുറത്തു് കടക്കുക"
-
-#~ msgid "Show the application's version"
-#~ msgstr "പ്രയോഗത്തിന്റെ പതിപ്പ് കാണിക്കുക"
 
 #~ msgid "Install Failed"
 #~ msgstr "ഇൻസ്റ്റാൾ പരാജയം"
@@ -1099,17 +1125,11 @@ msgstr "ഇന്‍സ്റ്റാള്‍ ചെയുനു..."
 #~ msgid "Back"
 #~ msgstr "പുറകോട്ടു്"
 
-#~ msgid "fonts;fontface;"
-#~ msgstr "fonts;fontface;"
-
 #~ msgid "preferences-desktop-font"
 #~ msgstr "preferences-desktop-font"
 
 #~ msgid "org.gnome.font-viewer"
 #~ msgstr "org.gnome.font-viewer"
-
-#~ msgid "Font Viewer"
-#~ msgstr "അക്ഷരരൂപ നിരീക്ഷകന്‍"
 
 #~ msgid "Font size (default: 64)"
 #~ msgstr "ചിഹ്ന വലിപ്പം (സ്വതേ: 64)"

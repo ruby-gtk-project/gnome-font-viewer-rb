@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2026-05-28 13:24+0100\n"
 "Last-Translator: Flynn Peck <cirilla@tuta.io>\n"
 "Language-Team: kw\n"
@@ -25,13 +25,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 50.0\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "Fontow"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "Gweles fontys war agas system"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "fontow;fontys;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Fontow a dhiskwedh dhywgh an fontys leys war agas amontyell rag agas devnydh "
+"avel skeusennik. Ow tewis neb skeusenigow a dhiskwedh an gwel leun a fatel "
+"an font a wrussa heveli yn brasterow dyffrans."
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"Ynwedh, Fontow a skoodh ow lea restrennow font nowydh iskargys y'n .ttf ha "
+"furvasow erel. Fontow a yll bos leys rag agas devnydh hepken po gwrys "
+"kavadow rag oll devnydhyoryon war'n amontyell."
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "An Ragdres GNOME"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr "Pennfenester"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr "Ragwolok Font"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+msgid "Font Search"
+msgstr "Hwithrans Font"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -46,9 +89,9 @@ msgstr "_Degea"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, defowt %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "Gweyth %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "Gweyth %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -70,9 +113,13 @@ msgstr "BRASTER"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "RESTREN-FONT RESTREN-ESKORRANS"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME Fontow"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "Diskwedhes an dyllans a'n app"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1047,39 +1094,3 @@ msgstr "Leys"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "Ow Lea"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "Gweles fontys war agas system"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "fontow;fontys;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "Fontow a dhiskwedh dhywgh an fontys leys war agas amontyell rag agas "
-#~ "devnydh avel skeusennik. Ow tewis neb skeusenigow a dhiskwedh an gwel "
-#~ "leun a fatel an font a wrussa heveli yn brasterow dyffrans."
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "Ynwedh, Fontow a skoodh ow lea restrennow font nowydh iskargys y'n .ttf "
-#~ "ha furvasow erel. Fontow a yll bos leys rag agas devnydh hepken po gwrys "
-#~ "kavadow rag oll devnydhyoryon war'n amontyell."
-
-#~ msgid "Main Window"
-#~ msgstr "Pennfenester"
-
-#~ msgid "Font Preview"
-#~ msgstr "Ragwolok Font"
-
-#~ msgid "Font Search"
-#~ msgstr "Hwithrans Font"
-
-#~ msgid "Show the application's version"
-#~ msgstr "Diskwedhes an dyllans a'n app"

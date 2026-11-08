@@ -100,8 +100,11 @@ module FontLoader
     # of it are not silently discarded.
     AXIS_FORMAT = _("%<name>s %<minimum>g — %<maximum>g, default %<default>g")
 
-    # describe_instance()'s fallback for a named style with no usable name.
-    INSTANCE_FORMAT = _('Instance %<position>d')
+    # describe_instance()'s fallback for a named style with no usable name:
+    # font-view-window.c's _ ("Instance %d"), byte-identical (a plain %d, not
+    # a named %<position>d) so the msgid matches upstream's and the existing
+    # per-locale translations of it are not discarded.
+    INSTANCE_FORMAT = _('Instance %d')
 
     attr_reader :path,
       :face_index,
@@ -665,7 +668,7 @@ module FontLoader
           if valid_subfamily_id?(id) && names.key?(id)
             names[id]
           else
-            format(Face::INSTANCE_FORMAT, position: index)
+            format(Face::INSTANCE_FORMAT, index)
           end
         end
       end

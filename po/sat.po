@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-font-viewer main\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-07 21:50+0000\n"
+"POT-Creation-Date: 2026-11-02 18:29+0000\n"
 "PO-Revision-Date: 2025-12-30 21:47+0530\n"
 "Last-Translator: \n"
 "Language-Team: Santali <sat@li.org>\n"
@@ -18,13 +18,57 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 "X-Generator: Poedit 3.8\n"
 
-#: ../lib/about_dialog.rb:18 ../lib/font_view_application.rb:34
+#: data/org.gnome.font-viewer.desktop.in.in:2
+#: data/org.gnome.font-viewer.metainfo.xml.in:6
 msgid "Fonts"
 msgstr "ᱯᱷᱚᱱᱴ ᱠᱚ"
 
-#: ../lib/about_dialog.rb:21
+#: data/org.gnome.font-viewer.desktop.in.in:3
+#: data/org.gnome.font-viewer.metainfo.xml.in:7
+msgid "View fonts on your system"
+msgstr "ᱟᱢᱟᱜ ᱥᱤᱥᱴᱚᱢ ᱨᱮ ᱯᱷᱚᱱᱴ ᱠᱚ ᱧᱮᱞ ᱢᱮ"
+
+#: data/org.gnome.font-viewer.desktop.in.in:5
+msgid "fonts;fontface;"
+msgstr "ᱯᱷᱚᱱᱴᱥ;ᱯᱷᱚᱱᱴᱯᱷᱮᱥ;"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:9
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"ᱯᱷᱚᱱᱴ ᱫᱚ ᱟᱢ ᱟᱢᱟᱜ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱛᱷᱟᱢᱵᱱᱮᱞ ᱞᱮᱠᱟᱛᱮ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱦᱟᱞ ᱟᱠᱟᱱ ᱯᱷᱚᱱᱴ "
+"ᱠᱚ ᱩᱫᱩᱜ ᱟᱢᱟ᱾ ᱡᱟᱦᱟᱱ ᱛᱷᱟᱢᱵᱱᱮᱞ ᱵᱟᱪᱷᱟᱣ ᱠᱟᱛᱮ ᱯᱷᱚᱱᱴ ᱪᱮᱫ ᱞᱮᱠᱟ ᱧᱮᱞᱚᱜᱼᱟ ᱚᱱᱟ ᱨᱮᱭᱟᱜ "
+"ᱯᱩᱨᱟᱹ ᱧᱮᱞ ᱩᱫᱩᱜᱚᱜᱼᱟ᱾"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:15
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to "
+"all users on the computer."
+msgstr ""
+"ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ .ttf ᱟᱨ ᱮᱴᱟᱜ ᱯᱨᱚᱨᱩᱢ ᱨᱮ ᱰᱟᱩᱱᱞᱳᱰ ᱟᱠᱟᱱ ᱱᱟᱶᱟ ᱯᱷᱚᱱᱴ ᱨᱮᱫ ᱠᱚ ᱵᱚᱦᱟᱞ "
+"ᱞᱟᱹᱜᱤᱫ ᱥᱟᱯᱚᱨᱴ ᱮᱢᱟᱭᱟ ᱾ ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ ᱠᱷᱟᱹᱞᱤ ᱟᱢᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱮ ᱵᱚᱦᱟᱞ ᱦᱩᱭ "
+"ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱟᱨᱵᱟᱝ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱥᱟᱱᱟᱢ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱾"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.font-viewer.metainfo.xml.in:22
 msgid "The GNOME Project"
 msgstr "GNOME ᱯᱟᱱᱛᱷᱟ"
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:35
+msgid "Main Window"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:39
+msgid "Font Preview"
+msgstr ""
+
+#: data/org.gnome.font-viewer.metainfo.xml.in:43
+#, fuzzy
+msgid "Font Search"
+msgstr "ᱥᱮᱸᱫᱽᱨᱟ"
 
 #: ../lib/about_dialog.rb:35
 msgid "translator-credits"
@@ -39,9 +83,9 @@ msgstr "_ᱵᱚᱸᱫ ᱢᱮ"
 msgid "%<name>s %<minimum>g — %<maximum>g, default %<default>g"
 msgstr "%s %g — %g, ᱰᱤᱯᱷᱚᱞᱴ %g"
 
-#: ../lib/font_loader.rb:104
-msgid "Instance %<position>d"
-msgstr "ᱫᱟᱹᱭᱠᱟᱹ %<position>d"
+#: ../lib/font_loader.rb:107
+msgid "Instance %d"
+msgstr "ᱫᱟᱹᱭᱠᱟᱹ %d"
 
 #: ../lib/font_thumbnailer.rb:42
 msgid "Text to thumbnail (default: Aa)"
@@ -63,9 +107,13 @@ msgstr "ᱥᱟᱭᱤᱡᱽ"
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ᱯᱷᱚᱱᱴ-ᱨᱮᱫ ᱟᱩᱴᱯᱩᱴ-ᱨᱮᱫ"
 
-#: ../lib/font_view_application.rb:37
+#: ../lib/font_view_application.rb:40
 msgid "GNOME Fonts"
 msgstr "GNOME ᱯᱷᱚᱱᱴ ᱠᱚ"
+
+#: ../lib/font_view_application.rb:44
+msgid "Show the application's version"
+msgstr "ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱩᱫᱩᱜ ᱢᱮ"
 
 #: ../lib/font_view_window.rb:40
 msgid "Could Not Display Font"
@@ -1040,33 +1088,3 @@ msgstr "ᱵᱚᱦᱟᱞ ᱦᱩᱭ ᱟᱠᱟᱱᱟ"
 #: ../lib/preview_page.rb:33
 msgid "Installing"
 msgstr "ᱵᱚᱦᱟᱞ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ"
-
-#~ msgid "View fonts on your system"
-#~ msgstr "ᱟᱢᱟᱜ ᱥᱤᱥᱴᱚᱢ ᱨᱮ ᱯᱷᱚᱱᱴ ᱠᱚ ᱧᱮᱞ ᱢᱮ"
-
-#~ msgid "fonts;fontface;"
-#~ msgstr "ᱯᱷᱚᱱᱴᱥ;ᱯᱷᱚᱱᱴᱯᱷᱮᱥ;"
-
-#~ msgid ""
-#~ "Fonts shows you the fonts installed on your computer for your use as "
-#~ "thumbnails. Selecting any thumbnails shows the full view of how the font "
-#~ "would look under various sizes."
-#~ msgstr ""
-#~ "ᱯᱷᱚᱱᱴ ᱫᱚ ᱟᱢ ᱟᱢᱟᱜ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱛᱷᱟᱢᱵᱱᱮᱞ ᱞᱮᱠᱟᱛᱮ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱵᱚᱦᱟᱞ ᱟᱠᱟᱱ "
-#~ "ᱯᱷᱚᱱᱴ ᱠᱚ ᱩᱫᱩᱜ ᱟᱢᱟ᱾ ᱡᱟᱦᱟᱱ ᱛᱷᱟᱢᱵᱱᱮᱞ ᱵᱟᱪᱷᱟᱣ ᱠᱟᱛᱮ ᱯᱷᱚᱱᱴ ᱪᱮᱫ ᱞᱮᱠᱟ ᱧᱮᱞᱚᱜᱼᱟ ᱚᱱᱟ "
-#~ "ᱨᱮᱭᱟᱜ ᱯᱩᱨᱟᱹ ᱧᱮᱞ ᱩᱫᱩᱜᱚᱜᱼᱟ᱾"
-
-#~ msgid ""
-#~ "Fonts also supports installing new font files downloaded in the .ttf and "
-#~ "other formats. Fonts may be installed only for your use or made available "
-#~ "to all users on the computer."
-#~ msgstr ""
-#~ "ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ .ttf ᱟᱨ ᱮᱴᱟᱜ ᱯᱨᱚᱨᱩᱢ ᱨᱮ ᱰᱟᱩᱱᱞᱳᱰ ᱟᱠᱟᱱ ᱱᱟᱶᱟ ᱯᱷᱚᱱᱴ ᱨᱮᱫ ᱠᱚ ᱵᱚᱦᱟᱞ "
-#~ "ᱞᱟᱹᱜᱤᱫ ᱥᱟᱯᱚᱨᱴ ᱮᱢᱟᱭᱟ ᱾ ᱯᱷᱚᱱᱴ ᱠᱚ ᱫᱚ ᱠᱷᱟᱹᱞᱤ ᱟᱢᱟᱜ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱜᱮ ᱵᱚᱦᱟᱞ ᱦᱩᱭ "
-#~ "ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱟᱨᱵᱟᱝ ᱠᱚᱢᱯᱭᱩᱴᱟᱨ ᱨᱮ ᱥᱟᱱᱟᱢ ᱵᱮᱵᱷᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱢᱮᱱᱟᱜᱼᱟ ᱾"
-
-#~ msgid "Search"
-#~ msgstr "ᱥᱮᱸᱫᱽᱨᱟ"
-
-#~ msgid "Show the application's version"
-#~ msgstr "ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱨᱥᱚᱱ ᱩᱫᱩᱜ ᱢᱮ"
