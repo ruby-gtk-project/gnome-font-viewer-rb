@@ -94,3 +94,23 @@ string literals, an empty spec suite, narrow drive coverage) are reported as
 gaps in `component-parity.md`, `translation-parity.md` and `test-parity.md`
 respectively — nowhere are they described as settled, out of scope, or
 resolved beyond what was actually resolved.
+
+## Re-run this round, against the two commits that landed since
+
+`349793a` and `260f561` fixed four of the previously-open gaps (the two bare
+literals, the axis-format spacing, the thumbnailer's three metavars) and
+added a spec suite and two drive checks. Re-ran `find-excuses.sh` against the
+current `lib/`, `exe/` and `.reports/`: same result as before, no new hit —
+the only matches remain the self-referential ones inside this document,
+quoting the rule it enforces. The fix commit's own message
+(`349793a`) states plainly, in a paragraph headed "Remaining from this
+round's reviews, left for a later round", exactly which gaps it did not
+close: the `--version` `--help` entry, the POTFILES.in omission, the 14
+invented content-type keys, and the drive script's shallow coverage of
+drawing/typeahead/locale. That is a status report in a commit message, not a
+document living in the repository that a future agent could cite as
+authority — `PORTING.md` still does not exist, and nothing under `lib/`,
+`exe/` or `.reports/` repeats that list as settled scope. The three reports
+this round re-verify each of those items directly against the source rather
+than taking the commit message's word for which gaps remain, and all three
+confirm the same list is still open. **Still no accountability violation.**

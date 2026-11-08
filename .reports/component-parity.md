@@ -5,7 +5,7 @@
 | Upstream | `origin/main` (GNOME Fonts, GTK4 + libadwaita, C) |
 | Port | `ruby` |
 | Units checked this round | application, window, about dialog, overview page, preview page, info page, style, thumbnailer CLI |
-| Units with full (4-axis) parity | 4 / 8 checked |
+| Units with full (4-axis) parity | 6 / 8 checked (up from 4/8 last round — about dialog and thumbnailer CLI moved to full parity this round after `349793a`'s fixes were re-verified) |
 
 This builds on `.reports/component-inventory.md` (the `component-identification`
 survey), which already established file-level presence for all 19 upstream
@@ -43,36 +43,42 @@ typing a matching one repopulates it, Escape clears it (`DRIVE OK` checks
 | `app.about`, `app.quit` actions | ✓ | ✓ | parity |
 | `<Control>q` / `<Control>w` accels | ✓ | ✓ (`ACCELS` constant) | parity |
 | `open` vfunc → preview or error | ✓ | ✓ | parity |
-| `--version` → prints `_("GNOME Fonts")` + version, exits | ✓, string translatable | prints untranslated `'GNOME Fonts'` (`VERSION_NAME` is a bare literal, not wrapped in `_()`) | **gap**: text axis — see `TRANSLATION_PARITY.md` |
-| `--version`'s own GOption help entry, `_("Show the application's version")` | ✓ (shown in `--help`) | **absent** — the port special-cases `argv.include?('--version')` before handing off to `OptionParser`/`Gio::Application`, so there is no `--help` line for it at all | **gap**: a whole behaviour (the flag not advertising itself in `--help`) in addition to the missing string |
+| `--version` → prints `_("GNOME Fonts")` + version, exits | ✓, string translatable | **fixed this round** — `VERSION_NAME = _('GNOME Fonts')` (`lib/font_view_application.rb:37`), re-verified by reading the source and confirming the key is in `po/gnome-font-viewer-rb.pot` and merged into all 105 `.po` files | parity |
+| `--version`'s own GOption help entry, `_("Show the application's version")` | ✓ (shown in `--help`) | **still absent, unchanged** — the port still special-cases `argv.include?('--version')` before handing off to `OptionParser`/`Gio::Application` (`lib/font_view_application.rb:61-66`, re-read this round), so there is no `--help` line for it at all | **gap**: a whole behaviour (the flag not advertising itself in `--help`) in addition to the missing string |
+| App shutdown: `app.quit` / closing the last window drops the hold and ends the run | ✓ | ✓ — newly driven this round (`260f561` added a check; re-run this session, `DRIVE OK` check 32) | parity |
 
-**Unit verdict: gap.** Two independent text/behaviour gaps on the one unit
-that is otherwise structurally complete.
+**Unit verdict: gap**, down from two independent gaps to one. The
+`--version` text fix from `349793a` is confirmed live; the missing
+`--help` entry for `--version` itself is unchanged.
 
 ## Unit: about dialog — `action_about` in `font-view-application.c` -> `lib/about_dialog.rb`
 
 | Facet | Upstream | Port | Verdict |
 |---|---|---|---|
 | Application name, icon, version, developers, website, issue URL, translator-credits, licence | ✓ | ✓ | parity |
-| `developer_name` text | `_("The GNOME Project")`, translatable | `DEVELOPER_NAME = 'The GNOME Project'` — **bare literal, no `_()`** | **gap**: text axis |
+| `developer_name` text | `_("The GNOME Project")`, translatable | **fixed this round** — `DEVELOPER_NAME = _('The GNOME Project')` (`lib/about_dialog.rb:21`), re-verified by reading the source | parity |
 
 Driven: the about dialog opens and is visible (`DRIVE OK` checks 25–27), which
-proves presentation, not translation marking. **Unit verdict: gap** (one row,
-text axis).
+proves presentation, not translation marking; the translation marking itself
+was re-checked by reading the source directly. **Unit verdict: parity.**
 
 ## Unit: thumbnailer CLI — `src/font-thumbnailer.c` -> `lib/font_thumbnailer.rb`
 
 | Facet | Upstream | Port | Verdict |
 |---|---|---|---|
-| `--text TEXT` option + its translated metavar `_("TEXT")` | two separate marked strings | `-t`/`--text`, but the metavar is the bare literal `TEXT` baked into `OptionParser`'s `'-tTEXT'` spec, never passed through `_()` | **gap** |
-| `--size SIZE` option + its translated metavar `_("SIZE")` | two separate marked strings | same shape, `SIZE` unmarked | **gap** |
-| Usage/help banner `_("FONT-FILE OUTPUT-FILE")` | a standalone translatable metavar for the positional args | merged into one new, port-only string `_('Usage: gnome-thumbnail-font [OPTION…] FONT-FILE OUTPUT-FILE')` — not byte-identical to any upstream msgid | **gap** |
+| `--text TEXT` option + its translated metavar `_("TEXT")` | two separate marked strings | **fixed this round** — `TEXT_METAVAR = _('TEXT')` (`lib/font_thumbnailer.rb:47`), interpolated into the option spec | parity |
+| `--size SIZE` option + its translated metavar `_("SIZE")` | two separate marked strings | **fixed this round** — `SIZE_METAVAR = _('SIZE')` (`:48`), same shape | parity |
+| Usage/help banner `_("FONT-FILE OUTPUT-FILE")` | a standalone translatable metavar for the positional args | **fixed this round** — `POSITIONAL_METAVAR = _('FONT-FILE OUTPUT-FILE')` (`:51`), byte-identical msgid, interpolated into the banner the same way upstream's own banner is unmarked-around-a-marked-metavar | parity |
 | `-t`/`-s` short options, exit codes, stderr framing | ✓ | ✓ | parity |
 
 Driven: the thumbnailer runs and writes a PNG, reports usage with no
 arguments, and errors on a missing file (`DRIVE OK` checks 28–30) — all
-behaviour-axis checks. The text axis was never driven and is where the actual
-gaps are. **Unit verdict: gap** (three msgids lost or invented).
+behaviour-axis checks. The text-axis fix was verified by reading the source
+directly (re-checked this round) and by the catalogue now carrying the three
+matching keys; **still not driven at runtime** — no check asserts that
+`--text`/`--size` actually change the thumbnail output, which stays a
+`test-parity` gap. **Unit verdict: parity on the text axis** (behaviour-axis
+coverage gap tracked separately in `test-parity.md`).
 
 ## Unit: info page — `font-view-window.c` (`populate_grid`/`populate_details`) -> `lib/info_page.rb`
 
@@ -127,9 +133,16 @@ drive script. **Unit verdict: unverified on one facet, otherwise parity.**
 |---|---|
 | Count | No missing or extra widgets found in the eight units checked |
 | Style | `suggested-action`, `view`, `property`, `devel`, `font-item`, `font-preview` CSS classes all present where upstream applies them |
-| Behaviour | All checked signals/actions fire; driven for 6 of 8 units |
-| Text | **5 confirmed gaps**: `--version`'s own string and its help entry, the about dialog's developer name, the thumbnailer's `TEXT`/`SIZE`/usage metavars (3 msgids), the variation-axis format string, and 14 invented content-type strings with no upstream counterpart |
+| Behaviour | All checked signals/actions fire; driven for 7 of 8 units this round (app shutdown now driven too, `260f561`) |
+| Text | **2 confirmed gaps remain, 4 fixed since the last round**: fixed — the about dialog's developer name, `--version`'s own string, the thumbnailer's `TEXT`/`SIZE`/usage metavars (3 msgids), the variation-axis format spacing. Open — `--version`'s own `--help` entry (absent, both as behaviour and as a translation key), and the 14 invented content-type strings with no upstream counterpart (correspondence on this axis, confirmed gap on the translation axis) |
 
-**This round's component-parity verdict: gap.** The widget tree is faithful
-everywhere checked; every open item is on the text axis, detailed above and
-cross-filed in `TRANSLATION_PARITY.md`.
+**This round's component-parity verdict: gap**, narrower than last round.
+Four of the six previously-open text-axis items are fixed and were
+re-verified by reading the current source rather than trusting the prior
+report or the commit message. Two remain open: the missing `--version`
+`--help` entry (a behaviour gap, not just text) and the content-type-string
+substitution (a component correspondence, still a translation gap — see
+`TRANSLATION_PARITY.md`). The drive script's coverage gaps (no check asserts
+`--text`/`--size` change thumbnailer output, no check exercises custom
+drawing, keyboard typeahead redirection, or any non-English locale) are
+unchanged and are `test-parity.md`'s business, not this ledger's.

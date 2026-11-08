@@ -46,3 +46,18 @@ application-unit section does not mention it, and it is the detail
 No other correction or addition was found. The inventory's structure (one
 unit per upstream file, house style file mapping, the seven numbered risks at
 the end) remains the right map of the app for any future round.
+
+## Re-checked this round: no new or changed component
+
+Two commits landed since this note was written (`349793a`, `260f561`).
+Neither touches `lib/font_view_window.rb`, `lib/overview_page.rb`,
+`lib/preview_page.rb`, `lib/font_installer.rb`, `lib/font_model.rb`,
+`lib/font_preview_widget.rb`, `lib/font_inscription.rb` or `lib/style.rb` —
+confirmed with `git log --stat` — so the widget/CSS/signal/action inventory
+for every unit stands unchanged. The four files `349793a` did touch
+(`lib/about_dialog.rb`, `lib/font_loader.rb`, `lib/font_thumbnailer.rb`,
+`lib/font_view_application.rb`) changed string content and marking only, not
+widget shape, so no widget row needs updating — this is a `translation-parity`
+and `component-parity` (text axis) delta, not a `component-identification`
+one. `349793a` also added `spec/*.rb`, which hold no widgets and are outside
+this skill's scope by definition.
