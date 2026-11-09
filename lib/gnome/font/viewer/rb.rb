@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'rb/version'
-
 # The part of the font viewer that loads without a display.
 #
 # This file exists because `require 'adwaita'` initialises GTK at require time
@@ -24,3 +22,4 @@ require_relative '../../../translation'
 require_relative '../../../open_type_layout'
 require_relative '../../../resource_monitor'
 require_relative '../../../font_loader'
+require_relative "rb/version"
